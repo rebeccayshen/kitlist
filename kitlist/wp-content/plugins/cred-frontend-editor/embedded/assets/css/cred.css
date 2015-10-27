@@ -1,0 +1,1206 @@
+.wp-media-buttons {
+    margin-left:10px;
+}
+
+.wp-switch-editor {
+    float:right !important;
+}
+
+#content-tmce {
+    float:left !important;
+}
+
+#credmailbody0-tmce {
+    float:left !important;
+}
+
+#credmailbody1-tmce {
+    float:left !important;
+}
+
+#credmailbody2-tmce {
+    float:left !important;
+}
+
+#credmailbody3-tmce {
+    float:left !important;
+}
+
+#credmailbody4-tmce {
+    float:left !important;
+}
+
+#credmailbody5-tmce {
+    float:left !important;
+}
+
+#credmailbody6-tmce {
+    float:left !important;
+}
+
+#credmailbody7-tmce {
+    float:left !important;
+}
+
+#credmailbody8-tmce {
+    float:left !important;
+}
+
+#credmailbody9-tmce {
+    float:left !important;
+}
+
+#credmailbody10-tmce {
+    float:left !important;
+}
+
+.form-item
+{
+    margin-bottom: 1em;
+}
+
+.postbox .icon-plus,
+.postbox .icon-info-sign,
+.postbox .icon-ok,
+.postbox .icon-ok-sign,
+.postbox .icon-warning-sign,
+.postbox .icon-remove,
+.postbox .icon-refresh
+.cred-popup-box .icon-plus,
+.cred-popup-box .icon-info-sign,
+.cred-popup-box .icon-ok,
+.cred-popup-box .icon-ok-sign,
+.cred-popup-box .icon-warning-sign,
+.cred-popup-box .icon-remove,
+.cred-popup-box .icon-refresh {
+	position: relative;
+	top: 2px;
+	cursor: pointer;
+	margin: 0 4px;
+	font-size: 16px;
+}
+
+.postbox .icon-plus,
+.cred-popup-box .icon-plus {
+	color: #51a351;
+}
+
+.postbox .icon-remove,
+.cred-popup-box .icon-remov {
+	color: #c83025;
+}
+.postbox .cred-notification-remove-container .icon-remove {
+	top: 0;
+}
+
+.postbox .icon-refresh,
+.cred-popup-box .icon-refresh {
+	color: #3a87ad;
+}
+
+.postbox .icon-warning-sign,
+.cred-popup-box .icon-warning-sign {
+	color:#9d261d;
+}
+
+.postbox .icon-ok,
+.cred-popup-box .icon-ok {
+	color: #51a351;
+}
+
+#credformtypediv input[type=text],
+#credposttypediv input[type=text],
+#postdivrichwrap input[type=text],
+#crednotificationdiv input[type=text],
+#credmessagesdiv input[type=text],
+#credformtypediv select,
+#credposttypediv select,
+#postdivrichwrap select,
+#crednotificationdiv select,
+#credmessagesdiv select {
+	width: auto;
+}
+
+#credformtypediv select {
+	width: auto;
+}
+#crednotificationdiv input[type=text]
+{
+	width: 90%;
+}
+.cred_ajax_loader,
+.cred_ajax_loader_small
+{
+position:relative;
+width:16px;
+height:16px;
+background:url(../images/290.png);
+display:none;
+}
+.cred_ajax_loader_small_1
+{
+position:relative;
+width:16px;
+height:16px;
+background:url(../images/290.png);
+display:inline-block;
+}
+
+.cred-icon-color-32
+{
+display:inline-block;
+background: transparent no-repeat 0 0;
+width:32px;
+height:32px;
+margin-right:20px;
+position:relative;
+float:left;
+}
+
+.additional_field_options_popup
+{
+position:absolute;
+top:20%;
+left:50%;
+z-index:100;
+display:none;
+margin-left:-160px;
+padding-bottom: 10px;
+width:320px;
+height:auto;
+border: 2px solid #ccc;
+background:#fafafa;
+-webkit-box-shadow:  0 0 20px 4px rgba(0, 0, 0, 0.3);
+-moz-box-shadow:  0 0 20px 4px rgba(0, 0, 0, 0.3);
+box-shadow:  0 0 20px 4px rgba(0, 0, 0, 0.3);
+color:#000;
+-o-box-shadow:  0 0 20px 4px rgba(0, 0, 0, 0.3);
+-ms-box-shadow:  0 0 20px 4px rgba(0, 0, 0, 0.3);
+}
+	.additional_field_options_popup_inner {
+		padding: 10px;
+		background: #fff
+	}
+
+.cred-button
+{
+font-size:11px !important;
+line-height:28px !important;
+/*
+line-height:18px;
+min-height:16px;
+background: #ececec;
+border:1px solid #999;
+background: transparent url("../images/CRED-icon-black_16X16.png") no-repeat 4px 50%;
+font-size:11px !important;
+color:#232323 !important;
+text-decoration:none;
+padding: 4px 6px 5px;
+display:inline-block;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+-o-border-radius:3px;
+-ms-border-radius:3px;
+border-radius:3px;
+vertical-align:middle !important;
+*/
+}
+.wp-media-buttons .cred-button img {
+	vertical-align:text-top;
+}
+.cred-button:hover
+{
+/*color:#eee27c !important;*/
+}
+
+.cred-icon-button
+{
+/*
+width:16px;
+height:16px;
+background: transparent url("../images/CRED-icon-black_16X16.png") no-repeat 0 0;
+padding: 0;
+display:inline-block;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+-o-border-radius:3px;
+-ms-border-radius:3px;
+border-radius:3px;
+vertical-align:middle !important;
+text-indent:-999px;
+*/
+}
+.cred-icon-button2
+{
+margin:0;
+}
+.cred-icon-button2:focus,
+.cred-icon-button:focus
+{
+outline:none;
+}
+
+.cred_field_add
+{
+margin:4px 3px !important;
+position:relative;
+display:inline-block !important;
+}
+.cred_field_add_code
+{
+margin:4px 3px !important;
+position:relative;
+display:inline-block;
+}
+.cred_disabled_container
+{
+margin: 10px 5px 0 3px
+}
+.cred-field-disabled-reason
+{
+display:inline-block;
+color:#f00 !important;
+font-size:11px !important;
+}
+.cred-field-disabled-reason a
+{
+text-decoration:underline !important;
+color:#f00 !important;
+font-size:11px !important;
+}
+
+.cred_cred_input
+{
+position:relative !important;
+}
+
+.cred-popup-box .cred-close-button
+{
+position: absolute;
+right: 10px;
+margin: 0;
+color: #333;
+opacity: .6;
+margin-top: 12px !important;
+
+}
+.cred-popup-box .cred-close-button:hover {
+	opacity: 1;
+}
+.cred_disabled_overlay
+{
+position:absolute;
+margin:0;
+padding:0;
+top:0px;
+bottom:0px;
+left:0px;
+right:0px;
+background:none;
+background:rgba(255,255,255,0.5);
+z-index:1000;
+/*display:none;*/
+}
+.cred_overlay_loader
+{
+position:absolute;
+margin:0;
+padding:0;
+top:0px;
+bottom:0px;
+left:0px;
+right:0px;
+background:none;
+background-color:rgba(255,255,255,0.4);
+background-image:url(../images/325.png);
+background-repeat:no-repeat;
+background-position:center center;
+z-index:1000;
+display:none;
+}
+
+.cred-tip-link,
+.cred-help-link,
+.cred-help-link-white {
+text-decoration: none!important;
+font-size: 16px!important;
+color: #999!important;
+transition: all 0.15s linear;
+-webkit-transition: all 0.15s linear;
+-moz-transition: all 0.15s linear;
+-o-transition: all 0.15s linear;
+-ms-transition: all 0.15s linear;
+margin-left: 5px;
+cursor: help;
+}
+.cred-tip-link {
+cursor: help;
+}
+
+.cred-tip-link .active,
+.cred-tip-link:hover,
+.cred-help-link:hover {
+color: #D0001A!important;
+}
+.cred-help-link-white {
+color: #eee!important;
+}
+.cred-help-link-white:hover {
+color: #fff!important;
+}
+
+.cred-help-link span,
+.cred-help-link-white span {
+text-indent: -999em;
+white-space: nowrap;
+overflow: hidden;
+display: inline-block;
+}
+
+.cred-explain-text,
+.cred-label-holder {
+margin: 10px 0 5px 0;
+}
+
+.cred-fieldset p.cred-label-holder
+{
+    clear: left;
+}
+
+#crednotificationdiv #cred-mail-subject {
+width: 100%;
+}
+.cred-explain-text {
+color: #999;
+}
+.cred_cred_checkbox
+{
+/*display:inline-block !important;
+margin-right:10px !important;*/
+}
+
+.cred-media-button
+{
+position:relative;
+display:inline-block !important;
+position:relative;
+/*margin: 0 10px 0 0;*/
+}
+
+.cred-media-button .icon-cred-logo{position:relative;top:-2px;}
+
+.cred-media-button2
+{
+/*
+width:20px;
+margin:0 4px;
+*/
+}
+
+#cred-preview-button .cred-button
+{
+/*
+line-height:16px;
+min-height:16px;
+background: transparent url("../images/CRED-icon-black_16X16.png") no-repeat 4px 50%;
+border:1px solid #999;
+font-size:11px !important;
+color:#232323 !important;
+text-decoration:none;
+padding: 2px 6px 2px 24px;
+display:inline-block;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+-o-border-radius:3px;
+-ms-border-radius:3px;
+border-radius:3px;
+vertical-align:middle !important;
+*/
+}
+
+.cred-popup-box
+{
+position:absolute;
+top: 45px;
+left: 20px;
+display:none;
+width:400px;
+padding:0 0 10px 0;
+background:#fafafa;
+color:#000;
+box-shadow: 0 0 15px rgba(0,0,0,.3);
+border-radius: 0;
+}
+
+.ie8 .cred-popup-box {
+	border: 1px solid #ccc;
+}
+
+.cred-popup-inner
+{
+position:relative;
+padding:10px;
+text-align:left;
+overflow:hidden;
+overflow-y:auto;
+overflow-x:hidden;
+background: #fff;
+}
+#cred-scaffold-box{}
+
+#cred-scaffold-box .cred-popup-inner
+{
+overflow:hidden;
+}
+
+#credextradiv
+{
+    margin-top:20px;
+}
+
+.cred-box
+{
+background:#ececec;
+color:#000;
+padding:0;
+}
+
+.cred-box-inner
+{
+position:relative;
+text-align:left;
+padding:10px;
+padding-bottom:0px;
+}
+
+.cred-ignore-field td
+{
+background:#aaa;
+}
+
+.cred-field-actions
+{
+display:inline-block;
+margin-right:10px;
+}
+
+#cred-form-shortcodes-box .cred-popup-inner
+{
+max-height:470px;
+}
+
+#cred-form-shortcodes-box {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+#cred-form-shortcodes-box .cred-help-link {
+	top: 10px;
+	right: 0;
+}
+
+#cred-form-shortcodes-box .cred-fieldset {
+	/*position: relative;*/
+}
+	#cred-form-shortcodes-box .cred-fieldset .cred-help-link {
+/*		position: absolute;
+		top: 5px;
+		right: 5px;*/
+	}
+
+.cred-popup-inner input, .cred-popup-inner textarea, .cred-popup-inner select
+{
+position:relative;
+}
+
+.cred-popup-inner fieldset.cred-fieldset
+{
+position:relative;
+border:1px solid #ccc;
+margin:10px 5px;
+padding:10px;
+}
+
+.cred-popup-inner table.cred-table
+{
+position:relative;
+border:none;
+width:100%;
+}
+
+.cred-popup-inner table.cred-table td
+{
+position:relative;
+vertical-align:middle;
+max-width:90%;
+}
+
+.cred-warn
+{
+color:#f00;
+padding-left:15px;
+}
+
+.cred-popup-inner .cred-show-hide-advanced
+{
+position:relative;
+color:#3ba1f7;
+text-decoration:underline;
+padding:10px 0;
+display:block;
+}
+.cred-popup-inner .cred-show-hide-advanced:hover
+{
+color:#3ba1f7;
+}
+
+.cred-table-choose-form td, .cred-table td
+{
+padding:5px 0;
+}
+
+#cred-edit-link-text-container
+{
+position:relative;
+display:inline-block;
+}
+
+.cred-shortcode-container-radio
+{
+position:relative;
+}
+
+.cred-cred-clear
+{
+height:1px;
+float:none;
+clear:both;
+zoom:1;
+}
+
+.cred-refresh-button
+{
+
+}
+
+.ui-datepicker-trigger
+{
+cursor: pointer;
+margin-left: 5px;
+}
+
+#cred-scaffold-area
+{
+z-index:10;position:relative;width:100%;display:block;overflow-y:auto;
+}
+
+#cred_notification_settings_panel,
+#cred_notification_settings_panel_container
+{
+position:relative;
+}
+
+.cred_notification_settings_panel {
+	margin-bottom: 40px;
+	padding: 0 10px 10px 10px;
+	border: 1px solid #ededed;
+	border-bottom-color: #ccc;
+}
+.cred_notification_settings_panel:last-child {
+	margin-bottom: 0;
+}
+
+#poststuff .cred-popup-heading h3,
+.postbox .additional_field_options_popup h3,
+.postbox .cred-popup-heading h3,
+.wpv-setting .cred-popup-heading h3,
+.additional_field_options_popup h3 {
+	margin: 0;
+	padding: 10px 20px 10px 10px;
+	border: 1px solid #ededed;
+	background: #fafafa;
+	text-align: left;
+	text-shadow: none;
+	font-weight: normal;
+	font-size: 14px;
+	cursor: default;
+}
+
+.cred-popup-box .cred-help-link {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+}
+
+.cred-wizard-buttons
+{
+text-align: right;
+margin-bottom: 20px;
+}
+
+.cred-wizard-buttons:after
+{
+display:block;
+float:none;
+clear:both;
+}
+
+.cred-wizard-buttons .button-primary
+{
+display:inline-block;
+}
+
+#cred-progress-bar
+{
+position:relative;
+width:100%;
+padding:0;
+height:10px;
+background:#777;
+}
+
+#cred-progress-bar-inner
+{
+position:absolute;
+height:100%;
+top:0;
+left:0;
+background:#2377bd;
+width:0;
+}
+
+.cred-progress
+{
+position:relative;
+padding-top:25px;
+width:100%;
+}
+
+.cred-progress-step
+{
+position:absolute;
+font-size:11px;
+color:#000;
+top:5px;
+display:inline-block;
+}
+
+.cred_form_action_page_container
+{
+position:relative;
+display:inline-block;
+margin-left:10px;
+}
+
+.cred_notification_settings_panel
+{
+position:relative;
+}
+
+.cred_notification_settings_panel .cred-notification-remove-container
+{
+	text-align: right;
+	margin-bottom: 0;
+
+}
+
+.cred_notification_settings_panel:hover .cred-notification-remove-container
+{
+display:block;
+}
+
+#cred-submit
+{
+display:inline-block;
+float:right;
+}
+
+label.cred-label {
+position:relative;
+display:inline-block;
+vertical-align:middle;
+}
+
+input.cred-textfield
+{
+outline:none;
+background-color: #FFFFFF;
+color: #333333;
+padding:7px 10px;
+font-size:12px;
+border:1px solid #ddd;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+-o-border-radius:7px;
+-ms-border-radius:7px;
+border-radius:7px;
+-webkit-transition: all 0.25s ease-in-out;
+-moz-transition: all 0.25s ease-in-out;
+transition: all 0.25s ease-in-out;
+}
+input.cred-textfield:focus
+{
+border-color:#aaa;
+-webkit-box-shadow: 0px 0px 20px rgba(200, 200, 200, 0.75);
+-moz-box-shadow: 0px 0px 20px rgba(200, 200, 200, 0.75);
+box-shadow: 0px 0px 20px rgba(150, 150, 150, 0.75);
+-webkit-transition: all 0.25s ease-in-out;
+-moz-transition: all 0.25s ease-in-out;
+transition: all 0.25s ease-in-out;
+}
+
+.cred-accordeon-item
+{
+position:relative;
+margin:0;
+padding:0;
+}
+.cred-accordeon-item-inside
+{
+position:relative;
+display:none;
+margin:0;
+padding: 5px 0 10px 0;
+border-top:none;
+}
+.cred-fields-group-heading
+{
+position:relative;
+display:block;
+cursor:pointer;
+line-height:24px;
+padding: 0 5px;
+width:auto;
+border: 1px solid #ccc;
+margin-bottom: 5px;
+text-decoration:none;
+font-weight:bold;
+}
+.cred-accordeon-item-active .cred-fields-group-heading,
+.cred-fields-group-heading:hover
+{
+background: #ddd;
+text-decoration:none;
+font-weight:bold;
+}
+
+.cred-editor-wrap{
+position:relative;
+border:1px solid #ddd;
+margin:0;
+padding:0;
+padding-bottom:10px;
+}
+.cred-editor-container{
+position:relative;
+margin:0;
+padding:0;
+}
+.cred-content-resize-handle {
+background: transparent url("../images/resize.gif") no-repeat 0 0;
+cursor: se-resize;
+margin:0;
+padding:0;
+height: 19px;
+position: absolute;
+right: 0px;
+bottom:-5px;
+width: 12px;
+z-index:10;
+}
+.cred-extra-css-editor
+{
+width:95%;
+height:100px;
+}
+/*.cred_extra_css_settings_panel .CodeMirror
+{
+border:1px solid #ddd;
+}*/
+
+.cred-extra-js-editor
+{
+width:95%;
+height:100px;
+}
+/*.cred_extra_js_settings_panel .CodeMirror
+{
+border:1px solid #ddd;
+}*/
+
+.horlist {
+    margin-bottom: 12px;
+}
+.horlist li {
+    float: left;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.cred_cyan_box{
+    border: 1px solid #8cceea;
+    background-color: #eff8fc;
+    padding:10px;
+    margin-bottom:0px;
+    margin-top:0px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+}
+
+.cred_cyan_box p{
+line-height: 100%; margin: 5px 0;
+}
+.cred_cyan_box H3 { margin-top: 2px; }
+
+.cred_cyan_box ul{
+    margin-top:5px;
+    font-size: 11px;
+}
+
+.cred-fieldset {
+	margin-bottom: 20px;
+}
+
+	.cred-fieldset h4 {
+		padding: 0 0 10px 0;
+		border-bottom: 1px solid #ededed
+	}
+
+.cred-form-texts {
+	width: 100%;
+	max-width: 900px;
+}
+
+	.cred-form-texts .cred-form-texts-desc {
+		width: 30%;
+	}
+
+	.cred-form-texts .cred-form-texts-msg {
+		width: 70%;
+	}
+
+		#credmessagesdiv .cred-form-texts .cred-form-texts-msg input {
+			width: 100%;
+		}
+
+#cred_form_action_message {
+	width: 100%;
+}
+
+.cred-buttons-holder,
+.cred-scaffold-buttons-holder {
+	position: relative;
+	text-align: right;
+}
+
+.cred-buttons-holder {
+	overflow: hidden;
+	margin: 0;
+	border: 1px solid #ededed;
+	border-width: 1px 1px 0 1px;
+	background: #fafafa;
+	padding: 10px 5px 0 10px
+}
+
+.cred-scaffold-buttons-holder {
+	padding-bottom: 0;
+}
+
+#cred_general_settings_table td {
+	border: none;
+}
+
+.cred-shortcodes-container {
+	position: relative;
+}
+
+.cred-edit-html-fieldset2 input,
+.cred-edit-html-fieldset2 select,
+#cred-edit-html-fieldset input,
+#cred-edit-html-fieldset select {
+	width: 100%;
+}
+
+.cred_notification_field_condition
+{
+position:relative;
+padding-right:20px;
+}
+
+.cred-remove-option
+{
+display:inline-block;
+width:16px;
+height:16px;
+background:url(../images/delete-2.png);
+margin:0px;
+vertical-align:top;
+position: relative;
+}
+
+.cred-notification-add-container {
+	text-align: right;
+}
+
+.cred_notify_event_field_conditions_container_fields label {
+	margin: 0 0 5px 0;
+}
+
+.cred-dialog
+{
+    position: fixed;
+    left: 45%;
+    top: 50%; 
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.cred-dialog.wp-dialog .ui-dialog-titlebar
+{
+line-height:25px;
+}
+.cred-dialog.wp-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close
+{
+display:none;
+}
+
+.cred-notification {
+	position:relative;
+    border-style: solid;
+    border-width: 1px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0 0.6em;
+    margin: 10px 0 15px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.cred-notification p {
+    position:relative;
+	line-height: 1.7;
+	margin: 10px 0;
+}
+.cred-notification.cred-error {
+	color: #b94a48;
+	background-color: #f2dede;
+	border-color: #eed3d7;
+}
+	.cred-notification.cred-error [class^="icon-"] {
+		color: #b94a48;
+	}
+
+.cred-notification.cred-success {
+	color: #468847;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+	.cred-notification.cred-success [class^="icon-"] {
+		color: #468847;
+	}
+
+.cred-notification.cred-info {
+	color: #3a87ad;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+	.cred-notification.cred-info [class^="icon-"] {
+		color: #3a87ad;
+	}
+
+        
+.cred-dialog .ui-icon, .cred-dialog .ui-widget-content .ui-icon {
+	background-image: url("../images/confirm.png");
+	padding-left: 69px;
+	min-height: 80px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	text-indent: 0;
+	width:auto;
+	height:auto;
+	font-weight:normal;
+}
+
+.cred-dialog .ui-icon p {
+	margin: 25px 0 0 20px
+}
+.cred-dialog .ui-icon-alert {
+	background-image: url('../images/alert.png');
+}
+.cred-dialog .ui-icon-confirm {
+	background-image: url('../images/confirm.png');
+}
+.cred-dialog .ui-icon-info {
+	background-image: url('../images/info.png');
+}
+.cred-dialog.wp-dialog .ui-dialog-titlebar {
+background: #444444;
+color: #E5E5E5;
+font-size: 11px;
+font-weight: bold;
+padding: 0 1em;
+border: 1px solid #444444;
+}
+.cred-dialog.wp-dialog .ui-widget-content {
+color: #333;
+background:#eee;
+}
+.cred-dialog.wp-dialog .ui-state-default.button.button-primary,
+.cred-dialog.wp-dialog .ui-widget-content .ui-state-default.button.button-primary,
+.cred-dialog.wp-dialog .ui-widget-header .ui-state-default.button.button-primary {
+background-color: #21759B;
+background-image: linear-gradient(to bottom, #2A95C5, #21759B);
+border-color: #21759B #21759B #1E6A8D;
+box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset;
+color: #FFFFFF;
+text-decoration: none;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+font-weight:normal;
+}
+.cred-dialog.wp-dialog .ui-state-default.button,
+.cred-dialog.wp-dialog .ui-widget-content .ui-state-default.button,
+.cred-dialog.wp-dialog .ui-widget-header .ui-state-default.button {
+background: linear-gradient(to bottom, #FEFEFE, #F4F4F4) repeat scroll 0 0 #F3F3F3;
+border-color: #BBBBBB;
+color: #333333;
+text-shadow: 0 1px 0 #FFFFFF;
+font-weight:normal;
+}
+
+.cred-pointer .wp-pointer-content h3:before {
+    background: url("../images/tip.png") no-repeat scroll 0 50% transparent;
+    content: " ";
+    height: 100%;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 36px;
+}
+
+.wp-editor-container {
+    opacity: .9 !important;
+}
+
+/* OVERRIDES */
+
+/* UI DIALOG OVERLAY*/
+body.post-type-cred-form .ui-widget-overlay{position:fixed;z-index:1000;}
+body.post-type-cred-form #wp-content-editor-tools{background-color: transparent}
+body.post-type-cred-form .ui-dialog{z-index:99999;}
+
+
+/* CODEMIRROR AUTO-RESIZE */
+
+.wp-editor-container .CodeMirror {
+  border: 1px solid #eee;
+  height: auto !important; 
+  min-height:400px;  
+}
+
+.wp-editor-container .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+  height: auto !important;
+  min-height:400px;
+}
+
+.wp-editor-container .CodeMirror-gutter {
+    height: 100%;
+}
+
+/* ************************************************************************** *\
+ 		EDITOR Fixes
+\* ************************************************************************** */
+.wp-media-buttons {
+	width: 80% !important;
+	position: absolute;
+	bottom: 0;
+}
+
+.wp-media-buttons[style*="top"] {
+	bottom: auto;
+}
+
+.wp-editor-wrap {
+	margin-top: 20px;
+}
+
+/*Fix fullscreen*/
+div.mce-fullscreen {
+    left: 160px !important;
+}
+
+
+/* ************************************************************************** *\
+ 		RTL Adjustments
+\* ************************************************************************** */
+html[dir='rtl'] .wpv-setting-container .wpv-settings-header,
+html[dir='rtl'] .wpv-setting .code-editor-toolbar>ul>li {
+	float: right;
+}
+
+html[dir='rtl'] .wpv-settings-save-all .update-button-wrap {
+	float: left;
+}
+
+html[dir='rtl'] .CodeMirror-code,
+html[dir='rtl'] .wp-editor-container textarea.wp-editor-area {
+	direction: ltr;
+}
+
+html[dir='rtl'] .CodeMirror-code > div,
+html[dir='rtl'] .wpv-setting .update-button-wrap {
+	text-align: left;
+}
+
+html[dir='rtl'] .wpv-inline-content-template-title .wpv-inline-content-template-action-buttons {
+	right: auto;
+	left: 5px;
+}
+
+html[dir='rtl'] .toolset-help-sidebar {
+	left: auto;
+	right: 1px;
+}
+
+html[dir='rtl'] .toolset-help .icon-remove-sign,
+html[dir='rtl'] .toolset-help .icon-remove {
+	right: auto;
+	left: 0;
+}
+
+html[dir='rtl'] .toolset-help-content {
+	padding-left: 25px;
+	padding-right: 180px;
+}
+
+html[dir='rtl'] .js-wpv-query-type {
+	margin-left: 3px !important;
+	margin-right: 15px !important;
+}
+
+html[dir='rtl'] .wpv-settings-content-filter .edit-filter,
+html[dir='rtl'] .wpv-settings-content-filter .wpv-edit-filter,
+html[dir='rtl'] .wpv-itembox-header .wpv-code-editor-toggler {
+	right: auto;
+	left: 2px;
+}
+
+html[dir='rtl'] .cred-tip-link,
+html[dir='rtl'] .cred-help-link,
+html[dir='rtl'] .cred-help-link-white {
+	right: auto !important;
+	left: 10px;
+}
+
+html[dir='rtl'] .wp-switch-editor {
+	float: left !important;
+}

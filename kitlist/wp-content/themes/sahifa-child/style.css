@@ -1,0 +1,412 @@
+@charset "UTF-8";
+/***************************************
+	Theme Name: Sahifa child
+	Theme URI: http://dev.kitlist.org/sahifa-child/
+	Description: Inherited theme from  Sahifa theme
+	Author: Rebecca Shen
+    	Template: sahifa
+	Author URI: http://dev.kitlist.org/
+	Version: 5.3.2
+	License: license purchased
+	License URI: http://themeforest.net/licenses/regular_extended
+	
+	Tags: two-columns, fixed-width, custom-background, threaded-comments, translation-ready, custom-menu
+
+  2015/06/01 customization by KIT List
+  2015/10/06 UPGRADE TO SAHIFA 5.3.2 fixing compatibilities.
+***************************************/
+
+@import url("../sahifa/style.css");
+
+
+
+
+/*  Overriding table attributes */
+.entry table {
+
+  /*
+    font-family: Arial,"Bitstream Vera Sans",Helvetica,Verdana,sans-serif;
+
+  */
+    font-family: Helvetica;
+
+}
+.entry table th {
+/*
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+
+*/
+    font-family: Helvetica;
+}
+
+
+
+/*overriding footer widget line */
+.footer-widget-top{border:none; padding:10px 0;}
+.footer-widget-container{border:none; padding: 10px;}
+
+
+/*overriding Post Elements */
+
+		.entry h1 {font-size:36px;}
+		.entry h2 {font-size:30px; color: #F88C00;}  /*override with color*/
+		.entry h3 {font-size:24px; color: #F88C00;}  /*override with color*/
+		.entry h4 {font-size:18px; color: #F88C00;}  /*override with color*/
+		.entry h5 {font-size:14px; color: #5E5E5E;}  /*override with color*/
+		.entry h6 {font-size:12px;}
+
+/*
+overriding footer line
+*/
+footer#theme-footer .search-widget input{
+    background: #414141;
+    box-shadow: 0 1px 3px 0 #313131;
+    -moz-box-shadow: 0 1px 3px 0 #313131;
+    -webkit-box-shadow: 0 1px 3px 0 #313131;
+    border: 0px solid #202020;
+    color:#222;
+}
+
+/*
+overriding the theme gray box
+*/
+
+
+/* customizations */
+p {
+    color:#666666;
+}
+
+/* table for KIT list table */
+
+table.kit-list-table,
+.entry table.kit-list-table {
+	border: none;
+	width: 100%;
+	padding: 0;
+	background: #ffffff;
+
+}
+
+table.kit-list-table th,
+.entry table.kit-list-table th,
+.entry table.kit-list-table tbody th {
+    font-family: Helvetica;
+	background-color: #979631;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: none;
+}
+
+.entry table.kit-list-table td,
+.entry table.kit-list-table tbody td {
+    font-size: 12px;
+    border-bottom: none;
+    padding-top: 6pt;
+}
+
+.entry table.kit-list-table tr,
+.entry table.kit-list-table tbody tr {
+	background-color: #ffffff;
+	list-style-type: square;
+
+}
+
+.kitlist {
+	font-style: Normal;
+	font-size: 10pt;
+	text-align: left;
+	padding: 10px;
+	margin: 3px;
+	display: block;
+}
+
+.kitlist ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+	color: #ffffff;
+}
+
+
+/* home page join free box */
+
+div#black-studio-tinymce-4 .widget-top {
+    display:none;
+}
+
+div#black-studio-tinymce-4 .widget-container {
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding-top:0;
+}
+
+div#black-studio-tinymce-4 .widget-container h2 {
+    color:#979631;
+}
+
+div#black-studio-tinymce-4 .widget-container p strong {
+    color:#616e9a;
+}
+
+/* kit list difference box */
+/*
+div#black-studio-tinymce-5 .widget-container {
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #616e99;
+    color:#ffffff;
+    padding:0px;
+}
+
+div#black-studio-tinymce-5 .widget-container p strong {
+    color:#f8ae00;
+}
+
+}
+div#black-studio-tinymce-5 .textwidget {
+	background-color: #616e99;
+	padding:5px;
+	margin-left:5px;
+	font-size:12pt;
+
+}
+
+*/
+
+
+div#black-studio-tinymce-5 .widget-container {
+	padding: 0;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color:#ffffff;
+	background-color: #616e9a;
+
+}
+div#black-studio-tinymce-5 .textwidget {
+	background-color: #616e9a;
+	padding:5px;
+	margin-left:5px;
+	font-size:12pt;
+
+}
+
+
+
+
+
+
+div#black-studio-tinymce-19 .widget-container ul li {
+	list-style-type: square;
+}
+
+
+/* home page testimonial widget */
+
+div#black-studio-tinymce-6 .widget-container {
+    padding:20px;
+}
+
+div#black-studio-tinymce-6 .widget-container a {
+    color:#f8ae00;
+    text-decoration: underline;
+}
+
+/* home page kit list story box */
+
+div#black-studio-tinymce-9 .widget-container h2 {
+    color:#616e99;
+    margin-bottom:15px;
+}
+
+div#black-studio-tinymce-9 .widget-container a {
+    color:#f8ae00;
+    text-decoration: underline;
+}
+
+
+/* 979631 =  brown */
+/* #616e9a = purple */
+/* 616e99 = box background purple */
+/* f8ae00 = orange text */
+
+
+
+/* Homepage join free sidebar widget*/
+
+div#black-studio-tinymce-26 .widget-top {
+	display:none;
+}
+
+div#black-studio-tinymce-26 .widget-container {
+	border:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding-top:0;
+}
+
+div#black-studio-tinymce-35 .widget-top {
+	display:none;
+}
+
+/* Jobs page join button sidebar widget*/
+
+
+div#black-studio-tinymce-36 .widget-top {
+	display:none;
+}
+div#black-studio-tinymce-36 .widget-container {
+	border:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding-top:40px;
+}
+
+/* Join Free page side bar buttons */
+
+
+div#black-studio-tinymce-37 .widget-top {
+	display:none;
+}
+
+div#black-studio-tinymce-37 .widget-container {
+	border:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding-top:40px;
+}
+
+
+/* Tips and Resources page sidebar buttons */
+
+div#black-studio-tinymce-35 .widget-top {
+	display:none;
+}
+
+div#black-studio-tinymce-35 .widget-container {
+	border:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding-top:40px;
+}
+
+/* Media and News page sidebar buttons */
+
+div#black-studio-tinymce-39 .widget-top {
+	display:none;
+}
+
+div#black-studio-tinymce-39 .widget-container {
+	border:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding-top:40px;
+}
+
+
+/* Testimonial page sidebar buttons */
+
+div#black-studio-tinymce-20 .widget-top {
+	display:none;
+}
+
+div#black-studio-tinymce-20 .widget-container {
+	border:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding-top:40px;
+}
+
+/*KIT List different sidebar widget on Jobs page */
+
+div#black-studio-tinymce-24 .widget-container {
+	padding: 0;	
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color:#ffffff;
+	background-color: #616e9a;
+
+}
+div#black-studio-tinymce-24 .textwidget {
+	background-color: #616e9a;
+	padding:5px;
+	margin-left:5px;
+	font-size:12pt;
+
+}
+
+
+/* Job Post page sidebar Special Pack announcement */
+
+div#black-studio-tinymce-30 .widget-top {
+	display:none;
+}
+
+div#black-studio-tinymce-30 .widget-container {
+/*
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+*/
+	font-size: 12px;
+}
+
+/*
+Home page follow us icon
+
+*/
+
+div#black-studio-tinymce-44 .widget-container {
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+}
+
+
+div#black-studio-tinymce-44 .widget-container .table {
+    border:none;
+    font-size: 36pt;
+
+
+}
+
+
+/*
+disable the striped bar on top of 'take advantage' side bar widget
+*/
+
+div#black-studio-tinymce-52 .widget-top {
+	display:none;
+}
+
+
+/*
+div#kitlist-difference {
+	background-color: #616e9a;
+
+
+}
+*/
+
+/*to be used in tips and resources page
+
+div#kit-sectional-title {
+	font-size:18px; color: #F88C00;
+}
+
+*/

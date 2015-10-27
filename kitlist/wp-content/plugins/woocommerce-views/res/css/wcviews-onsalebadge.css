@@ -1,0 +1,21 @@
+.woocommerce span.onsale, .woocommerce-page span.onsale {
+    display: block;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+.woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale {
+    display: block;    
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.wcviews_onsale_wrap {
+    float: left; 
+    position:relative;   
+}
+
+.woocommerce .star-rating.wc_views_star_rating, .woocommerce-page .star-rating.wc_views_star_rating {
+	float:none;
+}

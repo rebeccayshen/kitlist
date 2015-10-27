@@ -1,0 +1,93 @@
+Wordpress Plugin: 
+Access, by OnTheGoSystems
+
+Changelog:
+1.2.6.1
+* Fixed problem with PHP version less than 5.4
+
+1.2.6
+* Fixed a problem where Access could not determine the correct site URL if a port was used, for example: sitename.com:8080
+* Colorbox dialogs were replaced by native Wordpress dialogs
+* Added Types role capabilities to the permission dialog
+* Fixed a conflict with Visual Composer and Font Awesome on the Access settings page
+* Fixed permissions for the page that used as the static front page
+* Removed deprecated Woocommerce capabilities
+
+1.2.5
+* Fixed a problem with suggest user script.
+
+1.2.4
+* Fixed Access shortcode: it now accepts role names with lowercase and uppercase letters.
+* Fixed an issue with custom errors with PHP template: it now works for parent and child theme PHP templates.
+* Added groups permissions to feeds. Works only when the post type exists in the feed query.
+* Added Access button to all TinyMCE editors on the post/page editing pages.
+* Added the notification dialog that is shown when the post fields on the edit Access settings page exceed the "max_input_vars" PHP setting.
+* Added the options to set the user capabilities for the Layouts plugin.
+* Fixed function to get the current page.
+* Added new Access capabilities that allow users to assign single posts to Access groups.
+* Added new filter that allows advanced users to hide Access button from all editors.
+* Security improvements.
+
+1.2.3
+* Fixed a problem where the assignment of specific user’s permissions wasn’t working for custom groups.
+* Fixed a problem of PHP notice being thrown because the $raw attribute was missing for the Access shortcode.
+* Fixed a problem where headings for Post and User Meta Fields groups were being shown in Access admin page even when no actual groups existed. 
+* Fixed a problem where WYSIWYG field created with Advanced Custom Fields plugin wasn’t working correctly when Access plugin was activate: http://wp-types.com/forums/topic/advanced-custom-fiels-access-plugin-bug-with-wysiwyg-editor/
+
+1.2.2
+* Improved function for load custom read errors
+* Improved Import/Export flow
+* Fixed permissions for media in admin
+* Added option 'Read others preview'
+* Added ability to add custom caps
+* Added custom roles, custom caps to export/import
+* Allow set permissions for posts types where singular name=plural name
+
+1.2.1
+* Performance optimizations
+* Added custom errors for post type archive
+* Added new button for save Access sections separately
+* Read permissions bug fixes
+* Added new shortcode toolset_access for set access to part of content in editors
+* Added GUI for new Access shortcode
+* Added custom capabilities support
+* Some backend html/css fixes
+
+1.2
+* Fixed a bug with applying read permission for post types
+* Added an option to control read permissions for individual posts, pages and custom types
+* Added an option to choose what to display when users don't have read access
+* Added capability management, allowing to enable different WordPress capabilities to custom roles
+* Automatically update role capabilities when the level is changed
+* GUI enhancements
+* Performance optimizations
+* Added support for new WPML capabilities
+* Added support for WooCommerce capabilities
+* $wpdb->escape() is deprecated, use esc_sql() instead
+
+1.1.7
+* delete role button not working, fixed
+* Fix compatibility with iThemes Builder 
+
+1.1.6
+* added changelog.txt
+* add DB auto-update process on activation
+* added import / export functionality and admin page
+* partial refactoring, reduced files, used Classes, used Helper, Model for abstractions
+* made Access standalone plugin, removed DB dependency on Types also
+* Access working with Types embedded fixed
+* added WPML localisation for custom roles
+* when no role (other than admin) selected for a capabilitty, all roles are selected, fixed
+* specific users 3rd-party capabilities managed correctly, fixed
+* post/page/custom posts specific users capabilities managed correctly, fixed
+* fixed managing 3rd-party Taxonomies and correctly release from Access control
+* fixed user auto-suggest missing last-typed characters
+* made Access admin screen responsive
+* added 'Back to Top' links for easy navigation
+* speed improvements (less loaded files, less hooks, use of caching if possible, minified/merged styles and scripts)
+* new implementation of 'Same as parent' for taxonomies
+* keep track of Access' created custom roles
+* default mode of (shared) taxonomies is 'not_managed' for uniform handling of imported capabilities
+* add warning if entity (post type/taxonomy) capabilities conflict with default WP capabilities
+* add full notices when saving Access settings via ajax, in admin screen
+* use jQuery.on instead of jQuery.live in Access admin scripts

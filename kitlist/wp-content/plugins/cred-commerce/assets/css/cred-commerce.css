@@ -1,0 +1,15 @@
+.cred-commerce-settings #general {
+	padding: 10px;
+}
+
+	.cred-commerce-settings .get-started ul li {
+		list-style-position: inside;
+		list-style-type: disc;
+	}
+
+.cred-commerce-fieldset.cred-commerce-notification
+{
+border:1px solid #ddd;
+margin:10px 0;
+padding:5px 10px;
+}

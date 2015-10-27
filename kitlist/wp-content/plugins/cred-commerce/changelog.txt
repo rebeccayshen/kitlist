@@ -1,0 +1,7 @@
+Wordpress Plugin: 
+CRED Payments, by OnTheGoSystems
+
+Changelog:
+
+1.0
+* Initial release

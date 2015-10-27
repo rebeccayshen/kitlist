@@ -1,0 +1,198 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "WooCommerce Customizer"
+msgstr ""
+
+#. Short description.
+msgid "Helps you customize WooCommerce without writing any code!"
+msgstr ""
+
+#. Screenshot description.
+msgid "Settings Page for customizations galore!"
+msgstr ""
+
+#. Found in description header.
+msgid "Support Details"
+msgstr ""
+
+#. Found in description header.
+msgid "More Details"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add to Cart button text for all product types (within the shop loop and on a single product page)"
+msgstr ""
+
+#. Found in description list item.
+msgid "The number of products displayed per page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Heading text for the 'Product Description' and 'Additional Information' tab."
+msgstr ""
+
+#. Found in description list item.
+msgid "Checkout page coupon / login text"
+msgstr ""
+
+#. Found in description list item.
+msgid "Checkout page \"Create Account\" checkbox default"
+msgstr ""
+
+#. Found in description list item.
+msgid "Checkout page 'Submit Order' button text"
+msgstr ""
+
+#. Found in description list item.
+msgid "Tax Label text"
+msgstr ""
+
+#. Found in description list item.
+msgid "Placeholder image source"
+msgstr ""
+
+#. Found in description list item.
+msgid "See the <a href=\"http://www.skyverge.com/product/woocommerce-customizer/\">product page</a> for full details."
+msgstr ""
+
+#. Found in description list item.
+msgid "View more of SkyVerge's <a href=\"http://profiles.wordpress.org/skyverge/\">free WooCommerce extensions</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "View all <a href=\"http://www.skyverge.com/shop/\">SkyVerge WooCommerce extensions</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Requires WooCommerce 2.1+"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Here are some customizations you can make:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To make these changes, go to <strong>WooCommerce &gt; Settings</strong> and view the \"Customizer\" tab."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Note</strong>: This plugin does not support multisite and cannot be network activated. To use this on a multisite network, you must install the plugin individually on each site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We do support our free plugins and extensions, but please understand that support for premium products takes priority. We typically check the forums every few days (with a maximum delay of one week)."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload <code>woocommerce-customizer</code> folder to the <code>/wp-content/plugins/</code> directory or upload the zip file via the \"Plugins &gt; Add New\" menu"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the 'Customizer' tab under WooCommerce &gt; Settings"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Start customizing!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Misc - Ensure translation compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Misc - WooCommerce 2.3 Compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix error when upgrading to WooCommerce 2.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Checkout \"Create Account\" checkbox default customization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Placeholder image source customization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved settings to WooCommerce &gt; Settings &gt; Customizer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WooCommerce 2.2 Compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Localization - Text domain changed from <code>wc-customizer</code> to <code>woocommerce-customizer</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix missing compatibility class error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issues with add to cart button text customizations in WooCommerce 2.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WooCommerce 2.1 Compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactor to support the upcoming WooCommerce 2.1 beta"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Localization - Text domain changed from <code>wc_customizer</code> to <code>wc-customizer</code> and loaded properly on <code>init</code> hook"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add two new filters for customizing the Product Description and Additional Information tab titles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix TipTips on Customizer page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why can't I customize xyz?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why don't the settings show up under the WooCommerce Settings?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I found a bug! What do I do?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I contribute to the plugin?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Most likely because a filter does not yet exist within WooCommerce, or a filter does exist but is too complicated to be of use with this plugin."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Do you have this network activated for a multisite installation? If so, you'll need to remove the plugin, then install it on each child site as needed, as the plugin does not support being network activated."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please submit an issue on <a href=\"https://github.com/skyverge/woocommerce-customizer/\">GitHub</a> along with a description of the problem so we can fix it :)"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! Fork the plugin on <a href=\"https://github.com/skyverge/woocommerce-customizer/\">GitHub</a> and send a pull request."
+msgstr ""

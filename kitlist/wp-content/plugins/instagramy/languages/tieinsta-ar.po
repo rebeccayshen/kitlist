@@ -1,0 +1,396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagramy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-06 10:15+0200\n"
+"PO-Revision-Date: 2015-07-06 10:17+0200\n"
+"Last-Translator: Fouad Badawy <support@tielabs.com>\n"
+"Language-Team: Tielabs <info@tielabs.com>\n"
+"Language: en_EG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../instagramy-admin.php:10 ../instagramy-admin.php:11
+#: ../instagramy-admin.php:167
+msgid "Settings"
+msgstr "إعدادات"
+
+#: ../instagramy-admin.php:106 ../instagramy-admin.php:113
+msgid "Instagram App info"
+msgstr "‎معلومات Instagram App"
+
+#: ../instagramy-admin.php:118
+msgid "Client ID"
+msgstr "Client ID"
+
+#: ../instagramy-admin.php:122
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: ../instagramy-admin.php:126
+msgid "Follow The Team"
+msgstr "تابعنا"
+
+#: ../instagramy-admin.php:128
+msgid "Follow @tielabs and @imo3aser on instagram."
+msgstr "تابع @tielabs و @imo3aser على إنستجرام "
+
+#: ../instagramy-admin.php:139
+msgid "Submit"
+msgstr "إرسال"
+
+#: ../instagramy-admin.php:147 ../instagramy-admin.php:260
+msgid "Need Help?"
+msgstr "هل تحتاج لمساعدة ؟"
+
+#: ../instagramy-admin.php:148
+msgid "Enter Your App Client ID and App Client Secret ,"
+msgstr "أدخل ال Client ID و Client Secret "
+
+#: ../instagramy-admin.php:148
+msgid "Click Here"
+msgstr "إضغط هنا"
+
+#: ../instagramy-admin.php:148
+msgid "For More Details."
+msgstr "لمزيد من المعلومات"
+
+#: ../instagramy-admin.php:161
+msgid "Settings saved."
+msgstr "تم حفظ الإعدادات"
+
+#: ../instagramy-admin.php:174
+msgid "General Settings"
+msgstr "إعدادات عامة"
+
+#: ../instagramy-admin.php:179
+msgid "Access Token Key"
+msgstr "Access Token Key"
+
+#: ../instagramy-admin.php:182
+msgid "Get Access Token"
+msgstr "‎جلب Access Token"
+
+#: ../instagramy-admin.php:186
+msgid "Cache Time"
+msgstr "حفظ الكاش لمدة"
+
+#: ../instagramy-admin.php:191
+msgid "hours"
+msgstr "ساعات"
+
+#: ../instagramy-admin.php:197
+msgid "Custom CSS"
+msgstr "CSS خاص"
+
+#: ../instagramy-admin.php:212
+msgid "LightBox Settings"
+msgstr "إعدادات LightBox "
+
+#: ../instagramy-admin.php:217 ../instagramy.php:50
+msgid "Skin"
+msgstr "القالب"
+
+#: ../instagramy-admin.php:229
+msgid "Thumbnail Position"
+msgstr "مكان مصغرات الصور"
+
+#: ../instagramy-admin.php:232
+msgid "Vertical"
+msgstr "رأسي"
+
+#: ../instagramy-admin.php:233
+msgid "Horizontal"
+msgstr "أفقي"
+
+#: ../instagramy-admin.php:238
+msgid "Show Arrows"
+msgstr "تفعيل الأسهم"
+
+#: ../instagramy-admin.php:252
+msgid "Save"
+msgstr "حفظ"
+
+#: ../instagramy-admin.php:262
+msgid "Plugin Docs"
+msgstr "توثيق الإضافة"
+
+#: ../instagramy-admin.php:263
+msgid "Support"
+msgstr "الدعم الفني"
+
+#: ../instagramy-admin.php:264
+msgid "Rate instagramy"
+msgstr "قيم  instagramy"
+
+#: ../instagramy-admin.php:339
+msgid "instagram"
+msgstr "‎إنستجرام"
+
+#: ../instagramy-admin.php:389
+msgid "Widget Title"
+msgstr "العنوان"
+
+#: ../instagramy-admin.php:393
+msgid "Widget Skin"
+msgstr "القالب"
+
+#: ../instagramy-admin.php:395 ../instagramy.php:51
+msgid "Default Skin"
+msgstr "القالب الإفتراضي"
+
+#: ../instagramy-admin.php:396 ../instagramy.php:52
+msgid "Lite Skin"
+msgstr "القالب البسيط"
+
+#: ../instagramy-admin.php:397 ../instagramy.php:53
+msgid "Dark Skin"
+msgstr "القالب الغامق"
+
+#: ../instagramy-admin.php:402
+msgid "Show the Instagram Box only"
+msgstr "عرض مربع إنستجرام فقط"
+
+#: ../instagramy-admin.php:403
+msgid "Will avoid the theme widget design and hide the widget title ."
+msgstr "سيقوم بتجاهل تصميم ويدجت القالب و إخفاء العنوان"
+
+#: ../instagramy-admin.php:407 ../instagramy.php:54
+msgid "Show the Instagram logo bar"
+msgstr "عرض شعار إنستجرام"
+
+#: ../instagramy-admin.php:411 ../instagramy.php:55
+msgid "Open links in a new window"
+msgstr "فتح الروابط في صفحات جديدة"
+
+#: ../instagramy-admin.php:415 ../instagramy.php:56
+msgid "Nofollow"
+msgstr "إضافة وسم Nofollow للروابط"
+
+#: ../instagramy-admin.php:419 ../instagramy.php:57
+msgid "Give us a credit"
+msgstr "عرض إسم الإضافة أسفل منطقة الصور"
+
+#: ../instagramy-admin.php:424 ../instagramy.php:44
+msgid "Get media from"
+msgstr "‎جلب الصور من"
+
+#: ../instagramy-admin.php:426 ../instagramy.php:46
+msgid "User Account"
+msgstr "‎حساب مستخدم"
+
+#: ../instagramy-admin.php:427 ../instagramy.php:48
+msgid "Hash Tag"
+msgstr "‎وسم (هاشتاج)"
+
+#: ../instagramy-admin.php:433
+msgid "Instagram HashTag"
+msgstr "‎الوسم (هاشتاج)"
+
+#: ../instagramy-admin.php:435
+msgid "A valid tag name without a leading #. (eg. flatdesign, food)"
+msgstr "‎أدخل إسم وسم (هاشتاج) صحيح بدون # . ( مثال : flatdesign, food )"
+
+#: ../instagramy-admin.php:439 ../instagramy.php:49
+msgid "Show the Hash Tag name"
+msgstr "‎عرض إسم الوسم (هاشتاج)"
+
+#: ../instagramy-admin.php:445 ../instagramy.php:45
+msgid "Instagram account Username"
+msgstr "إسم المستخدم"
+
+#: ../instagramy-admin.php:450 ../instagramy.php:58
+msgid "Show the Account Info area"
+msgstr "عرض معلومات الحساب"
+
+#: ../instagramy-admin.php:453 ../instagramy.php:59
+msgid "Position"
+msgstr "المكان"
+
+#: ../instagramy-admin.php:455 ../instagramy.php:60
+msgid "Top of the widget"
+msgstr "فوق الصور"
+
+#: ../instagramy-admin.php:456 ../instagramy.php:61
+msgid "End of the widget"
+msgstr "تحت الصور"
+
+#: ../instagramy-admin.php:460 ../instagramy-admin.php:534
+#: ../instagramy.php:62
+msgid "Layout"
+msgstr "النمط"
+
+#: ../instagramy-admin.php:465 ../instagramy.php:63
+msgid "Layout 1"
+msgstr "نمط 1"
+
+#: ../instagramy-admin.php:471 ../instagramy.php:64
+msgid "Layout 2"
+msgstr "نمط 2"
+
+#: ../instagramy-admin.php:477 ../instagramy.php:65
+msgid "Layout 3"
+msgstr "نمط 3"
+
+#: ../instagramy-admin.php:486 ../instagramy.php:66
+msgid "Show the Full name"
+msgstr "عرض الإسم الكامل"
+
+#: ../instagramy-admin.php:490 ../instagramy.php:67
+msgid "Show the Website URL"
+msgstr "عرض موقع الويب"
+
+#: ../instagramy-admin.php:494 ../instagramy.php:68
+msgid "Show the bio"
+msgstr "عرض النبذة الشخصية"
+
+#: ../instagramy-admin.php:498 ../instagramy.php:69
+msgid "Show the account stats"
+msgstr "عرض إحصائيات الحساب"
+
+#: ../instagramy-admin.php:501 ../instagramy.php:70
+msgid "Avatar shape"
+msgstr "شكل صورة الحساب"
+
+#: ../instagramy-admin.php:503 ../instagramy.php:71
+msgid "Square"
+msgstr "مربع"
+
+#: ../instagramy-admin.php:504 ../instagramy.php:72
+msgid "Round"
+msgstr "حواف دائرية"
+
+#: ../instagramy-admin.php:505 ../instagramy.php:73
+msgid "Circle"
+msgstr "دائرة"
+
+#: ../instagramy-admin.php:509 ../instagramy.php:74
+msgid "Avatar Width & Height"
+msgstr "أبعاد صورة الحساب"
+
+#: ../instagramy-admin.php:510
+msgid "px"
+msgstr "بكسل"
+
+#: ../instagramy-admin.php:515
+msgid "- Media Settings -"
+msgstr "- إعدادت الصور -"
+
+#: ../instagramy-admin.php:518 ../instagramy.php:75
+msgid "Number of Media items"
+msgstr "عدد الصور"
+
+#: ../instagramy-admin.php:526 ../instagramy.php:76
+msgid "Link to"
+msgstr "ربط الصورة بـ"
+
+#: ../instagramy-admin.php:528 ../instagramy.php:77
+msgid "Media File"
+msgstr "ملف الصورة"
+
+#: ../instagramy-admin.php:529 ../instagramy.php:78
+msgid "Media page on Instagram"
+msgstr "صفحة الصورة على إنستجرام"
+
+#: ../instagramy-admin.php:530 ../instagramy.php:79
+msgid "None"
+msgstr "لا شئ"
+
+#: ../instagramy-admin.php:536 ../instagramy.php:80
+msgid "Grid"
+msgstr "النمط العادي ( أعمدة )"
+
+#: ../instagramy-admin.php:537 ../instagramy.php:81
+msgid "Slider"
+msgstr "سلايدر متحرك"
+
+#: ../instagramy-admin.php:543
+msgid "Number of Columns"
+msgstr "عدد الأعمدة"
+
+#: ../instagramy-admin.php:554
+msgid "Slider Speed"
+msgstr "سرعة السلايدر"
+
+#: ../instagramy-admin.php:555
+msgid "ms"
+msgstr "‎ملّي ثانية"
+
+#: ../instagramy-admin.php:558
+msgid "Animation Effect"
+msgstr "التأثير"
+
+#: ../instagramy-admin.php:571
+msgid "Show Media comments and likes number"
+msgstr "عرض عدد التعليقات ومرات الإعجاب"
+
+#: ../instagramy.php:43
+msgid "Instagramy Shortcodes"
+msgstr "Instagramy الأكواد المختصرة"
+
+#: ../instagramy.php:47
+msgid "Instagram HashTag (Without #)"
+msgstr "‎الوسم (هاشتاج) بدون ‫#‬"
+
+#: ../instagramy.php:82
+msgid "GRID - Number of Columns"
+msgstr "النمط العادي - عدد الأعمدة"
+
+#: ../instagramy.php:83
+msgid "SLIDER - Speed (ms)"
+msgstr "سلايدر - سرعه السلايدز"
+
+#: ../instagramy.php:84
+msgid "SLIDER - Animation Effect"
+msgstr "سلايدر - نوع الحركة"
+
+#: ../instagramy.php:85
+msgid "SLIDER - Show Media comments and likes number"
+msgstr "سلايدر - عرض عدد التعليقات و مرات الإعجاب"
+
+#: ../instagramy.php:181
+msgid "Follow"
+msgstr "تابِع"
+
+#: ../instagramy.php:229 ../instagramy.php:270
+msgid "Error : Couldn't Get Data From Instegram"
+msgstr "خطأ : غير قادر على جلب البيانات من إنستجرام"
+
+#: ../instagramy.php:234 ../instagramy.php:275
+msgid "Set an access token first"
+msgstr "‎يجب تعيين access token آولاً ‫!‬"
+
+#: ../instagramy.php:317
+msgid "Posts"
+msgstr "صور"
+
+#: ../instagramy.php:321
+msgid "Followers"
+msgstr "متابِعون"
+
+#: ../instagramy.php:325
+msgid "Following"
+msgstr "متابَعون"
+
+#: ../instagramy.php:458
+msgid "Instagramy - WordPress Plugin"
+msgstr "Instagramy - إضافة ووردبريس"
+
+#~ msgid "User Feed"
+#~ msgstr "صور من حساب مستخدم"
+
+#~ msgid "- Account Info settings -"
+#~ msgstr "- إعدادات بيانات الحساب -"
+
+#~ msgid "LightBox Skin"
+#~ msgstr "نمط LightBox"
+
+#~ msgid "LightBox Thumbnail"
+#~ msgstr "تفعيل الصور "

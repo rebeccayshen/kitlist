@@ -1,0 +1,421 @@
+Wordpress Plugin: 
+CRED Front end Editor, by OnTheGoSystems
+
+Changelog:
+
+1.3.4
+
+* Fixed a issue with using 2 CRED forms in the same page
+
+* Added the new "cred_wpml_get_localised_id" filter which adds the ability to turn off selecting the translated post_id. http://wp-types.com/forums/topic/cred_edit_post_link/
+
+* Fixed a problem with HTML entities in the field for adding custom JavaScript code to the forms. https://wp-types.com/forums/topic/having-troubles-with-toolset/
+
+* Fixed a problem with a call to a private static method.  http://wp-types.com/forums/topic/cred-email-notification-fields-missing/
+
+* Improved the parent posts listing which is now sorted by title and not by date.
+
+* Added the “cred_get_potential_parents_post_status” filter which allows changing of the post status when getting the potential parents of the post.
+
+* Fixed a problem with saving the “<>” characters in a CRED form editor for the custom JavaScript field.
+ https://wp-types.com/forums/topic/javascript-modified-when-saving-cred-form/ https://icanlocalize.basecamphq.com/projects/7393061-toolset/todo_items/190258353/comments
+
+* Fixed a problem with a generic field data occurring after a failed validation process.  http://wp-types.com/forums/topic/cred-generic-field-empty-after-validation-refresh/ https://icanlocalize.basecamphq.com/projects/7393061-toolset/todo_items/189885173/comments
+
+* Fixed a problem with the post expiration date. https://icanlocalize.basecamphq.com/projects/-toolset/todo_items/191644791/comments
+
+* Improved the CRED “Form Content” WYSIWYG field in the plugin’s backend by adding the auto resize feature introduced for the post WYSIWYG field as introduced in the WordPress 4.0 version.
+
+* Fixed an issue with the editing of repeating fields.
+http://wp-types.com/forums/topic/cred-update-form-deletes-existing-repeating-field-image-when-a-new-image-is-adde/
+
+* Fixed an issue where generic field checkboxes did not accept multiple default values.
+http://wp-types.com/forums/topic/cred-edit-form-bug-checkboxes-gen-field-doesnt-accept-multiple-default-values/
+
+* Improved the CSS classes on the Scaffold output in CRED Forms and removed the inconsistent classes.
+* Changed conditional operator from <> to !=
+* Fixed an issue where Cred conditional group was not working in a Views list and for the Radio fields.
+http://wp-types.com/forums/topic/cred-conditional-group-3/
+http://wp-types.com/forums/topic/cred-conditional-group-doesnt-work/
+
+* Fixed a compatibility issue related to the Thesis Theme.
+http://wp-types.com/forums/topic/edit-content/
+
+* Fixed an issue with the Checkbox field.
+http://wp-types.com/forums/topic/checkboxes-work-differently-in-cred-v1-3-1/
+
+* Fixed the “Undefined index allowed_tags in Forms.php” PHP warning.
+
+* Fixed an issue with saving CRED forms that contain the & character in the name.
+
+* Fixed an issue where adding a unique new class to the CRED taxonomy tags in order to allow style customization was not working.
+http://wp-types.com/forums/topic/ugly-cred-taxonomy-cannot-style/
+
+* Fixed an issue that was introduced with the CRED 1.3.3 version, where insertion of JS was not allowed in the CRED form settings.
+https://wp-types.com/forums/topic/having-troubles-with-toolset/
+
+* Fixed the issue where the private posts of a Custom Post Type were not shown as parents when creating a child form.
+http://wp-types.com/forums/topic/cred-child-form-not-working-with-private-ctp/
+
+* Fixed an issue where the custom attribute class was ignored when used on Submit button shortcode.
+https://wp-types.com/forums/topic/assigning-classes-to-cred-submit-buttons/
+
+* Fixed issues that occurred with the $post_id of a CRED form when it was outputted as a part of a Views loop or when using the multiple CRED forms with the Types/Views shortcodes.
+* Added a new shortcode [cred-container-id] which allows users to get the $post_id of a current Custom Post Type container.
+* Fixed a problem where the Views shortcode was not working inside a Generic Email field as a default option.
+http://wp-types.com/forums/topic/problem-selecting-correct-post-id-within-the-loop/
+http://wp-types.com/forums/topic/cred_edit_post_link/
+https://wp-types.com/forums/topic/cred-integrated-in-view-does-not-work-sincecred-1-2-6/#post-251815
+http://wp-types.com/forums/topic/send-cred-notification-to-email-from-parent-post-custom-field/#post-247838
+https://wp-types.com/forums/topic/using-cred-form-to-allow-users-to-ask-info-about-a-specific-custom-post-item/
+
+* Improved the position of the Error message in the CRED form.
+
+* Fixed the missing of Integer component field with relative validation event.
+
+* Fixed issues with CRED form translation. 
+http://wp-types.com/forums/topic/cred-form-emails-not-translated/
+http://wp-types.com/forums/topic/problem-with-cred-notification-mail-body-editor/
+
+* Fixed a problem with a required attribute not working for the Radio fields. http://wp-types.com/forums/topic/required-field-in-frontend-but-not-in-backend/
+
+1.3.3
+
+* Fixed security hole issue to do not allow user to add javascript code
+  http://wp-types.com/forums/topic/cred-html-enabled-in-input-fields-questions-about-that/
+  
+* Removed deprecated image fields features Max Width and Max Height arguments
+  http://wp-types.com/forums/topic/creds-max_width-max_height-parameters-dont-seem-to-do-anything/
+  
+* Fixed Wrong font height for popular tags
+
+1.3.2
+
+* Added the ability to change warning messages when deleting a post and also added the ability to add a custom message which is shown after the post was deleted. 
+
+* Fixed a problem where the default values set for the generic multi-select field were not working on the front-end. http://wp-types.com/forums/topic/problems-with-multiselect-generic-field-after-cred-update/
+
+* Fixed a problem where adding new taxonomy element as a leaf of hierarchical tree appeared out of the taxonomy container.
+  http://wp-types.com/forums/topic/taxonomy-parent-children-not-hierarchal-conditional-display/
+  http://wp-types.com/forums/topic/taxonomy-parent-children-not-hierarchal/
+
+* Fixed the “PHP Notice: Undefined index: cred_form_X_X” issue which happened when trying to submit a file that exceeds the upload limit. Users are now notified of a failed form submission in this case. 
+  http://wp-types.com/forums/topic/topic-not-resolved-2/
+
+* Fixed a problem where the “Show/Hide Comments” option in the CRED form editing page wasn’t working.
+
+* Fixed a problem with the Show Popular section showing in the wrong place for multiple taxonomies.
+
+* Fixed a problem where the Group Conditional Field wasn’t working with some conditions.
+  http://wp-types.com/forums/topic/upgrade-to-cred-1-3-has-made-conditional-grouping-stop-working/
+
+* Fixed a problem where the order of Types repetitive fields was lost when saving a post.
+
+* Fixed a problem with the validation of Recaptcha API Keys and added an error message with an explanation of how to avoid these problems.
+
+* Fixed a problem where a PHP Warning and Notice were being thrown when submitting a form in case of non-valid Recaptcha code.
+
+* Fixed a problem where the value of date field couldn’t be cleared and added new button which clears the date field value.
+
+* Fixed the other PHP Notice which was thrown when trying to upload the file that exceeded the maximum upload size limit.
+
+* Fixed a problem when trying to save a CRED form with ampersand in the name. http://wp-types.com/forums/topic/cred-form-not-showing-on-front-end/
+
+* Fixed a problem where the empty selectbox value was passing the validation even though the field was marked as required. http://wp-types.com/forums/topic/cred-select-custom-field-required-validation/
+
+* Improved CRED performance by removing redundant code from the function for creation of Access rules.
+  http://wp-types.com/forums/topic/cred-major-bug-ruining-performance/
+
+* Fixed some minor CSS issues in the admin area. 
+
+* Fixed some other minor bugs.
+  http://wp-types.com/forums/topic/bootstrap-sidebar-and-form-edit/
+  http://wp-types.com/forums/topic/cred-form-cant-translate-add-new-image-and-delete/#post-240665
+  http://wp-types.com/forums/topic/post-content-length-validation/
+  http://wp-types.com/forums/topic/cred-form-error-lines-word-limit/
+  http://wp-types.com/forums/topic/cred-form-in-wpv-no-items-found-breakage-page-content-not-appearing/#post-240840
+
+1.3.1
+
+* Fix Formfactory::createForm and Formfactory::displayForm errors on some systems
+* Fix anonymous function problem with wysiwyg field
+* Fix datepicker.css so it only styles the datepicker popup
+* Fix display problem with hierachical taxonomy displayed as checkboxes
+* Fix group conditionals with a Types checkboxes field.
+
+1.3
+
+* Added ability to turn off cred.css on frontend.
+* Fixed post parent control in Auto-Generate Form for non-hierarchical post types
+* Improved messages when import forms
+* Fixed problems with change settings when import form
+* Added warning in notifications when mail subject is empty
+* Remove checkbox "Only if field value has change" from notyfication for new posts.
+* Added "Settings saved." message on settings page.
+* minor bug fixing
+* Fixed shared common code
+* Removed Zebra Form and created new Toolset fields library
+* Output taxonomy checkboxes as unordered list for easier styling
+* Only show/hide popular button when there are existing taxonomy terms
+* Don't show parents selector in hierarchical taxonomies when there are no taxonomy terms
+* Add validation to audio, video and image fields
+* Improve recaptcha field when keys are missing
+* Use native WordPress tiny MCE editor for post content and WYSIWYG fields
+* Remove multiple checkout messages in CRED Commerce
+* Add bootstrap support
+* Add translation support for validation messages for generic fields
+* Add multiselect generic field
+* Fix several minor issues for WP 4.0
+* Add custom conditional for Types groups when creating scaffold
+* Add extended date handling
+* Add date localization
+
+1.2.6:
+* Added Compatibility to Wordpress 3.9
+* Replaced mysql_real_escape_string deprecated method
+* Fixed add Notification issue on Wordpress 3.9
+* Fixed missing Body Shortcodes on CRED Notification
+* Fixed missing Hierarchical Taxonomy numeric values on Notification mails
+* Resolved missing Send to Author notification on Post status Change
+* Resolved hiding posts after auto expires
+* Fixed - PHP Fatal error: Call to undefined function wpcf_form_simple() in admin post edit for post expiration
+* Fixed - Notice: Array to string conversion in ... CredPostExpiration.php
+* Fixed - Fatal error and warnings when I set Automatic Expire from Post Edit screen
+* Resolved issue on Import/Export cred_post_expiration_settings
+* Resolved missing Hierarchical relations for Categories when I tried Numeric values
+* Fixed - PHP Notice: Undefined index: author
+* Added support for phone, numeric, textarea as field types in additional fields conditions in notifications
+* Added support for custom date formats in post expiration
+
+1.2.5:
+* New Feature: Send notification to the Author
+* Fixed conflict between [cred_link_form] and [cred_form] 
+* Fixed the possibility to have a list post date ([wpv-post-date]) in CRED generic field (type=date)
+* Resolved issue on rendering of wpv-if statement if evaluating other shortcode
+* Resolved issue when using Parent selectbox is impossible to set No Parent that has value -1
+* Fixed wrong date handling and problems with month and day in datepickers
+* Improvement scroll when there are too many fields in CRED selection dialogue
+* Resolved issue on Form Content editor field that shrink when I choose "Text Mode"
+* Resolved issue of saving default setting on generic fields
+* CRED+WPML The text for the edit link only registered once
+* Resolved problem with redirection after delete filter
+* Fixed graphical issue inserting Post or Generic fields to CRED form in WP 3.8
+* Improvement addin support for using the slug of CRED forms in API functions (actions and filters)
+* Fixed issue when user fields not being displayed in the notification dropdown
+* Resolved stops nested ifs in Views working correctly
+* Resolved problem with Special Characters in url field
+* Resolved Fatal error & JS error while sending test mail of notification
+* Resolved issue sending the mail as Short Codes
+* Resolved Cred Notifications using emails from form
+* Fixed - $iclTranslationManagement object not defined when submitting form
+* Fixed Javascript error message when auto-generating CRED form
+* Fixed - Undefined index: save_empty
+* Fixed - PHP Strict standards: Declaration of MyZebra_Form_Recaptcha::validate() should be
+* Fixed - PHP Notice: Trying to get property of non-object in 
+* Fixed - PHP Notice: Undefined variable: allow_empty_value in
+
+1.2.4
+* New Feature: You can now include shortcodes in the ?thank you message? displayed on CRED create.
+* Create hierarchical Taxonomy (like Categories) from a CRED form now works consistently
+* Using a generic conditional to show fields now works consistently.
+* CRED+WPML - Forms created for translation were incorrectly displaying in base language.
+* Creating a new custom post from a form did not always complete successfully.
+* Tag search returned values for all languages, not just current language.
+* "Send notification to a WordPress user" field is displays User Email Instead of  User Name
+* Form content editor is displayed minimized in Linux environments
+* Cloning a CRED form could result in multiple copies
+* Screen Options on cred forms list didn't save the number of pages
+* Resolved CRED conflicts with Ultimate Shortcode Plugin
+* The Insert Types Shortcode does not select the correct post type
+* Cred Child Content Link not actually creating child content
+* Create Cred form changed the current post id of the page/post where it is inserted
+* Getting Upload failed message if the image to upload is set as ?Required?
+* CRED edit form conflict with wpv-post-body shortcode
+* CRED add forcing character (slash) before single quote
+* Resolved issues nesting shortcodes in CRED form
+* CRED Notifications - Custom field dropdowns were not being populated
+* Improvements with request user email field in notifications
+* Fixed - PHP Notice: Undefined index: set_value Fixed - PHP Warning: trim() expects parameter 1 to be string, array given
+* Fixed - PHP Strict standards: Non-static method CRED_XML_Processor::cloneData() should not be called statically
+* Fixed - PHP Warning: Cannot modify header information - headers already sent
+* Fixed - PHP Notice: Trying to get property of non-object in 
+* Fixed - PHP Warning: Invalid argument supplied for foreach()
+
+1.2.2
+* client-side validation messages sometimes not displayed, fixed
+* added extra hooks/filters to bypass validation and data saving
+* added setting to disable form data saving for demo sites
+* make assets group loading false by default (failed on some setups)
+* loader.php edits for trailing slashes
+* disabled test notification if form not saved at least once
+* cred trash post fails sometimes for custom types, fixed (use wp_trash_post)
+* add placeholder shortcode attribute for textareas and generic fields
+* add wpml-config.xml to avoid translating cred custom type
+
+
+1.2.1
+* add test notification mail functionality
+* POST_ADMIN_LINK doesn't appear in notification emails sometimes, fixed
+* notifications based on meta conditions, not run correctly, fixed
+* make numeric field type a float field type (same as Types)
+* add new field type integer, accepts only positive/negative integer values
+* added tinymce rich editor in notifications body and form action message areas
+* added extra GUI field to insert shortcode to generate field options with help tips
+* Form_Builder_Helper sometimes loaded late, fixed (is a dependency of Form_Builder)
+* repetitive files/images when removed and replaced in form, were not removed, fixed
+* file/image fields in form, show file name instead of full dummy path when uploaded
+* export/import crunches spaces in form fields (eg: messages), fixed
+* repetitive notification fields not imported correctly, fixed
+* allow 3rd-party (eg CRED Commerce) to add extra settings in CRED import/export process
+* content syntax highlighter not resizing with browser window, fixed
+* wizard mode does not show popups in full height sometimes, fixed
+* media button not show in form even if enabled, fixed
+* multiselect generic field not having '[]' (multiple choices) in field name, fixed
+* Types post parents related via 'has' relation not added to forms, fixed
+* notiication validation not performed when notification metabox is closed, fixed
+* multiple generic fields in form content not parsed correctly in cred admin screen to be used as options, fixed
+* make notification codes in cred admin screen into a button popup instead of dropdown
+* split scripts and load only needed each time
+* loader optimizations
+
+
+1.2
+* update codemirror to 3.11 version (fixing some issues, line wrapping etc..)
+* make syntax highlighter areas resizable and persistent
+* use syntax highlighter button similar to Visual/Text editor buttons
+* added 'urlparam' attribute to field shortcodes to be able to get values from url parameters
+* add filter for the delete action when clicking the cred delete button
+* add filter for the redirect url when clicking the cred delete button (if link is set to refresh)
+* refactor js API, optimize/minify scripts/styles
+* optimize scripts/styles wp registration
+* restructure form custom fields storage (compatible with previous xml format, might break previous hashes)
+* add (micro-)mvvm framework for managing CRED admin screens
+* add (micro-)validation framework to CRED admin screens
+* notification settings allow for more options (multiple recipients, send on specific events filtered by conditions)
+* allow all fields assigned to a post type to be available in CRED even if post type not created by Types, fixed
+* allow taxonomy to display hierarchical when using select boxes, added
+* when form is submitted no messages about notifications are displayed any more
+* allow hardcoded texts in cred form shortcodes to be localiesd with WPML
+* add WPML localisation in case it was missing
+* allow to re-order metaboxes in cred form admin screen
+* form submit redirections based on WPML language settings, fixed
+
+1.1.3.1
+* allow extra mime types to be uploaded correctly
+* fixed compatibility issue with jQuery 1.9+ (used jQuery.Migrate plugin)
+* fixed issue of inserting text (in a generic way) when codemirror is active on a textarea
+* form not updating empty checkboxes values, fixed
+* form not updating empty file/image fields, fixed
+* conditional group not showing fields (related to previous shortcode format and php init), fixed
+* styled drop down not display dollar signs correctly (related to dropkick script), fixed
+* issue with localized strings which include quotes and js, fixed
+* use P-R-G pattern for all forms
+* formatted tabular layout for notification form data
+* shortcodes lost on submit of edit forms, fixed (use PRG for edit also)
+* show/hide qtag buttons depending whether syntax highlight is on/off
+* wizard open metabox if closed
+* added event model in js api for 3rd party integration
+* changed init order from 100 to 3 (earlier) to allow integration with 3rd party systems
+
+1.1.3
+* added changelog
+* added full support for CRED Commerce plugin
+* added full support for Module Manager plugin
+* extended CRED Hook API (both admin section and front section)
+* 3rd-party plugins that integrate with CRED can use the CRED Frameworks (eg Loader, Models, etc..)
+* changed CRED shortcodes to always use underscores instead of dashes, previous format is still valid for backwards compatibility
+* HTML Comments inside CRED form are removed before form is parsed, allow to comment out parts of forms without problem
+* allow multiple submit buttons on same form (with different IDs)
+* removed obsolete CRED caps which no longer exist, from role caps
+* allow to set From Address/Name per cred form notification
+* add support for exporting and importing images that are attached to a CRED form
+* use post type name and not slug in CRED select menus
+* create form can edit the submitted data if back button is used in browser, fixed
+* removed extra space in display message textarea
+* gets custom fields from Types post type settings whose names partially match, fixed
+* Pending Review saves as Draft, fixed
+* refactored CRED REST API to use default WP Ajax, fixed
+* changed check for invalid characters in form titles 
+* CRED js inside delete shortcode, gets treated as shortcode and breaks in some Themes/Configurations, fixed
+* duplication issue of forms with Pagelines theme, fixed
+* custom Fields lost settings when adding new setting, fixed
+* CRED button in Views not working, fixed
+* Opera, not reading mimes.json, fixed
+* display message option fails for create form (due to PRG), fixed
+* success message duplicated on all similar forms on same page, fixed (use prg_id instead of form_id)
+* No Parent text on Insert Post Fields button not works, fixed
+* removed private status from CRED form drafts, PREVIOUS DRAFTS MIGHT APPEAR in Forms Lists, needs a reset button
+* codebase refactoring
+
+1.1.1-1.1.2
+* CRED API Rest/Ajax fails for multisite/subfolders fixed
+* Hide Comments does no hide all comments fixed
+* Scaffold doesn't generate HTML for custom fields when there is no post type selected in Types "Edit group" settings fixed
+* Scaffold doesn't include both CRED custom fields and Types custom Fields, if they both exist, fixed
+* CRED adds unneeded 'wpcf' prefix for Type fields that were added to Types later, fixed
+
+1.1
+* New implementation of hide commments feature (fixes various problems, when hide comments was selected)
+* Unescape(stripslashes) on textfields so quotes appear correctly
+* Allow only legal characters in form names
+* Style/Layout changes
+* allow customization of form texts and messages
+* add custom extra CSS/JS areas, to be included with form, remove custom css file per form
+* Open_basedir restriction in effect when exporting (fixed)
+* Allow spaces in taxonomy terms
+* Remove DIV style from rich editor, replace with p
+* Form preserve default values if reset after submit
+* do not allow create form to be resubmitted on refresh (PRG)
+* show previous featured image
+* Datepicker ico made responsive
+* Allow taxonomy suggest to work for non-logged users
+* notifications panel and email to form field fixed
+* Access integration fixed
+* Post excerpt content not show in edit form fixed
+* Add 'searching' indication in page auto-complete
+* New generic field type Multi-Select
+* remove duplicate cred_link_id from delete link
+* remove extra blank lines from scaffold
+* allow cred to manage custom fields of other post types, independently of types plugin
+* support information about parent post in notifications
+* codebase refactoring
+
+
+1.0.2
+* typo: Call to undefined method CRED_Loader::includeClass()
+* typo: Class 'CRED_Mail_Handler' not found
+* allow 2 default themes for cred forms or custom css file per form
+
+1.0.1
+* support for php < 5.3.x
+* Support post_excerpt field
+* fix nonce failure on successive create forms
+* support hidden generic field
+* allow single select for hier-taxonomies
+* add installer message and support
+* Preview 404 fix
+* Add 'insert CRED form' to Views meta HTML editing
+* Author fix when using cred edit form
+* Fix date field saving to accept localized dates (based on latin alphabet only)
+* Don't display Taxonomy and Parent areas if not required
+* Allow integration with Types Access for specific privileges to different users
+* Add a way to make parent fields required and set 'please select' text
+* If enabled, make the syntax highlighting the default CRED display
+* Don't list CRED forms, Views and View Templates in auto-suggest dropdowns
+* Display message about fields that are missing in the form
+* new Conditional function USER()
+* Add support for parent / child relationship
+* parent fix for hierarchical post types
+* New generic field type Password
+* Add placeholder attribute to fields
+* new attribute readonly for fields
+* Add cred_before_save_data hook
+* Refresh pages after deleting with CRED
+* allow dynamic resizing of rich editor in cred forms
+* Make Zebra CSS optional in CRED Scaffold
+* allow default access to all, if no access is enabled
+* allow to set custom css file per form
+* codebase refactoring
+
+1.0
+* Initial release

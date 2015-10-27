@@ -1,0 +1,5125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sahifa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-22 15:33+0200\n"
+"PO-Revision-Date: 2015-08-22 15:33+0200\n"
+"Last-Translator: Fouad Badawy <support@tielabs.com>\n"
+"Language-Team: Tielabs <info@tielabs.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;__;esc_attr__;__ti;_eti\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../framework/admin/inc/tgm\n"
+
+#: ../404.php:6 ../framework/functions/translation.php:8
+msgid "404 :("
+msgstr ""
+
+#: ../404.php:7 ../framework/functions/breadcrumbs.php:125
+#: ../framework/functions/translation.php:6
+#: ../framework/functions/translation.php:9 ../framework/parts/not-found.php:2
+msgid "Not Found"
+msgstr ""
+
+#: ../404.php:10 ../framework/functions/translation.php:11
+#: ../framework/parts/not-found.php:4
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#: ../404.php:14 ../404.php:15 ../framework/admin/framework-admin.php:276
+#: ../framework/admin/framework-panel.php:474
+#: ../framework/admin/framework-panel.php:533
+#: ../framework/functions/translation.php:14
+#: ../framework/functions/translation.php:16
+#: ../framework/parts/not-found.php:8 ../framework/parts/not-found.php:9
+#: ../framework/widgets/widget-search.php:10
+#: ../framework/widgets/widget-search.php:15
+#: ../framework/widgets/widget-search.php:16 ../header.php:26 ../header.php:27
+#: ../header.php:66 ../header.php:67
+msgid "Search"
+msgstr ""
+
+#: ../404.php:30 ../framework/functions/translation.php:10
+#: ../framework/parts/check-also.php:34
+msgid "Check Also"
+msgstr ""
+
+#: ../archive.php:9 ../framework/functions/translation.php:26
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:11 ../framework/functions/translation.php:27
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:13 ../framework/functions/translation.php:28
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:15 ../framework/functions/translation.php:30
+msgid "Blog Archives"
+msgstr ""
+
+#: ../author.php:16 ../author.php:39 ../category.php:22
+#: ../framework/functions/translation.php:31 ../tag.php:13
+msgid "Feed Subscription"
+msgstr ""
+
+#: ../comments.php:13 ../framework/functions/translation.php:36
+msgid "No comments"
+msgstr ""
+
+#: ../comments.php:13 ../framework/functions/translation.php:37
+msgid "One comment"
+msgstr ""
+
+#: ../comments.php:13 ../framework/functions/translation.php:40
+msgid "comments"
+msgstr ""
+
+#: ../comments.php:19 ../framework/functions/translation.php:42
+msgid "<span>&larr;</span> Older Comments"
+msgstr ""
+
+#: ../comments.php:20 ../framework/functions/translation.php:43
+msgid "Newer Comments <span>&rarr;</span>"
+msgstr ""
+
+#: ../footer.php:31 ../framework/functions/translation.php:106
+msgid "Scroll To Top"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:7
+msgid "Custom Sliders"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:8
+#: ../framework/admin/framework-category.php:133
+#: ../framework/admin/framework-metaboxes.php:133
+#: ../framework/widgets/widget-slider.php:11
+msgid "Slider"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:9
+msgid "Add New Slider"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:59
+msgid "Insert Images | Hold CTRL to Multi Select ."
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:74
+#: ../framework/admin/custom-slider.php:97
+msgid "Slide Title:"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:74
+#: ../framework/admin/custom-slider.php:98
+msgid "Slide Link:"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:74
+#: ../framework/admin/custom-slider.php:99
+msgid "Slide Caption:"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:86
+msgid "Add New Slide"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:106
+msgid "Use the button above to add slides."
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:134
+#: ../framework/admin/framework-panel.php:927
+#: ../framework/admin/framework-panel.php:952
+#: ../framework/admin/framework-panel.php:977
+#: ../framework/admin/framework-panel.php:1002
+#: ../framework/admin/framework-panel.php:1027
+msgid "Title"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:135
+msgid "Number of slides"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:136
+msgid "ID"
+msgstr ""
+
+#: ../framework/admin/custom-slider.php:137
+msgid "Date"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:56
+msgid "Did you like"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:57
+msgid "If you like the theme, please don\\'t forget to rate it :)"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:103
+#: ../framework/admin/framework-admin.php:275
+#: ../framework/admin/framework-admin.php:282
+msgid "Update"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:105
+#: ../framework/admin/framework-builder.php:238
+#: ../framework/admin/framework-builder.php:360
+#: ../framework/admin/framework-builder.php:387
+#: ../framework/admin/framework-builder.php:403
+#: ../framework/widgets/widget-authors-posts.php:65
+#: ../framework/widgets/widget-category.php:65
+#: ../framework/widgets/widget-news-pic.php:65
+#: ../framework/widgets/widget-slider.php:138
+msgid "Category:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:106
+#: ../framework/admin/framework-builder.php:243
+msgid "Posts Order:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:107
+#: ../framework/admin/framework-builder.php:244
+#: ../framework/admin/framework-builder.php:270
+#: ../framework/admin/framework-builder.php:366
+#: ../framework/widgets/widget-author.php:126
+#: ../framework/widgets/widget-authors-posts.php:60
+#: ../framework/widgets/widget-category.php:60
+#: ../framework/widgets/widget-news-pic.php:60
+#: ../framework/widgets/widget-posts.php:66
+#: ../framework/widgets/widget-slider.php:133
+#: ../framework/widgets/widget-timeline.php:60
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:108
+#: ../framework/admin/framework-builder.php:245
+#: ../framework/admin/framework-builder.php:271
+#: ../framework/admin/framework-builder.php:367
+#: ../framework/admin/framework-builder.php:393
+#: ../framework/admin/framework-builder.php:409
+msgid "Offset - number of posts to pass over:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:109
+#: ../framework/admin/framework-builder.php:247
+msgid "Hide thumbnail for the First post"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:110
+#: ../framework/admin/framework-builder.php:251
+msgid "Hide all small thumbnails"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:111
+#: ../framework/admin/framework-builder.php:264
+msgid "Exclude These Categories:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:112
+#: ../framework/admin/framework-admin.php:187
+#: ../framework/admin/framework-builder.php:269
+#: ../framework/admin/framework-builder.php:339
+#: ../framework/admin/framework-builder.php:365
+#: ../framework/admin/framework-builder.php:392
+#: ../framework/admin/framework-builder.php:408
+#: ../framework/widgets/widget-ads.php:82
+#: ../framework/widgets/widget-ads.php:202
+#: ../framework/widgets/widget-ads.php:324
+#: ../framework/widgets/widget-ads.php:445
+#: ../framework/widgets/widget-ads.php:566
+#: ../framework/widgets/widget-ads.php:681
+#: ../framework/widgets/widget-ads.php:789
+#: ../framework/widgets/widget-ads.php:898
+#: ../framework/widgets/widget-ads.php:1010
+#: ../framework/widgets/widget-ads.php:1122
+#: ../framework/widgets/widget-author-custom.php:60
+#: ../framework/widgets/widget-authors-posts.php:56
+#: ../framework/widgets/widget-category.php:56
+#: ../framework/widgets/widget-comments-avatar.php:46
+#: ../framework/widgets/widget-custom-author.php:56
+#: ../framework/widgets/widget-facebook.php:49
+#: ../framework/widgets/widget-feedburner.php:55
+#: ../framework/widgets/widget-flickr.php:49
+#: ../framework/widgets/widget-google.php:57
+#: ../framework/widgets/widget-login.php:39
+#: ../framework/widgets/widget-news-pic.php:56
+#: ../framework/widgets/widget-posts.php:62
+#: ../framework/widgets/widget-social.php:56
+#: ../framework/widgets/widget-soundcloud.php:48
+#: ../framework/widgets/widget-text-html.php:65
+#: ../framework/widgets/widget-timeline.php:56
+#: ../framework/widgets/widget-twitter.php:164
+#: ../framework/widgets/widget-video.php:75
+#: ../framework/widgets/widget-weather.php:257
+#: ../framework/widgets/widget-youtube.php:45
+msgid "Title:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:113
+#: ../framework/admin/framework-builder.php:273
+msgid "Show Pagination"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:114
+#: ../framework/admin/framework-builder.php:278
+#: ../framework/admin/framework-panel.php:1933
+msgid "Show Social Buttons"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:115
+#: ../framework/admin/framework-builder.php:283
+msgid ""
+"WordPress WARNING: Setting the offset option breaks pagination, disable the "
+"pagination option if you want to use the offset option."
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:116
+#: ../framework/admin/framework-builder.php:289
+msgid "Categories Tabs Block"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:117
+#: ../framework/admin/framework-builder.php:259
+#: ../framework/admin/framework-category.php:51
+#: ../framework/widgets/widget-posts.php:58
+msgid "Recent Posts"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:118
+#: ../framework/admin/framework-builder.php:233
+msgid "Category Block:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:119
+#: ../framework/admin/framework-builder.php:313
+msgid "Choose Categories:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:120
+#: ../framework/admin/framework-builder.php:217
+#: ../framework/admin/framework-builder.php:325
+msgid "WooCommerce"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:121
+msgid "Recent Products"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:122
+#: ../framework/admin/framework-builder.php:340
+msgid "Number of Products to show:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:123
+#: ../framework/admin/framework-builder.php:341
+msgid "Offset - number of Products to pass over:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:124
+#: ../framework/admin/framework-builder.php:342
+msgid "Display Mode:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:125
+msgid "Default Layout"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:126
+#: ../framework/admin/framework-builder.php:203
+msgid "Scrolling Block"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:127
+#: ../framework/admin/framework-builder.php:345
+msgid "Scrolling"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:128
+#: ../framework/admin/framework-builder.php:371
+#: ../framework/widgets/widget-text-html.php:11
+msgid "Text or HTML"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:129
+#: ../framework/admin/framework-builder.php:378
+#: ../framework/admin/framework-panel.php:1471
+#: ../framework/admin/framework-panel.php:1547
+#: ../framework/admin/framework-panel.php:1623
+#: ../framework/admin/framework-panel.php:1695
+#: ../framework/admin/framework-panel.php:1767
+#: ../framework/functions/theme-functions.php:645
+msgid "Supports: Text, HTML and Shortcodes."
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:130
+#: ../framework/admin/framework-builder.php:382
+msgid "News in Picture"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:131
+#: ../framework/admin/framework-builder.php:410
+msgid "Videos Lightbox"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:132
+#: ../framework/admin/framework-builder.php:398
+msgid "Videos"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:133
+#: ../framework/admin/framework-builder.php:413
+msgid "Videos Lightbox option working with YouTube and Vimeo videos only."
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:134
+#: ../framework/admin/framework-builder.php:243
+msgid "Latest Posts"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:135
+#: ../framework/admin/framework-builder.php:243
+#: ../framework/admin/framework-category.php:52
+msgid "Random Posts"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:137
+msgid "Tielabs Shortcodes"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:138
+msgid "Box"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:139
+msgid "Alignment:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:140
+msgid "Custom CSS Class:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:141
+msgid "Style:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:142
+msgid "Shadow"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:143
+msgid "Info"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:144
+msgid "Success"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:145
+msgid "Warning"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:146
+msgid "Error"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:147
+msgid "Download"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:148
+msgid "Note"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:149
+#: ../framework/admin/framework-options.php:187
+#: ../framework/admin/framework-panel.php:1250
+#: ../framework/functions/mega-menus.php:390
+msgid "Right"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:150
+#: ../framework/admin/framework-options.php:186
+#: ../framework/admin/framework-panel.php:1251
+#: ../framework/functions/mega-menus.php:391
+msgid "Left"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:151
+#: ../framework/admin/framework-builder.php:610
+#: ../framework/admin/framework-category.php:163
+#: ../framework/admin/framework-options.php:188
+#: ../framework/admin/framework-options.php:195
+#: ../framework/functions/mega-menus.php:389
+#: ../framework/functions/mega-menus.php:395
+msgid "Center"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:152
+msgid "Width:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:153
+msgid "Content:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:154
+msgid "Button"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:155
+msgid "Color:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:156
+msgid "Red"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:157
+msgid "Orange"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:158
+msgid "Blue"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:159
+msgid "Green"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:160
+msgid "Black"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:161
+msgid "Gray"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:162
+msgid "White"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:163
+msgid "Pink"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:164
+msgid "Purple"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:165
+msgid "Yellow"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:166
+msgid "Size:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:167
+msgid "Small"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:168
+msgid "Medium"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:169
+msgid "Big"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:170
+msgid "Link:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:171
+msgid "Text:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:172
+msgid "Icon (use full Font Awesome name):"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:173
+#: ../framework/functions/mega-menus.php:638
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:174
+#: ../framework/widgets/widget-tabbed.php:10
+msgid "Tabs"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:175
+msgid "Tab 1 Title"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:176
+msgid "Tab 2 Title"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:177
+msgid "Tab 3 Title"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:178
+msgid "Tab 1 | Your Content"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:179
+msgid "Tab 2 | Your Content"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:180
+msgid "Tab 3 | Your Content"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:181
+msgid "Slide 1 | Your Content"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:182
+msgid "Slide 2 | Your Content"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:183
+msgid "Slide 3 | Your Content"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:184
+#: ../framework/admin/framework-panel.php:338
+msgid "Vertical"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:185
+#: ../framework/admin/framework-panel.php:339
+msgid "Horizontal"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:186
+msgid "Toggle Box"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:188
+msgid "State:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:189
+msgid "Opened"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:190
+msgid "Closed"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:191
+msgid "Content Slideshow"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:192
+#: ../framework/admin/framework-panel.php:2099
+msgid "Author Bio"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:193
+msgid "Author Image URL:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:194
+#: ../framework/widgets/widget-flickr.php:12
+#: ../framework/widgets/widget-flickr.php:45
+msgid "Flickr"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:195
+msgid "Add photos from Flickr"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:196
+msgid "Account ID : ( get it from http://idgettr.com )"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:197
+msgid "Number of photos"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:198
+msgid "Sorting:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:199
+#: ../framework/functions/translation.php:75
+#: ../framework/widgets/widget-tabbed.php:36
+#: ../framework/widgets/widget-tabbed.php:150
+msgid "Recent"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:200
+#: ../framework/widgets/widget-flickr.php:65
+#: ../framework/widgets/widget-news-pic.php:76
+#: ../framework/widgets/widget-posts.php:73
+msgid "Random"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:201
+msgid "Display Feeds"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:202
+msgid "URL of the RSS feed:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:203
+msgid "Number of Feeds:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:204
+#: ../framework/admin/framework-metaboxes.php:134
+msgid "Google Maps"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:205
+#: ../framework/admin/framework-metaboxes.php:191
+msgid "Google Maps URL"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:206
+msgid "Height:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:207
+#: ../framework/admin/framework-metaboxes.php:130
+#: ../framework/widgets/widget-video.php:12
+msgid "Video"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:208
+msgid "Video URL:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:209
+msgid "Audio"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:210
+#: ../framework/admin/framework-metaboxes.php:170
+msgid "MP3 file URL"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:211
+#: ../framework/admin/framework-metaboxes.php:175
+msgid "M4A file URL"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:212
+msgid "OGG file URL"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:213
+msgid "Lightbox"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:214
+msgid "Full Image or YouTube / Vimeo Video URL"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:215
+msgid "ToolTip"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:216
+msgid "Direction:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:217
+msgid "Northwest"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:218
+msgid "North"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:219
+msgid "Northeast"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:220
+msgid "West"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:221
+msgid "East"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:222
+msgid "Southwest"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:223
+msgid "South"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:224
+msgid "Southeast"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:225
+msgid "Share Buttons"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:226
+#: ../framework/admin/framework-panel.php:1171
+msgid "Facebook Like Button"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:227
+#: ../framework/admin/framework-panel.php:1161
+msgid "Tweet Button"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:228
+msgid "Digg Button"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:229
+msgid "Stumble Button"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:230
+#: ../framework/admin/framework-panel.php:1176
+msgid "Google+ Button"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:231
+#: ../framework/admin/framework-panel.php:1192
+msgid "Pinterest Button"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:232
+msgid "Twitter Follow Button"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:233
+#: ../framework/functions/theme-functions.php:658
+msgid "Twitter Username"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:234
+msgid "Dropcap"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:235
+msgid "Highlight Text"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:236
+msgid "Padding"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:237
+msgid "Padding right"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:238
+msgid "Padding Left"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:239
+msgid "Divider Line"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:240
+msgid "Solid"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:241
+msgid "Dashed"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:242
+#: ../framework/admin/framework-options.php:285
+#: ../framework/admin/framework-options.php:302
+msgid "Normal"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:243
+msgid "Double"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:244
+msgid "Dotted"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:245
+msgid "Margin Top:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:246
+msgid "Margin Bottom:"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:247
+msgid "Lists"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:248
+msgid "Star"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:249
+msgid "Check"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:250
+msgid "Thumb Up"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:251
+msgid "Thumb Down"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:252
+msgid "Plus"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:253
+msgid "Minus"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:254
+msgid "Heart"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:255
+msgid "Light Bulb"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:256
+msgid "Cons"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:257
+msgid "Ads"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:258
+msgid "Ads Shortcode 1"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:259
+msgid "Ads Shortcode 2"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:260
+msgid "Restrict Content"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:261
+msgid "For Registered Users only"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:262
+msgid "For Guests only"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:263
+msgid "Columns"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:264
+msgid "Add content here"
+msgstr ""
+
+#: ../framework/admin/framework-admin.php:265
+msgid "Full Width Image"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:162
+#: ../framework/admin/framework-builder.php:178
+msgid "Page Builder"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:179
+msgid "[-] Collapse All"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:180
+msgid "[+] Expand All"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:200
+msgid "Category Block | Layout 1"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:201
+msgid "Category Block | Layout 2"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:202
+msgid "Category Block | Layout 3"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:204
+msgid "News in Picture Block | Default Layout"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:205
+msgid "News in Picture Block | Grid Layout"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:206
+msgid "Videos Block"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:207
+msgid "Recent Posts | Default Layout"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:208
+msgid "Recent Posts | Big Thumbnail Layout"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:209
+msgid "Recent Posts | Blog Layout"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:210
+msgid "Recent Posts | Post Content Layout"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:211
+msgid "Recent Posts | Masonry Layout"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:212
+msgid "Recent Posts | Timeline Layout"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:213
+msgid "Categories Tabs"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:214
+msgid "Text or HTML Code"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:330
+msgid "Products Categories:"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:344
+#: ../framework/admin/framework-category.php:37
+#: ../framework/admin/framework-metaboxes.php:48
+#: ../framework/admin/framework-metaboxes.php:128
+#: ../framework/admin/framework-panel.php:1877
+#: ../framework/admin/framework-panel.php:2329
+#: ../framework/admin/framework-panel.php:2344
+#: ../framework/admin/framework-panel.php:2471
+#: ../framework/admin/framework-panel.php:2486
+msgid "Default"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:355
+msgid "Scrolling Block:"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:442
+msgid "Blocks Settings"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:445
+msgid "First News Excerpt Length"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:451
+#: ../framework/admin/framework-panel.php:1943
+msgid "Review Score"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:456
+#: ../framework/admin/framework-panel.php:1095
+#: ../framework/admin/framework-panel.php:1948
+msgid "Author Meta"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:459
+#: ../framework/admin/framework-builder.php:470
+#: ../framework/admin/framework-builder.php:476
+#: ../framework/admin/framework-builder.php:482
+msgid ""
+"This option not applied on Scrolling blocks and Recent posts Default Style ."
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:462
+#: ../framework/admin/framework-panel.php:1100
+#: ../framework/admin/framework-panel.php:1953
+msgid "Date Meta"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:467
+#: ../framework/admin/framework-panel.php:1105
+#: ../framework/admin/framework-panel.php:1958
+msgid "Categories Meta"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:473
+#: ../framework/admin/framework-panel.php:1110
+#: ../framework/admin/framework-panel.php:1963
+msgid "Comments Meta"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:479
+#: ../framework/admin/framework-panel.php:1120
+#: ../framework/admin/framework-panel.php:1968
+msgid "Views Meta"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:487
+msgid "Grid Featured Posts"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:490
+#: ../framework/admin/framework-builder.php:592
+#: ../framework/admin/framework-panel.php:561
+msgid "Enable"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:495
+msgid "Animate Automatically"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:501
+#: ../framework/admin/framework-builder.php:620
+#: ../framework/admin/framework-builder.php:651
+#: ../framework/admin/framework-category.php:174
+#: ../framework/admin/framework-category.php:208
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:510
+#: ../framework/admin/framework-builder.php:629
+#: ../framework/admin/framework-builder.php:660
+#: ../framework/admin/framework-category.php:184
+#: ../framework/admin/framework-category.php:218
+#: ../framework/admin/framework-panel.php:580
+msgid "Animation Speed"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:519
+#: ../framework/admin/framework-builder.php:705
+#: ../framework/admin/framework-category.php:140
+#: ../framework/admin/framework-panel.php:607
+#: ../framework/admin/framework-panel.php:1217
+#: ../framework/admin/framework-panel.php:1254
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:530
+#: ../framework/admin/framework-builder.php:711
+#: ../framework/admin/framework-panel.php:1227
+#: ../framework/admin/framework-panel.php:1259
+msgid "Query Type"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:533
+#: ../framework/admin/framework-builder.php:555
+#: ../framework/admin/framework-builder.php:714
+#: ../framework/admin/framework-builder.php:737
+msgid "Category"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:534
+#: ../framework/admin/framework-builder.php:715
+msgid "Tag"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:535
+#: ../framework/admin/framework-builder.php:716
+msgid "Selective Posts"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:536
+#: ../framework/admin/framework-builder.php:717
+msgid "Selective Pages"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:537
+#: ../framework/admin/framework-builder.php:580
+#: ../framework/admin/framework-builder.php:718
+#: ../framework/admin/framework-builder.php:762
+#: ../framework/admin/framework-metaboxes.php:185
+msgid "Custom Slider"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:540
+#: ../framework/admin/framework-builder.php:721
+#: ../framework/admin/framework-panel.php:602
+#: ../framework/functions/translation.php:52
+#: ../framework/widgets/widget-tabbed.php:42
+#: ../framework/widgets/widget-tabbed.php:156 ../template-sitemap.php:46
+msgid "Tags"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:541
+#: ../framework/admin/framework-builder.php:722
+#: ../framework/admin/framework-panel.php:613
+msgid "Enter a tag name, or names separated by comma."
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:556
+#: ../framework/admin/framework-builder.php:738
+#: ../framework/admin/framework-panel.php:621
+msgid "Hold CTRL while selecting to select multiple categories."
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:568
+#: ../framework/admin/framework-builder.php:750
+msgid "Selective Posts IDs"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:569
+#: ../framework/admin/framework-builder.php:751
+msgid "Enter a post ID, or IDs separated by comma."
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:574
+#: ../framework/admin/framework-builder.php:756
+msgid "Selective Pages IDs"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:575
+#: ../framework/admin/framework-builder.php:757
+msgid "Enter a page ID, or IDs separated by comma."
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:581
+#: ../framework/admin/framework-builder.php:763
+msgid "Choose your custom slider"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:589
+msgid "Slider Settings"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:597
+#: ../framework/admin/framework-category.php:147
+msgid "Slider Type"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:600
+#: ../framework/admin/framework-category.php:151
+msgid "FlexSlider"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:601
+#: ../framework/admin/framework-category.php:152
+msgid "Elastic Slideshow"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:606
+#: ../framework/admin/framework-builder.php:642
+#: ../framework/admin/framework-category.php:158
+#: ../framework/admin/framework-category.php:198
+#: ../framework/admin/framework-panel.php:571
+msgid "Animation Effect"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:611
+#: ../framework/admin/framework-category.php:164
+msgid "Sides"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:614
+#: ../framework/admin/framework-category.php:167
+#: ../framework/widgets/widget-soundcloud.php:56
+msgid "Autoplay"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:646
+#: ../framework/admin/framework-category.php:203
+#: ../framework/admin/framework-panel.php:575
+msgid "Fade"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:647
+#: ../framework/admin/framework-category.php:204
+msgid "Slide Vertical"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:648
+#: ../framework/admin/framework-category.php:205
+msgid "Slide Horizontal"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:671
+#: ../framework/admin/framework-category.php:230
+msgid "Show Slides Caption"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:676
+#: ../framework/admin/framework-category.php:236
+msgid "Slides Caption Length"
+msgstr ""
+
+#: ../framework/admin/framework-builder.php:683
+msgid "Slider Position"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:40
+#: ../framework/admin/framework-metaboxes.php:49
+#: ../framework/admin/framework-panel.php:1879 ../framework/widgets.php:21
+msgid "Shop - For WooCommerce Pages"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:50
+#: ../framework/functions/mega-menus.php:360
+#: ../framework/widgets/widget-slider.php:150
+msgid "Disable"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:76
+msgid "Category Layout"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:114
+msgid "Category Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:118
+msgid "Custom Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:130
+msgid "Category Slider"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:247
+msgid "Category Logo"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:250
+msgid "Custom Logo"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:256
+msgid "Logo Setting"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:260
+#: ../framework/admin/framework-panel.php:393
+msgid "Custom Image Logo"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:261
+msgid "Display The Category Title"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:266
+msgid "Custom Logo Image"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:272
+#: ../framework/admin/framework-panel.php:404
+msgid "Logo Image (Retina Version @2x)"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:276
+#: ../framework/admin/framework-panel.php:407
+msgid ""
+"Please choose an image file for the retina version of the logo. It should be "
+"2x the size of main logo."
+msgstr ""
+
+#: ../framework/admin/framework-category.php:279
+#: ../framework/admin/framework-panel.php:410
+msgid "Standard Logo Width for Retina Logo"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:283
+#: ../framework/admin/framework-panel.php:413
+msgid ""
+"If retina logo is uploaded, please enter the standard logo (1x) version "
+"width, do not enter the retina logo width."
+msgstr ""
+
+#: ../framework/admin/framework-category.php:286
+#: ../framework/admin/framework-panel.php:416
+msgid "Standard Logo Height for Retina Logo"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:290
+#: ../framework/admin/framework-panel.php:419
+msgid ""
+"If retina logo is uploaded, please enter the standard logo (1x) version "
+"height, do not enter the retina logo height."
+msgstr ""
+
+#: ../framework/admin/framework-category.php:294
+#: ../framework/admin/framework-panel.php:422
+msgid "Logo Margin Top"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:303
+#: ../framework/admin/framework-panel.php:431
+msgid "Logo Margin Bottom"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:314
+msgid "Category Style"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:317
+msgid "Main Color"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:323
+#: ../framework/admin/framework-metaboxes.php:244
+#: ../framework/admin/framework-panel.php:2356
+#: ../framework/admin/framework-panel.php:2381
+#: ../framework/admin/framework-panel.php:2497
+msgid "Background"
+msgstr ""
+
+#: ../framework/admin/framework-category.php:329
+#: ../framework/admin/framework-metaboxes.php:249
+#: ../framework/admin/framework-panel.php:2306
+msgid "Full Screen Background"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:7
+msgid "Post Options"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:8
+msgid "Page Options"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:9
+msgid "More Options"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:70
+#: ../framework/admin/framework-metaboxes.php:72
+#: ../framework/admin/framework-panel.php:601
+#: ../framework/functions/translation.php:58 ../template-sitemap.php:41
+msgid "Categories"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:97
+msgid "Authors template Options"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:99
+msgid "User Roles"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:115
+msgid "Post Head Options"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:119
+msgid "Post Head Cover layout"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:124
+msgid "Display"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:129
+msgid "None"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:131
+msgid "Audio - Self Hosted"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:132
+msgid "Audio - SoundCloud"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:135
+msgid "Featured Image"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:136
+msgid "Featured Image + Lightbox"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:140
+#: ../framework/widgets/widget-video.php:79
+msgid "Embed Code"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:145
+msgid ""
+"Video URL <br /><small>supports : YouTube, Vimeo, Viddler, Qik, Hulu, "
+"FunnyOrDie, DailyMotion, WordPress.tv and blip.tv</small>"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:150
+msgid "Self Hosted Video"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:155
+#: ../framework/admin/framework-panel.php:856
+msgid "SoundCloud URL"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:160
+msgid "Auto Play"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:165
+#: ../framework/widgets/widget-soundcloud.php:60
+msgid "Visual Style"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:180
+msgid "OGA file URL"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:200
+msgid "Sidebar Options"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:225
+msgid "Choose Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:235
+msgid "Custom Styles"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:239
+msgid "Custom color"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:258
+msgid "Ads Options"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:262
+msgid "Hide Above Banner"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:267
+msgid "Custom Above Banner"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:272
+msgid "Hide Below Banner"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:277
+msgid "Custom Below Banner"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:292
+msgid "Hide Post Meta"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:300
+msgid "Hide Author Information"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:308
+msgid "Hide Share Buttons"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:316
+msgid "Hide Related Posts"
+msgstr ""
+
+#: ../framework/admin/framework-metaboxes.php:324
+msgid "Hide Fly Check Also Box"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:14
+msgid "Default Font"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:23
+msgid "Variants"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:42
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:115
+#: ../framework/admin/framework-options.php:164
+#: ../framework/functions/theme-functions.php:621
+msgid "Upload"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:172
+#: ../framework/functions/mega-menus.php:402
+msgid "repeat"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:173
+#: ../framework/functions/mega-menus.php:401
+msgid "no-repeat"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:174
+#: ../framework/functions/mega-menus.php:403
+msgid "repeat-x"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:175
+#: ../framework/functions/mega-menus.php:404
+msgid "repeat-y"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:180
+msgid "Fixed"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:181
+msgid "Scroll"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:193
+#: ../framework/functions/mega-menus.php:396
+msgid "Top"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:194
+#: ../framework/functions/mega-menus.php:397
+msgid "Bottom"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:286
+msgid "Bold"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:287
+msgid "Lighter"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:288
+msgid "Bolder"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:303
+msgid "Italic"
+msgstr ""
+
+#: ../framework/admin/framework-options.php:304
+msgid "Oblique"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:67
+msgid "Theme Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:68
+#: ../framework/admin/inc/importer/tie-importer.php:191
+#: ../framework/admin/inc/importer/tie-importer.php:204
+msgid "Import Demo Data"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:69
+msgid "Documentation"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:70
+msgid "Support"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:175
+msgid "Save Changes"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:187
+#: ../framework/admin/framework-panel.php:209
+#: ../framework/admin/framework-panel.php:1929
+msgid "General Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:188
+#: ../framework/admin/framework-panel.php:384
+msgid "Header Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:189
+#: ../framework/admin/framework-panel.php:1925
+msgid "Archives Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:190
+#: ../framework/admin/framework-panel.php:1052
+#: ../framework/admin/framework-panel.php:1055
+msgid "Posts Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:191
+#: ../framework/admin/framework-panel.php:1793
+msgid "Sidebars"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:192
+#: ../framework/admin/framework-panel.php:1283
+msgid "Footer Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:193
+msgid "Ads Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:194
+#: ../framework/admin/framework-panel.php:2183
+msgid "Styling"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:195
+#: ../framework/admin/framework-panel.php:2543
+msgid "Typography"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:196
+#: ../framework/admin/framework-panel.php:2686
+msgid "Translations"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:197
+#: ../framework/admin/framework-panel.php:667
+#: ../framework/admin/framework-panel.php:687
+#: ../framework/functions/theme-functions.php:649
+msgid "Social Networking"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:198
+msgid "Advanced"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:199
+msgid "Rate"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:200
+msgid "More Themes"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:212
+msgid "bbPress Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:215
+msgid "bbPress Full width"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:223
+msgid "Theme Layout"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:247
+#: ../framework/admin/framework-panel.php:250
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:256
+#: ../framework/admin/framework-panel.php:259
+msgid "Custom Gravatar"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:265
+msgid "Apple Icons"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:268
+msgid "Apple iPhone Icon"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:271
+msgid "Icon for Apple iPhone (57px x 57px)"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:274
+msgid "Apple iPhone Retina Icon"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:277
+msgid "Icon for Apple iPhone Retina Version (120px x 120px)"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:280
+msgid "Apple iPad Icon"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:283
+msgid "Icon for Apple iPhone (72px x 72px)"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:286
+msgid "Apple iPad Retina Icon"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:289
+msgid "Icon for Apple iPad Retina Version (144px x 144px)"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:295
+msgid "Time format"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:298
+msgid "Time format for blog posts"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:301
+msgid "Traditional"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:302
+msgid "Time Ago Format"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:303
+msgid "Disable all"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:308
+msgid "Lightbox Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:311
+msgid "Enable Lightbox Automatically"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:312
+msgid ""
+"Enable Lightbox automatically for all images linked to an image file in the "
+"post content area"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:317
+msgid "Enable Lightbox for WordPress Galleries"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:318
+msgid ""
+"Enable Lightbox automatically for all images added via [gallery] shortcode "
+"in the content area"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:323
+msgid "Lightbox Skin"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:335
+msgid "Lightbox Thumbnail Position"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:342
+msgid "Show Lightbox Arrows"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:351
+msgid "Breadcrumbs Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:354
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:359
+msgid "Breadcrumbs Delimiter"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:366
+msgid "Header Code"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:368
+msgid ""
+"The following code will add to the &lt;head&gt; tag. Useful if you need to "
+"add additional codes such as CSS or JS."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:374
+msgid "Footer Code"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:376
+msgid ""
+"The following code will add to the footer before the closing  &lt;/body&gt; "
+"tag. Useful if you need to add Javascript or tracking code."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:387
+msgid "Logo"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:390
+msgid "Logo Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:394
+msgid "Display Site Title"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:397
+msgid "Logo Image"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:399
+msgid ""
+"Upload a logo image, or enter URL to an image if it is already uploaded. the "
+"theme default logo gets applied if the input field is left blank."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:401
+msgid "Recommended size (MAX) : 190px x 60px"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:425
+msgid "Input number to set the top space of the logo."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:434
+msgid "Input number to set the bottom space of the logo."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:440
+msgid "Full Width Logo"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:443
+msgid "Recommended logo width : 1045px"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:446
+msgid "Center the Logo"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:455
+msgid "Header Top area Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:458
+msgid "Top menu"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:463
+msgid "Today's Date"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:468
+msgid "Today's Date Format"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:471
+msgid "Documentation on date and time formatting"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:479
+msgid "Live Search"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:484
+#: ../framework/admin/framework-panel.php:538
+#: ../framework/admin/framework-panel.php:1295
+#: ../framework/widgets/widget-social.php:11
+msgid "Social Icons"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:492
+msgid "Main Nav Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:495
+msgid "Main Nav"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:500
+msgid "Random Article Button"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:506
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:511
+msgid "Stick The Navigation menu"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:516
+msgid "Logo in the sticky Navigation menu"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:525
+msgid "Responsive Mobile Menu Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:528
+msgid "Enable the Mobile Menu"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:543
+msgid "Show the Top Menu items in the Mobile Menu below the Main Menu items ?"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:548
+msgid "Enable Mobile Menu Items Icons"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:558
+#: ../framework/functions/translation.php:102
+#: ../framework/parts/breaking-news.php:21
+msgid "Breaking News"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:566
+msgid "Show in Homepage Only"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:576
+msgid "Slide"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:577
+msgid "Ticker"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:589
+msgid "Time between the fades"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:598
+msgid "Breaking News Query Type"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:603
+msgid "Custom Text"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:612
+msgid "Breaking News Tags"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:620
+msgid "Breaking News Categories"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:633
+msgid "Breaking News Custom Text"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:636
+#: ../framework/widgets/widget-text-html.php:61
+msgid "Text"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:638
+msgid "Link"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:670
+#: ../framework/admin/framework-panel.php:679
+msgid "Custom Feed URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:674
+#: ../framework/admin/framework-panel.php:2018
+#: ../framework/admin/framework-panel.php:2061
+#: ../framework/admin/framework-panel.php:2104
+msgid "RSS Icon"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:690
+#: ../framework/functions/theme-functions.php:664
+msgid "Facebook URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:695
+msgid "Twitter URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:700
+#: ../framework/functions/theme-functions.php:652
+msgid "Google+ URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:706
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:712
+#: ../framework/functions/theme-functions.php:670
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:718
+msgid "Evernote URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:724
+msgid "Dropbox URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:730
+#: ../framework/functions/theme-functions.php:676
+msgid "Flickr URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:736
+msgid "Picasa Web URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:742
+msgid "DeviantArt URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:748
+#: ../framework/functions/theme-functions.php:682
+msgid "YouTube URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:754
+msgid "Grooveshark URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:760
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:766
+msgid "ShareThis URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:772
+msgid "500px URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:778
+msgid "Skype URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:784
+msgid "Digg URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:790
+msgid "Reddit URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:796
+msgid "Delicious URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:802
+msgid "StumbleUpon  URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:808
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:814
+msgid "Blogger URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:820
+msgid "WordPress URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:826
+msgid "Yelp URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:832
+msgid "Last.fm URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:838
+msgid "Apple URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:844
+msgid "FourSquare URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:850
+msgid "Github URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:862
+msgid "XING URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:868
+msgid "Google Play URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:874
+#: ../framework/functions/theme-functions.php:688
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:880
+#: ../framework/functions/theme-functions.php:700
+msgid "Instagram URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:886
+msgid "Spotify URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:892
+msgid "PayPal URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:898
+msgid "Forrst URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:904
+#: ../framework/functions/theme-functions.php:694
+msgid "Behance URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:910
+msgid "Viadeo URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:916
+msgid "VK.com URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:924
+#: ../framework/admin/framework-panel.php:949
+#: ../framework/admin/framework-panel.php:974
+#: ../framework/admin/framework-panel.php:999
+#: ../framework/admin/framework-panel.php:1024
+msgid "Custom Social Network"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:932
+#: ../framework/admin/framework-panel.php:957
+#: ../framework/admin/framework-panel.php:982
+#: ../framework/admin/framework-panel.php:1007
+#: ../framework/admin/framework-panel.php:1032
+msgid "Icon (use full Font Awesome name)"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:937
+#: ../framework/admin/framework-panel.php:962
+#: ../framework/admin/framework-panel.php:987
+#: ../framework/admin/framework-panel.php:1012
+#: ../framework/admin/framework-panel.php:1037
+#: ../framework/functions/mega-menus.php:618
+msgid "URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:942
+#: ../framework/admin/framework-panel.php:967
+#: ../framework/admin/framework-panel.php:992
+#: ../framework/admin/framework-panel.php:1017
+#: ../framework/admin/framework-panel.php:1042
+msgid "Color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1059
+msgid "Show Featured Image By Default"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1064
+msgid "Post Author Box"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1069
+msgid "Next/Prev Articles"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1074
+msgid "OG Meta"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1079
+msgid "Reading Position Indicator"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1087
+msgid "Post Meta Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1090
+#: ../framework/admin/framework-panel.php:2652
+msgid "Post Meta"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1115
+msgid "Tags Meta"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1131
+msgid "Share Post Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1134
+msgid "Bottom Share Post Buttons"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1139
+msgid "Top Share Post Buttons"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1144
+msgid "Share Buttons for Pages"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1149
+msgid "Share Buttons type"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1152
+msgid "Buttons with counters"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1153
+msgid "Flat Buttons"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1156
+msgid "Use the post's Short Link"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1166
+msgid "Twitter Username <small>(optional)</small>"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1181
+msgid "LinkedIn Button"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1186
+msgid "StumbleUpon Button"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1202
+msgid "Related Posts Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1205
+msgid "Related Posts"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1210
+msgid "Related Posts Position"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1213
+msgid "In the post content area"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1214
+msgid "Below the post area"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1222
+msgid "Number of posts to show in Full width pages"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1230
+#: ../framework/admin/framework-panel.php:1262
+msgid "Posts in the same Categories"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1231
+#: ../framework/admin/framework-panel.php:1263
+msgid "Posts in the same Tags"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1232
+#: ../framework/admin/framework-panel.php:1264
+msgid "Posts by the same Author"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1239
+msgid "Fly Check Also Box"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1242
+msgid "Check Also Box"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1247
+msgid "Check Also Box Position"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1271
+msgid "jQuery Comments Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1274
+msgid "Adding Comment Validation"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1287
+msgid "Footer Elements"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1290
+msgid "Go To Top Button"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1303
+msgid "Footer Widgets layout"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1306
+msgid "Footer Widgets"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1353
+msgid "Footer Text One"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1356
+#: ../framework/admin/framework-panel.php:1370
+msgid "Variables"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1357
+#: ../framework/admin/framework-panel.php:1371
+msgid ""
+"These tags can be included in the textarea above and will be replaced when a "
+"page is displayed."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1359
+#: ../framework/admin/framework-panel.php:1373
+msgid "Replaced with the current year."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1360
+#: ../framework/admin/framework-panel.php:1374
+msgid "Replaced with The site's name."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1361
+#: ../framework/admin/framework-panel.php:1375
+msgid "Replaced with The site's URL."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1367
+msgid "Footer Text Two"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1384
+msgid "Banners Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1386
+msgid "Background Image ADS"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1389
+msgid "Enable Background Image ADS"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1394
+msgid "Background Image ADS Link"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1399
+msgid ""
+"Go to Styling tab and set Background Type to Custom Background then upload "
+"your custom image and enable Full Screen Background option."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1403
+msgid "Top Banner Area"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1406
+msgid "Top Banner"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1411
+#: ../framework/admin/framework-panel.php:1487
+#: ../framework/admin/framework-panel.php:1563
+#: ../framework/admin/framework-panel.php:1640
+#: ../framework/admin/framework-panel.php:1712
+msgid "Image Ad"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1415
+msgid "Top Banner Image"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1420
+msgid "Top Banner Link"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1425
+#: ../framework/admin/framework-panel.php:1501
+#: ../framework/admin/framework-panel.php:1577
+#: ../framework/admin/framework-panel.php:1654
+#: ../framework/admin/framework-panel.php:1726
+msgid "Alternative Text For The image"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1430
+#: ../framework/admin/framework-panel.php:1506
+#: ../framework/admin/framework-panel.php:1582
+#: ../framework/admin/framework-panel.php:1659
+#: ../framework/admin/framework-panel.php:1731
+msgid "Open The Link In a new Tab"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1435
+#: ../framework/admin/framework-panel.php:1511
+#: ../framework/admin/framework-panel.php:1587
+#: ../framework/admin/framework-panel.php:1664
+#: ../framework/admin/framework-panel.php:1736
+msgid "Nofollow"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1440
+#: ../framework/admin/framework-panel.php:1516
+#: ../framework/admin/framework-panel.php:1592
+#: ../framework/admin/framework-panel.php:1669
+#: ../framework/admin/framework-panel.php:1741
+msgid "Responsive Google AdSense"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1444
+#: ../framework/admin/framework-panel.php:1520
+#: ../framework/admin/framework-panel.php:1596
+#: ../framework/admin/framework-panel.php:1673
+#: ../framework/admin/framework-panel.php:1745
+msgid "Publisher ID"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1449
+#: ../framework/admin/framework-panel.php:1525
+#: ../framework/admin/framework-panel.php:1601
+msgid "728x90 (Leaderboard) - ad ID"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1454
+#: ../framework/admin/framework-panel.php:1530
+#: ../framework/admin/framework-panel.php:1606
+#: ../framework/admin/framework-panel.php:1678
+#: ../framework/admin/framework-panel.php:1750
+msgid "468x60 (Banner) - ad ID"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1459
+#: ../framework/admin/framework-panel.php:1535
+#: ../framework/admin/framework-panel.php:1611
+#: ../framework/admin/framework-panel.php:1683
+#: ../framework/admin/framework-panel.php:1755
+msgid "300x250 (Medium Rectangle) - ad ID"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1465
+#: ../framework/admin/framework-panel.php:1541
+#: ../framework/admin/framework-panel.php:1617
+#: ../framework/admin/framework-panel.php:1689
+#: ../framework/admin/framework-panel.php:1761
+msgid "Custom Code"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1469
+#: ../framework/admin/framework-panel.php:1545
+#: ../framework/admin/framework-panel.php:1621
+#: ../framework/admin/framework-panel.php:1693
+#: ../framework/admin/framework-panel.php:1765
+msgid "Custom Ad Code"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1479
+msgid "Bottom Banner Area"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1482
+msgid "Bottom Banner"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1491
+#: ../framework/admin/framework-panel.php:1567
+msgid "Bottom Banner Image"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1496
+#: ../framework/admin/framework-panel.php:1572
+msgid "Bottom Banner Link"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1555
+msgid "Below Header Banner Area"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1558
+msgid "Below Header Banner"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1632
+msgid "Above Article Banner Area"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1635
+msgid "Above Article Banner"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1644
+msgid "Above Article Banner Image"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1649
+msgid "Above Article Banner Link"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1704
+msgid "Below Article Banner Area"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1707
+msgid "Below Article Banner"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1716
+msgid "Below Article Banner Image"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1721
+msgid "Below Article Banner Link"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1775
+msgid "Shortcode ADS"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1778
+msgid "[ads1] Shortcode Banner"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1783
+msgid "[ads2] Shortcode Banner"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1796
+msgid "Default Sidebar Position"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1815
+msgid "Sticky Sidebars"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1818
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1823
+msgid "Disable on the homepage"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1828
+msgid "Disable on category pages"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1833
+msgid "Disable on tag pages"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1838
+msgid "Disable on pages"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1843
+msgid "Disable on posts"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1852
+msgid "Add Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1854
+msgid "Sidebar Name"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1857
+msgid "Add"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1874
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1889
+msgid "Home Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1895
+msgid "Single Page Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1901
+msgid "Single Article Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1907
+msgid "Archives Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1914
+msgid "bbPress Sidebar"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1938
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1975
+msgid "Default layout settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:1981
+msgid "Choose the default layout"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2004
+msgid "These settings will applies on all pages with blog List template."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2010
+msgid "Category Page Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2013
+msgid "Category Description"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2025
+msgid "Choose Default Categories page layout"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2053
+msgid "Tag Page Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2056
+msgid "Tag Description"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2069
+msgid "Choose Tags page layout"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2096
+msgid "Author Page Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2111
+msgid "Choose Author page layout"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2138
+msgid "Search Page Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2141
+msgid "Search in Category IDs"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2143
+msgid ""
+"Use minus sign (-) to exclude categories. Example: (1,4,-7) = search only in "
+"Category 1 & 4, and exclude Category 7."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2147
+msgid "Exclude Pages in results"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2154
+msgid "Choose Search results page layout"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2185
+msgid "Theme Color and Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2188
+msgid "Choose Theme Color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2231
+msgid "Custom Theme Color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2236
+msgid "Dark Skin"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2241
+msgid "Modern Colored Scrollbar"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2244
+msgid "For Chrome and Safari only."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2247
+msgid "Apply Categories Colors on News blocks"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2252
+msgid "Lazy Load For Images"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2257
+msgid "Smoth Scroll"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2264
+#: ../framework/admin/framework-panel.php:2267
+msgid "Background Type"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2270
+msgid "Pattern"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2271
+#: ../framework/admin/framework-panel.php:2298
+#: ../framework/admin/framework-panel.php:2301
+msgid "Custom Background"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2276
+msgid "Choose Pattern"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2280
+msgid "Background Color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2313
+msgid "Body Styling"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2317
+msgid "Highlighted Text Color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2322
+#: ../framework/admin/framework-panel.php:2361
+#: ../framework/admin/framework-panel.php:2407
+#: ../framework/admin/framework-panel.php:2507
+msgid "Links Color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2326
+msgid "Links Decoration"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2330
+#: ../framework/admin/framework-panel.php:2345
+#: ../framework/admin/framework-panel.php:2472
+#: ../framework/admin/framework-panel.php:2487
+msgid "none"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2331
+#: ../framework/admin/framework-panel.php:2346
+#: ../framework/admin/framework-panel.php:2473
+#: ../framework/admin/framework-panel.php:2488
+msgid "underline"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2332
+#: ../framework/admin/framework-panel.php:2347
+#: ../framework/admin/framework-panel.php:2474
+#: ../framework/admin/framework-panel.php:2489
+msgid "overline"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2333
+#: ../framework/admin/framework-panel.php:2348
+#: ../framework/admin/framework-panel.php:2475
+#: ../framework/admin/framework-panel.php:2490
+msgid "line-through"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2336
+#: ../framework/admin/framework-panel.php:2366
+#: ../framework/admin/framework-panel.php:2412
+#: ../framework/admin/framework-panel.php:2512
+msgid "Links Color on mouse over"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2341
+msgid "Links Decoration on mouse over"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2353
+msgid "Top Navigation Styling"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2371
+msgid "Today's Date text color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2378
+msgid "Header Background"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2389
+msgid "Main Navigation Styling"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2392
+msgid "Main Navigation Background"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2397
+msgid "Main Navigation inner bottom border color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2402
+msgid "Sub Menu Background"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2417
+msgid "Current Item Link Color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2422
+msgid "Separator Line1 color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2427
+msgid "Separator Line2 color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2435
+msgid "Breaking News Styling"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2438
+msgid "Breaking News Text Background"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2445
+msgid "Content Styling"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2448
+msgid "Main Content Background"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2453
+msgid "Blocks / Widgets Background"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2460
+msgid "Post Styling"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2463
+msgid "Post Links Color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2468
+msgid "Post Links Decoration"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2478
+msgid "Post Links Color on mouse over"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2483
+msgid "Post Links Decoration on mouse over"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2494
+msgid "Footer Background"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2502
+msgid "Footer Widget Title color"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2519
+msgid "Custom CSS"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2521
+msgid "Global CSS :"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2525
+msgid "Tablets:"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2525
+msgid "768 - 985px"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2529
+msgid "Wide Phones:"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2529
+msgid "480 - 767px"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2533
+msgid "Phones:"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2533
+msgid "320 - 479px"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2546
+msgid "Character sets"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2547
+msgid "Tip:"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2547
+msgid ""
+"If you choose only the languages that you need, you'll help prevent slowness "
+"on your webpage."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2550
+msgid "Latin Extended"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2555
+msgid "Cyrillic"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2560
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2565
+msgid "Greek"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2570
+msgid "Greek Extended"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2575
+msgid "Khmer"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2580
+msgid "Vietnamese"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2587
+msgid "Live typography preview"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2595
+msgid "Grumpy wizards make toxic brew for the evil Queen and Jack."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2599
+msgid "Main Typography"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2602
+msgid "General Typography"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2607
+msgid "Site Title In Header"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2612
+msgid "Tagline In Header"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2617
+msgid "Top Menu"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2622
+msgid "Main Navigation"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2627
+msgid "Slider Post Title"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2632
+msgid "Page Title"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2637
+msgid "Single Post Title"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2642
+msgid "Post Title in Homepage Blocks and Post Titles in Blog Layout"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2647
+msgid "Small Post Title in Homepage Blocks"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2657
+msgid "Post Entry"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2662
+msgid "Blockquotes"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2667
+msgid "Blocks Titles"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2672
+msgid "Widgets Titles"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2677
+msgid "Footer Widgets Titles"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2710
+#: ../framework/admin/framework-panel.php:2713
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2716
+msgid "Disable Arqam Lite"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2721
+msgid "Notify on theme updates"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2726
+msgid "Disable the Responsiveness"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2730
+msgid ""
+"This option works only on Tablets and Phones .. to disable the "
+"responsiveness action on the desktop .. edit style.css file and remove all "
+"Media Queries from the end of the file ."
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2735
+#: ../framework/admin/framework-panel.php:2738
+msgid "WordPress Login page Logo"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2743
+msgid "WordPress Login page Logo URL"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2760
+msgid "Export"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2766
+msgid "Import"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2783
+msgid "All settings will be rest .. Are you sure ?"
+msgstr ""
+
+#: ../framework/admin/framework-panel.php:2783
+msgid "Reset All Settings"
+msgstr ""
+
+#: ../framework/admin/inc/importer/parsers.php:42
+#: ../framework/admin/inc/importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../framework/admin/inc/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../framework/admin/inc/importer/parsers.php:67
+#: ../framework/admin/inc/importer/parsers.php:72
+#: ../framework/admin/inc/importer/parsers.php:262
+#: ../framework/admin/inc/importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../framework/admin/inc/importer/tie-importer.php:193
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme. It will allow you to quickly edit "
+"everything instead of creating content from scratch. When you import the "
+"data following things will happen:"
+msgstr ""
+
+#: ../framework/admin/inc/importer/tie-importer.php:196
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: ../framework/admin/inc/importer/tie-importer.php:197
+msgid ""
+"About 10 posts, a few pages, 10+ images, some widgets and two menus will get "
+"imported."
+msgstr ""
+
+#: ../framework/admin/inc/importer/tie-importer.php:198
+msgid ""
+"Images will be downloaded from our server, these images are copyrighted and "
+"are for demo use only."
+msgstr ""
+
+#: ../framework/admin/inc/importer/tie-importer.php:199
+msgid ""
+"Please click import only once and wait, it can take a couple of minutes."
+msgstr ""
+
+#: ../framework/admin/inc/importer/tie-importer.php:235
+msgid ""
+"The XML file containing the dummy content is not available or could not be "
+"read .. You might want to try to set the file permission to chmod 755.<br/"
+">If this doesn't work please use the WordPress importer and import the XML "
+"file (should be located in your download .zip: Sample Content folder) "
+"manually"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:134
+#: ../framework/admin/inc/importer/wordpress-importer.php:143
+#: ../framework/admin/inc/importer/wordpress-importer.php:194
+#: ../framework/admin/inc/importer/wordpress-importer.php:198
+#: ../framework/admin/inc/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:461
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:505
+#: ../framework/admin/inc/importer/wordpress-importer.php:631
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:527
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:548
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:603
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:749
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:756
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:832
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:845
+msgid "Invalid file type"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:889
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:895
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:902
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:907
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:913
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:1012
+msgid "Import WordPress"
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:1019
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:1034
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../framework/admin/inc/importer/wordpress-importer.php:1035
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:24
+#: ../framework/admin/inc/notifier/update-notifier.php:77
+msgid "Theme Updates"
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:24
+msgid "New"
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:81
+#, php-format
+msgid "There is a new version of the %s theme available."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:81
+#, php-format
+msgid "You have version %1$s installed. Update to version %2$s ."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:89
+msgid "Updating Automatically"
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:90
+msgid ""
+"Envato have developed the <a href=\"https://github.com/envato/envato-"
+"wordpress-toolkit\" target=\"_blank\">Envato Toolkit Plugin</a> for "
+"WordPress.\n"
+"\t\t\t\tYou can use this to receive notification of updates to themes "
+"purchased from ThemeForest\n"
+"\t\t\t\tand to automatically update (upon clicking) directly from within "
+"your WordPress admin area."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:95
+msgid ""
+"Download the <a href=\"https://github.com/envato/envato-wordpress-toolkit/"
+"zipball/master\">plugin zip file</a> to your computer."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:96
+msgid ""
+"In your WordPress admin area, go to <i>Plugins &gt; Add New</i> then click "
+"<i>Upload</i>."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:97
+msgid ""
+"Click <i>Choose File</i>, select the plugin zip file you downloaded and "
+"click <i>Install Now</i>."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:98
+msgid "After installation, click <i>Activate</i>."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:99
+msgid ""
+"Click the new <i>Envato Toolkit</i> link in the menu and follow the "
+"instructions to configure the plugin."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:102
+msgid "Updating Manually"
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:104
+msgid ""
+"Download the most current version from <a href=\"http://themeforest.net/"
+"downloads?ref=tielabs\" target=\"_blank\">ThemeForest</a> in the "
+"<i>Downloads</i> area of your account."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:105
+#, php-format
+msgid "Unzip the package and locate <i>%s.zip</i> in the theme folder."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:106
+msgid ""
+"Go to <i>Appearance &gt; Themes</i> and activate another theme such as the "
+"default WordPress theme."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:107
+#, php-format
+msgid "Delete the <i>%s</i> theme which is now inactive."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:108
+#, php-format
+msgid ""
+"Go to <i>Install Themes &gt; Upload</i> then install and activate <i>%s.zip</"
+"i> from the new package."
+msgstr ""
+
+#: ../framework/admin/inc/notifier/update-notifier.php:114
+msgid "Changelog"
+msgstr ""
+
+#: ../framework/blocks/block-categories.php:58
+#: ../framework/blocks/block-categories.php:109
+#: ../framework/blocks/block-categories.php:160
+#: ../framework/blocks/block-recent.php:79
+#: ../framework/blocks/block-recent.php:109
+#: ../framework/blocks/block-recent.php:164
+#: ../framework/blocks/block-recent.php:220
+#: ../framework/blocks/block-recent.php:257
+#: ../framework/blocks/block-tabs.php:50
+#: ../framework/functions/translation.php:61
+#: ../framework/loops/loop-content.php:14
+#: ../framework/loops/loop-default.php:27
+#: ../framework/loops/loop-masonry.php:29
+#: ../framework/loops/loop-wide-featured.php:24
+msgid "Read More &raquo;"
+msgstr ""
+
+#: ../framework/blocks/block-woocommerce.php:70
+#: ../framework/blocks/block-woocommerce.php:119
+#: ../framework/functions/translation.php:62
+msgid "No products found"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:32
+#: ../framework/functions/arqam-lite.php:117
+msgid "Fans"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:33
+#: ../framework/functions/arqam-lite.php:34
+#: ../framework/functions/arqam-lite.php:37
+#: ../framework/functions/arqam-lite.php:38
+#: ../framework/functions/arqam-lite.php:39
+#: ../framework/functions/arqam-lite.php:40
+#: ../framework/functions/arqam-lite.php:41
+#: ../framework/functions/arqam-lite.php:42
+#: ../framework/functions/arqam-lite.php:132
+#: ../framework/functions/arqam-lite.php:147
+#: ../framework/functions/arqam-lite.php:195
+#: ../framework/functions/arqam-lite.php:210
+#: ../framework/functions/arqam-lite.php:225
+#: ../framework/functions/arqam-lite.php:240
+#: ../framework/functions/arqam-lite.php:255
+#: ../framework/functions/arqam-lite.php:270
+msgid "Followers"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:35
+#: ../framework/functions/arqam-lite.php:36
+#: ../framework/functions/arqam-lite.php:43
+#: ../framework/functions/arqam-lite.php:162
+#: ../framework/functions/arqam-lite.php:180
+#: ../framework/functions/arqam-lite.php:285
+msgid "Subscribers"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:760
+msgid "Style :"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:762
+msgid "Gray Icons"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:763
+msgid "Colored Icons"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:764
+msgid "Colored border Icons"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:875
+#: ../framework/functions/arqam-lite.php:882
+msgid "FaceBook App info"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:887
+msgid "App ID"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:891
+msgid "App Secret"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:896
+#: ../framework/functions/arqam-lite.php:991
+#: ../framework/functions/arqam-lite.php:1042
+#: ../framework/functions/arqam-lite.php:1071
+#: ../framework/functions/arqam-lite.php:1096
+#: ../framework/functions/arqam-lite.php:1132
+#: ../framework/functions/arqam-lite.php:1153
+#: ../framework/functions/arqam-lite.php:1174
+#: ../framework/functions/arqam-lite.php:1198
+#: ../framework/functions/arqam-lite.php:1222
+#: ../framework/functions/arqam-lite.php:1242
+#: ../framework/functions/arqam-lite.php:1263
+#: ../framework/functions/arqam-lite.php:1290
+#: ../framework/functions/arqam-lite.php:1349
+msgid "Need Help?"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:896
+#, php-format
+msgid ""
+"Enter Your App ID and App Secret, <a href=\"%s\" target=\"_blank\">Click "
+"Here</a> For More Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:905
+#: ../framework/functions/arqam-lite.php:1000
+msgid "Submit"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:964
+#: ../framework/functions/arqam-lite.php:971
+msgid "Instagram App info"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:976
+msgid "Client ID"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:980
+msgid "Client Secret"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:984
+msgid "Follow The Team"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:986
+msgid "Follow @tielabs and @imo3aser on instagram."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:991
+#, php-format
+msgid ""
+"Enter Your App Client ID and App Client Secret, <a href=\"%s\" target="
+"\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1012
+msgid "Settings saved."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1014
+msgid "Arqam Lite Settings"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1014
+#: ../framework/functions/arqam-lite.php:1362
+msgid "Need More?"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1021
+msgid "FaceBook"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1026
+msgid "Page ID/Name"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1030
+#: ../framework/functions/arqam-lite.php:1058
+#: ../framework/functions/arqam-lite.php:1091
+#: ../framework/functions/arqam-lite.php:1115
+#: ../framework/functions/arqam-lite.php:1148
+#: ../framework/functions/arqam-lite.php:1169
+#: ../framework/functions/arqam-lite.php:1189
+#: ../framework/functions/arqam-lite.php:1213
+#: ../framework/functions/arqam-lite.php:1237
+#: ../framework/functions/arqam-lite.php:1257
+#: ../framework/functions/arqam-lite.php:1278
+#: ../framework/functions/arqam-lite.php:1324
+msgid "Text Below The Number"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1034
+#: ../framework/functions/arqam-lite.php:1282
+msgid "Access Token Key"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1037
+#: ../framework/functions/arqam-lite.php:1285
+msgid "Get Access Token"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1042
+#, php-format
+msgid ""
+"Enter Your Facebook Page Name or ID and click on Get Access Token to get "
+"your App Access Token, <a href=\"%s\" target=\"_blank\">Click Here</a> For "
+"More Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1049 ../framework/parts/share.php:23
+#: ../framework/widgets/widget-twitter.php:12
+msgid "Twitter"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1054
+#: ../framework/functions/arqam-lite.php:1165
+#: ../framework/functions/arqam-lite.php:1185
+#: ../framework/functions/arqam-lite.php:1209
+#: ../framework/functions/arqam-lite.php:1233
+#: ../framework/functions/arqam-lite.php:1253
+#: ../framework/functions/arqam-lite.php:1274
+msgid "UserName"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1062
+msgid "Consumer key"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1066
+msgid "Consumer secret"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1071
+#, php-format
+msgid ""
+"Enter Your Twitter Account Username , your APP Consumer key and Consumer "
+"secret, <a href=\"%s\" target=\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1078
+msgid "Google+"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1083
+msgid "Google+ ID"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1087
+msgid "Google API Key"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1096
+#, php-format
+msgid ""
+"Enter Your Google+ page or profile ID and Google API Key, <a href=\"%s\" "
+"target=\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1102
+msgid "YouTube"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1107
+msgid "Username or Channel ID"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1111
+msgid "Youtube API Key"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1119
+#: ../framework/functions/arqam-lite.php:1328
+msgid "Type"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1132
+#, php-format
+msgid ""
+"Enter Your Youtube username or Channel ID, API Key and choose User or "
+"Channel from Type menu, <a href=\"%s\" target=\"_blank\">Click Here</a> For "
+"More Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1139
+msgid "Vimeo"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1144
+msgid "Channel Name"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1153
+msgid "Enter Your Vimeo Channel Name."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1160
+msgid "Dribbble"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1174
+msgid "Enter Your Dribbble Account Username."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1180
+#: ../framework/widgets/widget-soundcloud.php:11
+msgid "SoundCloud"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1193
+#: ../framework/functions/arqam-lite.php:1217
+msgid "API Key"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1198
+#, php-format
+msgid ""
+"Enter Your SoundCloud Account Username and the API Key, <a href=\"%s\" "
+"target=\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1204
+msgid "Behance"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1222
+#, php-format
+msgid ""
+"Enter Your Behance Account Username and the API Key, <a href=\"%s\" target="
+"\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1228
+msgid "Github"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1242
+msgid "Enter Your Github Account Username."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1248
+msgid "Delicious"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1263
+msgid "Enter Your Delicious Account Username."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1269
+msgid "Instagram"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1290
+#, php-format
+msgid ""
+"Enter Your Instagram Username and click on Get Access Token to get your App "
+"Access Token, <a href=\"%s\" target=\"_blank\">Click Here</a> For More "
+"Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1296
+msgid "RSS"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1320
+msgid "Feed URL"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1340
+msgid "Feedpress Json file URL"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1344
+msgid "Number of Subscribers"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1349
+#, php-format
+msgid ""
+"Enter Your Feed URl and the Feedpress Json file URL or Number of Subscribers "
+"manually  <a href=\"%s\" target=\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1364
+msgid ""
+"Purchase the full version of Arqam plugin to get all following features :"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1366
+msgid "Drag an Drop feature to sort icons as you wish !"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1367
+msgid "Option To set the Cache time to reduce load time and API calls."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1368
+msgid "More Layout options."
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1369
+msgid "More Social Networks:"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1390
+msgid "Members Number"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1391
+msgid "Posts Number"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1392
+msgid "Comments Number"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1405
+msgid "Save Settings"
+msgstr ""
+
+#: ../framework/functions/arqam-lite.php:1410
+msgid "Save"
+msgstr ""
+
+#: ../framework/functions/breadcrumbs.php:17
+#: ../framework/functions/translation.php:105
+msgid "Home"
+msgstr ""
+
+#: ../framework/functions/breadcrumbs.php:78
+#: ../framework/functions/translation.php:17 ../search.php:9
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../framework/functions/breadcrumbs.php:112
+#: ../framework/functions/translation.php:29 ../tag.php:8
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../framework/functions/breadcrumbs.php:131
+#: ../framework/functions/translation.php:91
+msgid "page"
+msgstr ""
+
+#: ../framework/functions/common-scripts.php:77
+#: ../framework/functions/translation.php:19
+msgid "No Results"
+msgstr ""
+
+#: ../framework/functions/common-scripts.php:78
+#: ../framework/functions/translation.php:18
+msgid "Results Found"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:349
+msgid "Menu Icon"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:358
+msgid "Enable Mega Menu ?"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:362
+msgid "Sub Categories + Posts"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:363
+msgid "Recent post + Check also"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:365
+msgid "Mega Links"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:371
+msgid "Mega Links - Columns"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:384
+msgid "Mega Menu Background Image"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:410
+msgid "Padding Right"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:417
+msgid "Padding left"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:424
+msgid "Min Height"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:560
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:564
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:577
+msgid "sub item"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:609
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:625
+msgid "Navigation Label"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:631
+msgid "Title Attribute"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:643
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:649
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:655
+msgid "Description"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:657
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:672
+msgid "Move"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:673
+msgid "Up one"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:674
+msgid "Down one"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:677
+msgid "To the top"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:684
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:697
+msgid "Remove"
+msgstr ""
+
+#: ../framework/functions/mega-menus.php:698
+msgid "Cancel"
+msgstr ""
+
+#: ../framework/functions/pagenavi.php:167
+#: ../framework/functions/translation.php:96
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: ../framework/functions/pagenavi.php:170
+#: ../framework/functions/translation.php:92
+msgid "&laquo; First"
+msgstr ""
+
+#: ../framework/functions/pagenavi.php:171
+#: ../framework/functions/translation.php:93
+msgid "Last &raquo;"
+msgstr ""
+
+#: ../framework/functions/pagenavi.php:172
+msgid "&raquo;"
+msgstr ""
+
+#: ../framework/functions/pagenavi.php:173
+msgid "&laquo;"
+msgstr ""
+
+#: ../framework/functions/search-live.php:103
+#: ../framework/functions/translation.php:20
+msgid "View All Results"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:32
+msgid "Top Menu Navigation"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:33
+msgid "Primary Navigation"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:614
+#: ../framework/functions/theme-functions.php:617
+msgid "Cover Image"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:639
+msgid "Custom Author widget"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:642
+msgid "Custom Author widget content"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:740
+msgid "No items."
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:745
+msgid "Posted "
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1180
+#: ../framework/functions/translation.php:77
+msgid "Welcome"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1182
+#: ../framework/functions/translation.php:78
+msgid "Dashboard"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1183
+#: ../framework/functions/translation.php:79
+msgid "Your Profile"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1184
+#: ../framework/functions/translation.php:80
+msgid "Logout"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1192
+#: ../framework/functions/translation.php:81
+msgid "Username"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1193
+#: ../framework/functions/translation.php:82
+msgid "Password"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1194
+#: ../framework/functions/translation.php:83
+msgid "Log in"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1195
+#: ../framework/functions/translation.php:84
+msgid "Remember Me"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1200
+#: ../framework/functions/translation.php:85
+msgid "Lost your password?"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1284
+#: ../framework/functions/translation.php:103
+#: ../framework/widgets/widget-twitter.php:108
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1450
+#: ../framework/functions/translation.php:95
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1450
+#: ../framework/functions/theme-functions.php:1474
+#: ../framework/functions/translation.php:51 ../page.php:86 ../single.php:67
+#: ../template-authors.php:56 ../template-best-reviews.php:72
+#: ../template-login.php:34 ../template-restrict.php:42
+#: ../template-sitemap.php:64 ../template-tags.php:44
+#: ../template-timeline.php:80
+msgid "Edit"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1455
+#: ../framework/functions/translation.php:44
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1474
+#: ../framework/functions/translation.php:45
+msgid "Pingback:"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1562
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1563
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1564
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1565
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1576
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1577
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1578
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../framework/functions/theme-functions.php:1772
+msgid "Review Overview"
+msgstr ""
+
+#: ../framework/functions/tie-views.php:82
+#: ../framework/functions/translation.php:60
+#: ../framework/parts/meta-post.php:18
+msgid "Views"
+msgstr ""
+
+#: ../framework/functions/translation.php:21 ../search.php:28
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../framework/functions/translation.php:24
+msgid "Archives"
+msgstr ""
+
+#: ../framework/functions/translation.php:34
+#: ../framework/widgets/widget-tabbed.php:39
+#: ../framework/widgets/widget-tabbed.php:153
+msgid "Comments"
+msgstr ""
+
+#: ../framework/functions/translation.php:38
+#: ../framework/parts/meta-post.php:15
+msgid "1 Comment"
+msgstr ""
+
+#: ../framework/functions/translation.php:39
+#: ../framework/parts/meta-post.php:15
+msgid "% Comments"
+msgstr ""
+
+#: ../framework/functions/translation.php:41
+#: ../framework/parts/meta-post.php:15
+msgid "Leave a comment"
+msgstr ""
+
+#: ../framework/functions/translation.php:48
+msgid "Posts"
+msgstr ""
+
+#: ../framework/functions/translation.php:50 ../page.php:84 ../single.php:65
+#: ../template-authors.php:32 ../template-best-reviews.php:31
+#: ../template-login.php:32 ../template-restrict.php:35
+#: ../template-sitemap.php:32 ../template-tags.php:32
+#: ../template-timeline.php:31
+msgid "Pages:"
+msgstr ""
+
+#: ../framework/functions/translation.php:53 ../single.php:94
+msgid "About"
+msgstr ""
+
+#: ../framework/functions/translation.php:54 ../single.php:105
+msgid "Previous"
+msgstr ""
+
+#: ../framework/functions/translation.php:55
+#: ../framework/shortcodes/shortcodes.php:402
+#: ../framework/shortcodes/shortcodes.php:410
+msgid "Prev"
+msgstr ""
+
+#: ../framework/functions/translation.php:56
+#: ../framework/shortcodes/shortcodes.php:401
+#: ../framework/shortcodes/shortcodes.php:409 ../single.php:106
+msgid "Next"
+msgstr ""
+
+#: ../framework/functions/translation.php:57 ../template-sitemap.php:36
+msgid "Pages"
+msgstr ""
+
+#: ../framework/functions/translation.php:59 ../template-sitemap.php:58
+msgid "Authors"
+msgstr ""
+
+#: ../framework/functions/translation.php:63 ../framework/parts/share.php:13
+msgid "Share"
+msgstr ""
+
+#: ../framework/functions/translation.php:64
+#: ../framework/parts/related-posts.php:29
+msgid "Related Articles"
+msgstr ""
+
+#: ../framework/functions/translation.php:65
+#: ../woocommerce/single-product/related.php:38
+msgid "Related Products"
+msgstr ""
+
+#: ../framework/functions/translation.php:66 ../template-restrict.php:38
+msgid "You must be logged in to view this page."
+msgstr ""
+
+#: ../framework/functions/translation.php:69
+msgid "Widgets"
+msgstr ""
+
+#: ../framework/functions/translation.php:71
+#: ../framework/widgets/widget-author.php:98
+msgid "All Posts"
+msgstr ""
+
+#: ../framework/functions/translation.php:72
+#: ../framework/widgets/widget-author.php:90
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../framework/functions/translation.php:73
+#: ../framework/widgets/widget-author.php:23
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../framework/functions/translation.php:74
+#: ../framework/widgets/widget-tabbed.php:33
+#: ../framework/widgets/widget-tabbed.php:147
+msgid "Popular"
+msgstr ""
+
+#: ../framework/functions/translation.php:76
+#: ../framework/widgets/widget-feedburner.php:30
+msgid "Subscribe"
+msgstr ""
+
+#: ../framework/functions/translation.php:86
+#: ../framework/widgets/widget-feedburner.php:27
+msgid "Enter your e-mail address"
+msgstr ""
+
+#: ../framework/functions/translation.php:89
+msgid "Pagination"
+msgstr ""
+
+#: ../framework/functions/translation.php:94
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../framework/functions/translation.php:100
+msgid "Misc"
+msgstr ""
+
+#: ../framework/functions/translation.php:104
+#: ../framework/shortcodes/shortcodes.php:100
+msgid "About the author"
+msgstr ""
+
+#: ../framework/functions/translation.php:107 ../header.php:207
+msgid "Random Article"
+msgstr ""
+
+#: ../framework/functions/translation.php:108 ../header.php:212
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../framework/parts/share.php:20 ../framework/widgets/widget-facebook.php:12
+msgid "Facebook"
+msgstr ""
+
+#: ../framework/parts/share.php:26
+msgid "Google +"
+msgstr ""
+
+#: ../framework/parts/share.php:29
+msgid "Stumbleupon"
+msgstr ""
+
+#: ../framework/parts/share.php:32
+msgid "LinkedIn"
+msgstr ""
+
+#: ../framework/parts/share.php:35
+msgid "Pinterest"
+msgstr ""
+
+#: ../framework/widgets.php:13
+msgid "Primary Widget Area"
+msgstr ""
+
+#: ../framework/widgets.php:15
+msgid "The Primary widget area"
+msgstr ""
+
+#: ../framework/widgets.php:23
+msgid "This widget area uses in the WooCommerce pages ."
+msgstr ""
+
+#: ../framework/widgets.php:51
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: ../framework/widgets.php:53
+msgid "The first footer widget area"
+msgstr ""
+
+#: ../framework/widgets.php:59
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: ../framework/widgets.php:61
+msgid "The Second footer widget area"
+msgstr ""
+
+#: ../framework/widgets.php:68
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: ../framework/widgets.php:70
+msgid "The Third footer widget area"
+msgstr ""
+
+#: ../framework/widgets.php:77
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: ../framework/widgets.php:79
+msgid "The Fourth footer widget area"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:12
+msgid "Ads 125*125"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:78
+#: ../framework/widgets/widget-ads.php:198
+#: ../framework/widgets/widget-ads.php:320
+#: ../framework/widgets/widget-ads.php:441
+#: ../framework/widgets/widget-ads.php:562
+#: ../framework/widgets/widget-ads.php:677
+#: ../framework/widgets/widget-ads.php:785
+#: ../framework/widgets/widget-ads.php:894
+#: ../framework/widgets/widget-ads.php:1006
+#: ../framework/widgets/widget-ads.php:1118
+msgid " Advertisement"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:86
+#: ../framework/widgets/widget-ads.php:206
+#: ../framework/widgets/widget-ads.php:328
+#: ../framework/widgets/widget-ads.php:449
+#: ../framework/widgets/widget-ads.php:570
+#: ../framework/widgets/widget-ads.php:685
+#: ../framework/widgets/widget-ads.php:793
+#: ../framework/widgets/widget-ads.php:902
+#: ../framework/widgets/widget-ads.php:1014
+#: ../framework/widgets/widget-ads.php:1126
+#: ../framework/widgets/widget-author-custom.php:65
+#: ../framework/widgets/widget-social.php:61
+#: ../framework/widgets/widget-text-html.php:70
+msgid "Content Only:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:88
+#: ../framework/widgets/widget-ads.php:208
+#: ../framework/widgets/widget-ads.php:330
+#: ../framework/widgets/widget-ads.php:451
+#: ../framework/widgets/widget-ads.php:572
+#: ../framework/widgets/widget-ads.php:687
+#: ../framework/widgets/widget-ads.php:795
+#: ../framework/widgets/widget-ads.php:904
+#: ../framework/widgets/widget-ads.php:1016
+#: ../framework/widgets/widget-ads.php:1128
+#: ../framework/widgets/widget-author-custom.php:67
+#: ../framework/widgets/widget-social.php:63
+msgid "Check this box to hide widget title and background."
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:91
+#: ../framework/widgets/widget-ads.php:211
+#: ../framework/widgets/widget-ads.php:333
+#: ../framework/widgets/widget-ads.php:454
+#: ../framework/widgets/widget-ads.php:575
+#: ../framework/widgets/widget-ads.php:690
+#: ../framework/widgets/widget-ads.php:798
+#: ../framework/widgets/widget-ads.php:907
+#: ../framework/widgets/widget-ads.php:1019
+#: ../framework/widgets/widget-ads.php:1131
+msgid "Open links in a new window:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:95
+#: ../framework/widgets/widget-ads.php:215
+#: ../framework/widgets/widget-ads.php:337
+#: ../framework/widgets/widget-ads.php:458
+#: ../framework/widgets/widget-ads.php:579
+#: ../framework/widgets/widget-ads.php:694
+#: ../framework/widgets/widget-ads.php:802
+#: ../framework/widgets/widget-ads.php:911
+#: ../framework/widgets/widget-ads.php:1023
+#: ../framework/widgets/widget-ads.php:1135
+msgid "Nofollow:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:99
+#: ../framework/widgets/widget-ads.php:219
+#: ../framework/widgets/widget-ads.php:341
+#: ../framework/widgets/widget-ads.php:462
+#: ../framework/widgets/widget-ads.php:583
+msgid "One column:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:104
+#: ../framework/widgets/widget-ads.php:224
+#: ../framework/widgets/widget-ads.php:346
+#: ../framework/widgets/widget-ads.php:467
+#: ../framework/widgets/widget-ads.php:588
+#: ../framework/widgets/widget-ads.php:1028
+msgid "ADS"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:106
+#: ../framework/widgets/widget-ads.php:226
+#: ../framework/widgets/widget-ads.php:348
+#: ../framework/widgets/widget-ads.php:469
+#: ../framework/widgets/widget-ads.php:590
+#: ../framework/widgets/widget-ads.php:1030
+#, php-format
+msgid "Ads %s image path:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:110
+#: ../framework/widgets/widget-ads.php:230
+#: ../framework/widgets/widget-ads.php:352
+#: ../framework/widgets/widget-ads.php:473
+#: ../framework/widgets/widget-ads.php:594
+#: ../framework/widgets/widget-ads.php:1034
+#, php-format
+msgid "Ads %s Link:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:114
+#: ../framework/widgets/widget-ads.php:234
+#: ../framework/widgets/widget-ads.php:356
+#: ../framework/widgets/widget-ads.php:477
+#: ../framework/widgets/widget-ads.php:598
+#: ../framework/widgets/widget-ads.php:1038
+#, php-format
+msgid "Ads %s Adsense code:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:133
+msgid "Ads 120*90"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:254
+msgid "Ads 120*60"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:376
+msgid "Ads 120*600"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:497
+msgid "Ads 120*240"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:617
+msgid "Ads 160*600"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:698
+#: ../framework/widgets/widget-ads.php:806
+#: ../framework/widgets/widget-ads.php:915
+#: ../framework/widgets/widget-ads.php:1139
+msgid "ADS:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:700
+#: ../framework/widgets/widget-ads.php:808
+#: ../framework/widgets/widget-ads.php:917
+#: ../framework/widgets/widget-ads.php:1141
+msgid "Ads image path:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:704
+#: ../framework/widgets/widget-ads.php:812
+#: ../framework/widgets/widget-ads.php:921
+#: ../framework/widgets/widget-ads.php:1145
+msgid "Ads Link:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:708
+#: ../framework/widgets/widget-ads.php:816
+#: ../framework/widgets/widget-ads.php:925
+#: ../framework/widgets/widget-ads.php:1149
+msgid " Ads Adsense code:"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:725
+msgid "Ads 300*600"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:834
+msgid "Ads 250*250"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:946
+msgid "Ads 300*100"
+msgstr ""
+
+#: ../framework/widgets/widget-ads.php:1058
+msgid "Ads 300*250"
+msgstr ""
+
+#: ../framework/widgets/widget-author-custom.php:11
+msgid "Custom Author Content"
+msgstr ""
+
+#: ../framework/widgets/widget-author-custom.php:57
+#: ../framework/widgets/widget-author.php:46
+#: ../framework/widgets/widget-author.php:123
+msgid "This Widget appears in single post only."
+msgstr ""
+
+#: ../framework/widgets/widget-author-custom.php:70
+#: ../framework/widgets/widget-text-html.php:75
+msgid "Center content:"
+msgstr ""
+
+#: ../framework/widgets/widget-author.php:10
+msgid "Post Author"
+msgstr ""
+
+#: ../framework/widgets/widget-author.php:49
+msgid "Author's avatar:"
+msgstr ""
+
+#: ../framework/widgets/widget-author.php:54
+msgid "Social icons:"
+msgstr ""
+
+#: ../framework/widgets/widget-author.php:73
+msgid "Posts By Post's Author"
+msgstr ""
+
+#: ../framework/widgets/widget-author.php:131
+msgid "Display (All) link:"
+msgstr ""
+
+#: ../framework/widgets/widget-authors-posts.php:11
+#: ../framework/widgets/widget-authors-posts.php:44
+msgid "Authors Posts"
+msgstr ""
+
+#: ../framework/widgets/widget-category.php:11
+#: ../framework/widgets/widget-category.php:44
+msgid "Category Posts"
+msgstr ""
+
+#: ../framework/widgets/widget-category.php:73
+msgid "Display Thumbnails :"
+msgstr ""
+
+#: ../framework/widgets/widget-comments-avatar.php:11
+msgid "Recent Comments with avatar"
+msgstr ""
+
+#: ../framework/widgets/widget-comments-avatar.php:42
+msgid "Recent Comments"
+msgstr ""
+
+#: ../framework/widgets/widget-comments-avatar.php:50
+msgid "Avatar Size:"
+msgstr ""
+
+#: ../framework/widgets/widget-comments-avatar.php:54
+msgid "Number of comments to show:"
+msgstr ""
+
+#: ../framework/widgets/widget-custom-author.php:11
+msgid "Custom Author Bio"
+msgstr ""
+
+#: ../framework/widgets/widget-custom-author.php:52
+msgid "About Author"
+msgstr ""
+
+#: ../framework/widgets/widget-custom-author.php:60
+msgid "Avatar Image URL:"
+msgstr ""
+
+#: ../framework/widgets/widget-custom-author.php:64
+msgid "About:"
+msgstr ""
+
+#: ../framework/widgets/widget-facebook.php:45
+msgid "Find us on Facebook"
+msgstr ""
+
+#: ../framework/widgets/widget-facebook.php:53
+msgid "Page URL :"
+msgstr ""
+
+#: ../framework/widgets/widget-facebook.php:57
+msgid "Dark Skin ?"
+msgstr ""
+
+#: ../framework/widgets/widget-feedburner.php:11
+msgid "Feedburner"
+msgstr ""
+
+#: ../framework/widgets/widget-feedburner.php:51
+msgid "FeedBurner Widget"
+msgstr ""
+
+#: ../framework/widgets/widget-feedburner.php:51
+msgid "Subscribe to our email newsletter."
+msgstr ""
+
+#: ../framework/widgets/widget-feedburner.php:59
+msgid "Text above Email Input Field:"
+msgstr ""
+
+#: ../framework/widgets/widget-feedburner.php:59
+msgid "( Supports : Html & Shortcodes )"
+msgstr ""
+
+#: ../framework/widgets/widget-feedburner.php:63
+msgid "Feedburner ID:"
+msgstr ""
+
+#: ../framework/widgets/widget-flickr.php:53
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../framework/widgets/widget-flickr.php:55
+msgid "Find Your ID at"
+msgstr ""
+
+#: ../framework/widgets/widget-flickr.php:58
+msgid "Number of photos to show:"
+msgstr ""
+
+#: ../framework/widgets/widget-flickr.php:62
+msgid "Photos Order:"
+msgstr ""
+
+#: ../framework/widgets/widget-flickr.php:64
+#: ../framework/widgets/widget-news-pic.php:75
+#: ../framework/widgets/widget-posts.php:72
+msgid "Most recent"
+msgstr ""
+
+#: ../framework/widgets/widget-google.php:12
+msgid "Google+ page"
+msgstr ""
+
+#: ../framework/widgets/widget-google.php:53
+msgid "Follow us on Google+"
+msgstr ""
+
+#: ../framework/widgets/widget-google.php:61
+msgid "Page URL:"
+msgstr ""
+
+#: ../framework/widgets/widget-login.php:11
+#: ../framework/widgets/widget-login.php:35
+msgid "Login"
+msgstr ""
+
+#: ../framework/widgets/widget-news-pic.php:11
+#: ../framework/widgets/widget-news-pic.php:44
+msgid "News in Pictures"
+msgstr ""
+
+#: ../framework/widgets/widget-news-pic.php:73
+msgid "Posts order:"
+msgstr ""
+
+#: ../framework/widgets/widget-posts.php:11
+msgid "Posts list"
+msgstr ""
+
+#: ../framework/widgets/widget-posts.php:70
+msgid "Posts order"
+msgstr ""
+
+#: ../framework/widgets/widget-posts.php:74
+msgid "Popular / Comments"
+msgstr ""
+
+#: ../framework/widgets/widget-posts.php:76
+msgid "Popular / Views"
+msgstr ""
+
+#: ../framework/widgets/widget-posts.php:78
+msgid "Best Reviews"
+msgstr ""
+
+#: ../framework/widgets/widget-posts.php:82
+msgid "Display Thumbnails:"
+msgstr ""
+
+#: ../framework/widgets/widget-slider.php:147
+msgid "Custom Slider:"
+msgstr ""
+
+#: ../framework/widgets/widget-slider.php:156
+msgid "Add Custom sliders first ."
+msgstr ""
+
+#: ../framework/widgets/widget-social.php:52
+msgid "Social"
+msgstr ""
+
+#: ../framework/widgets/widget-social.php:66
+msgid "Open links in a new tab:"
+msgstr ""
+
+#: ../framework/widgets/widget-social.php:70
+msgid "Gray icons without background"
+msgstr ""
+
+#: ../framework/widgets/widget-soundcloud.php:52
+msgid "URL:"
+msgstr ""
+
+#: ../framework/widgets/widget-tabbed.php:132
+#: ../framework/widgets/widget-text-html.php:72
+msgid "Order of tabs:"
+msgstr ""
+
+#: ../framework/widgets/widget-tabbed.php:133
+msgid "click Save button to be able to change the order of tabs ."
+msgstr ""
+
+#: ../framework/widgets/widget-tabbed.php:164
+msgid "Number of items to show :"
+msgstr ""
+
+#: ../framework/widgets/widget-tabbed.php:168
+msgid "Popular order :"
+msgstr ""
+
+#: ../framework/widgets/widget-tabbed.php:170
+msgid "Most Commented"
+msgstr ""
+
+#: ../framework/widgets/widget-tabbed.php:171
+msgid "Most Viewed"
+msgstr ""
+
+#: ../framework/widgets/widget-text-html.php:72
+msgid "Check this box to hide widget title and background ."
+msgstr ""
+
+#: ../framework/widgets/widget-text-html.php:79
+msgid "Text , Shortcodes or HTML code:"
+msgstr ""
+
+#: ../framework/widgets/widget-timeline.php:11
+#: ../framework/widgets/widget-timeline.php:44
+msgid "Timeline"
+msgstr ""
+
+#: ../framework/widgets/widget-timeline.php:65
+msgid "Category :"
+msgstr ""
+
+#: ../framework/widgets/widget-twitter.php:159
+msgid "@Follow Me"
+msgstr ""
+
+#: ../framework/widgets/widget-twitter.php:169
+msgid "Twitter Username:"
+msgstr ""
+
+#: ../framework/widgets/widget-twitter.php:173
+msgid "Consumer key:"
+msgstr ""
+
+#: ../framework/widgets/widget-twitter.php:176
+msgid "Consumer secret:"
+msgstr ""
+
+#: ../framework/widgets/widget-twitter.php:180
+msgid "Number of Tweets to show:"
+msgstr ""
+
+#: ../framework/widgets/widget-video.php:71
+msgid "Featured Video"
+msgstr ""
+
+#: ../framework/widgets/widget-video.php:83
+msgid "Video URL"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:15
+#: ../framework/widgets/widget-weather.php:272
+msgid "C"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:15
+#: ../framework/widgets/widget-weather.php:271
+msgid "F"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:117
+msgid "N"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:118
+msgid "NNE"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:119
+msgid "NE"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:120
+msgid "ENE"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:121
+msgid "E"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:122
+msgid "ESE"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:123
+msgid "SE"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:124
+msgid "SSE"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:125
+msgid "S"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:126
+msgid "SSW"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:127
+msgid "SW"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:128
+msgid "WSW"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:129
+msgid "W"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:130
+msgid "WNW"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:131
+msgid "NW"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:132
+msgid "NNW"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:163
+msgid "km/h"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:163
+msgid "mph"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:170
+msgid "humidity:"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:171
+msgid "wind:"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:172
+msgid "H"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:172
+msgid "L"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:188
+msgid "Sun"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:188
+msgid "Mon"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:188
+msgid "Tue"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:188
+msgid "Wed"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:188
+msgid "Thu"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:188
+msgid "Fri"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:188
+msgid "Sat"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:213
+msgid "No weather information available"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:222
+msgid "Weather"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:263
+msgid "Location:"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:263
+msgid "Find Your Location"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:264
+msgid "(i.e: London,UK or New York City,NY)"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:270
+msgid "Units:"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:277
+msgid "Forecast:"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:279
+msgid "5 Days"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:280
+msgid "4 Days"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:281
+msgid "3 Days"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:282
+msgid "2 Days"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:283
+msgid "1 Day"
+msgstr ""
+
+#: ../framework/widgets/widget-weather.php:284
+msgid "Don't Show"
+msgstr ""
+
+#: ../framework/widgets/widget-youtube.php:12
+msgid "YouTube Channel"
+msgstr ""
+
+#: ../framework/widgets/widget-youtube.php:41
+msgid "Subscribe to our Channel"
+msgstr ""
+
+#: ../framework/widgets/widget-youtube.php:49
+msgid "Channel Name:"
+msgstr ""
+
+#: ../search.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: ../single.php:81
+msgid "Tags "
+msgstr ""

@@ -1,0 +1,166 @@
+-------------------------------------------------------------------------------------------------------------------
+Version 2.5.4	
+	- Fixed: Glitches on WooCommerce variation images when using Layouts. 
+	- Fixed: Duplicated shortcodes in some Views editor.
+	- New: Compatibility to WordPress 4.3
+	
+-------------------------------------------------------------------------------------------------------------------
+Version 2.5.3	
+	- Fixed: Gallery_on_listings parameter not working inside a Views loop.
+	- Fixed: Shortcode rendering issues due to WordPress 4.2.3 security fixes.
+	- New: Compatibility to WordPress 4.2.3
+
+-------------------------------------------------------------------------------------------------------------------
+Version 2.5.2
+	- New: Added shortcode just to display only reviews not in tabs.
+	- Fixed: Updated help graphics to latest version.
+	- Fixed: IE 11 incompatibility issues found on WooCommerce Views admin screen.
+
+-------------------------------------------------------------------------------------------------------------------
+Version 2.5.1
+	- Fixed: Fatal error on is_shop when WooCommerce is not activated.
+	- Fixed: Updated nonce checks on some AJAX requests.	
+	- Fixed: Custom single product templates inside the theme woocommerce directory is not detected when not using Layouts.
+	- Fixed: WooCommerce placeholder image height and width are not enforced.
+	- Fixed: WooCommerce onsale badge is not working properly in AJAX pagination for Views.
+	- Fixed: Woocommerce shop pages breaks when loading default WooCommerce templates.
+	- Fixed: Custom single product templates inside the theme WooCommerce directory is not detected when using Layouts.
+	- Fixed: Custom archive product templates inside the theme WooCommerce directory is not detected when using Layouts.
+	- Fixed: Genesis customized single product templates does not appear on WooCommerce Views template selection.
+	- New: WooCommerce cart count shortcode. 
+	- New: Added new parameter to wpv-woo-buy-or-select shortcode to display product variation options in listing pages.
+	- New: Compatibility to WordPress 4.2
+	- Deprecated: Very old shortcodes as a security measure: wpv-wooaddcart, wpv-wooaddcartbox, wpv-wooremovecart, wpv-woo-carturl
+
+-------------------------------------------------------------------------------------------------------------------
+Version 2.5
+	- New: Added support for any WooCommerce product taxonomies when its assigned with Layouts.
+    - New: Added support for any non-default WooCommerce product types like composite products.
+    - New: Added WooCommerce product meta shortcode.
+    - Fixed: Issues with new WooCommerce for overriding the Layouts menu.   
+    - Fixed: Compatibility issues with Content Templates implementation and Layouts.
+    - Fixed: Compatibiity issues with new WooCommerce versions with Layouts.
+    - Fixed: Product attributes not appearing in WooCommerce composite products.
+    - Fixed: Related products not appearing in WooCommerce composite products.
+    - Fixed: Products rating does not appear on composite product or any special WooCommerce products.
+	
+-------------------------------------------------------------------------------------------------------------------
+Version 2.4.1
+	- New: Force WooCommerce Views to use assigned Layouts to shop page if it exists.
+	- New: Added complete Layouts plugin support for WooCommerce product archives.	
+	- New: Add new parameter 'gallery_on_listings' for image shortcode. This will be used optionally to not display the product gallery thumbnails in product listings.
+	- Fixed: No basic shortcodes in Content Template
+	
+-------------------------------------------------------------------------------------------------------------------
+Version 2.4
+	- New: Added custom fields to be used for Views filtering: WooCommerce Product Price, Product On Sale Status, Product In Stock Status
+	- New: Added WooCommerce Views admin screen under Views menu as one of its submenu.
+	- New: WooCommerce attributes shortcode [wpv-woo-list_attributes]
+	- New: WooCommerce onsale shortcode [wpv-woo-onsale], this should be added before [wpv-woo-product-image] shortcode, example: [wpv-woo-onsale][wpv-woo-product-image]
+	- New: Added default product template (single-product.php) inside the plugin.
+	- New: Added support for common theme frameworks like Genesis, etc. So there should be PHP templates available.
+	- New: Added a new setting for container DIV around the post body for default WooCommerce styling. 
+	- New: Related products shortcode: [wpv-woo-related_products] 
+	- New: Products rating shortcode on single product pages: [wpv-woo-single-products-rating]
+	- New: Products rating shortcode as used on product listing pages: [wpv-woo-products-rating-listing]
+	- New: WooCommerce Product Category image shortcode [wpv-woo-productcategory-images]
+	- New: WooCommerce UpSell shortcode [wpv-woo-show-upsell-items]
+	- New: WooCommerce Breadcrumb shortcode [wpv-woo-breadcrumb]
+	- New: Added export and import API (No GUI)
+	- New: Added 'show path' to every option for templates.
+	- New: In templates selection, include the name of the theme or plugin.
+	- New: Added support for customizing WooCommerce single product pages with Layouts plugin. 
+	- New: Full support for WooCommerce groups and external/affiliate products.
+	- New: Added compatibility to Views 1.7
+	- New: Added tooltip and documentation text links on the bottom of WooCommerce Views admin.
+	- New: Added support for displaying quantities in add to cart button for listings.
+	- New: WooCommerce Views shortcodes can only be inserted in Toolset edit pages (Content Templates, Layouts, Views).
+	- Fixed: Illustrated clear differences between theme single-product.php and default single-product.php from the plugin.
+	- Fixed: Trying to get property: Class_WooCommerce_Views->wpv_woo_list_attributes_func()
+	- Fixed: Fatal errors when WooCommerce plugin is deactivated when WooCommerce Views still activated.	
+	- Fixed: No notices when switching to theme and not using default WooCommerce templates.
+	- Fixed: Deprecated functions and code refactoring.
+	- Fixed: Add to cart issues with grouped and external products.
+	- Fixed: Deprecated errors on woocommerce_show_messages
+		 
+-------------------------------------------------------------------------------------------------------------------
+Version 2.3
+	- Fixed: Unable to checkout using AJAX method in WooCommerce 2.2+ versions.
+	
+-------------------------------------------------------------------------------------------------------------------
+Version 2.2
+    - Fixed: Malformed add to cart URL when using AJAX pagination within View.
+    - Fixed: PHP notices when duplicating products in WPML.    	
+-------------------------------------------------------------------------------------------------------------------
+Version 2.1
+    - Fixed: woocommerce->setup_product_data has been deprecated
+    - Fixed: Cannot modify header information - headers already sent error when saving settings.
+    - Fixed: Missing quote on batchprocessing_woocommerce_views div ID.
+    - Fixed: Add to cart text customization feature is not working in product page for revised WC versions.
+    - Fixed: Variable add to cart text on listing pages is not working with revised WC versions.
+    - Fixed: Add to cart success message shortcode is not working with revised WC versions.
+    - Fixed: Listing text customization is not working with revised WC versions.
+    - Fixed: WooCommerce tabs shortcode that will not parse Views shortcodes when product has no content.
+    
+-------------------------------------------------------------------------------------------------------------------
+Version 2.0
+	- New: Buy or select product for listing pages shortcode [wpv-woo-buy-or-select]
+	- New: Product price shortcode [wpv-woo-product-price]
+	- New: Purchase options for single product shortcode [wpv-woo-buy-options]
+	- New: Product image shortcode [wpv-woo-product-image]
+	- New: Added to Cart message shortcode [wpv-add-to-cart-message]
+	- New: Display WooCommerce Tabs shortcode [wpv-woo-display-tabs]
+	- New: Added custom fields to be used for Views filtering: WooCommerce Product Price, Product On Sale Status, Product In Stock Status
+	- New: Added WooCommerce Views admin screen
+	- New: Feature to select theme PHP templates from admin screen for WooCommerce single product template
+	- New: Added batch processing options for custom fields: Manual, WordPress Cron or System Cron.
+	- New: Added public functions when checking stock status or on sale status: woo_product_in_stock(), woo_product_on_sale()
+	- New: Allow user to run batch processing options for custom fields during plugin activation
+	- New: Added support for product variation through [wpv-woo-buy-options] shortcode.
+	- New: Added GUI for WooCommerce Views shortcodes requiring arguments or attributes.
+	- New: Added new changelog file.	
+	- Deprecated: [wpv-wooaddcart] shortcode.
+	- Deprecated: [wpv-wooaddcartbox] shortcode.
+	- Fixed: Hard coded PHP code not using default WooCommerce functions or hooks.
+	- Fixed: No warning of dependencies if WooCommerce plugin or Views plugin are not activated
+	- Fixed: Removed inline styles from wpv-wooaddcartbox 
+	- Fixed: Removed outdated readme.txt	
+	
+-------------------------------------------------------------------------------------------------------------------
+Version 1.3
+	- New: Sync with Views 1.3
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.2.3
+	- New: Sync with Views 1.2.3
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.2.2
+	- New: Sync with Views 1.2.2
+	- Fixed:Remove script.js because it is not part of the plugin functionality
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.2.1
+	- New: Sync with Views 1.2.1
+	
+-------------------------------------------------------------------------------------------------------------------
+Version 1.2
+	- New: Sync with Views 1.2	
+	
+-------------------------------------------------------------------------------------------------------------------
+Version 1.1.3.1
+	- New: Small bug fixes
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.1.3
+	- New: Sync with Views 1.1.3
+
+-------------------------------------------------------------------------------------------------------------------
+Version 0.9.2
+	- New: Update embedded versions of Types and Views
+	- Fixed:Fix a bug during initialization
+	
+-------------------------------------------------------------------------------------------------------------------
+
+Version 0.9.0
+	- New: This is the first release

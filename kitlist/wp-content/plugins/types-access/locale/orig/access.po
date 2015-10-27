@@ -1,0 +1,1111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR OnTheGo Systems
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wpcf_access 1.2\n"
+"Report-Msgid-Bugs-To: loader.php\n"
+"POT-Creation-Date: 2015-04-14 09:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/Admin_Edit.php:20
+msgid ""
+"The changes on this page may not save because it requires more input "
+"variables. Please modify the \"max_input_vars\" setting in your php.ini or ."
+"htaccess files to <!NUM!> or more."
+msgstr ""
+
+#: includes/Admin_Edit.php:21
+msgid "Ok"
+msgstr ""
+
+#: includes/Admin_Edit.php:22
+msgid "Warning"
+msgstr ""
+
+#: includes/Admin_Edit.php:24 includes/Admin_Edit.php:522
+msgid "Save everything"
+msgstr ""
+
+#: includes/Admin_Edit.php:29 includes/Ajax_Helper.php:55
+#: includes/Ajax_Helper.php:387
+#, php-format
+msgid ""
+"<strong>Warning:</strong> The %s <strong>%s</strong> uses the same name for "
+"singular name and plural name. Access can't control access to this object. "
+"Please use a different name for the singular and plural names."
+msgstr ""
+
+#: includes/Admin_Edit.php:30 includes/Ajax_Helper.php:56
+#: includes/Ajax_Helper.php:388
+#, php-format
+msgid ""
+"<strong>Warning:</strong> The %s <strong>%s</strong> uses capability names "
+"that conflict with default Wordpress capabilities. Access can not manage "
+"this entity, try changing entity's name and / or slug"
+msgstr ""
+
+#: includes/Admin_Edit.php:49 includes/Admin_Edit.php:59
+#: includes/Ajax_Helper.php:137 includes/Ajax_Helper.php:146
+#: includes/Ajax_Helper.php:477 includes/Ajax_Helper.php:486
+msgid "Post Type"
+msgstr ""
+
+#: includes/Admin_Edit.php:87 includes/Admin_Edit.php:111
+msgid "Post Types"
+msgstr ""
+
+#: includes/Admin_Edit.php:129 includes/Admin_Edit.php:349
+msgid "Managed by Access"
+msgstr ""
+
+#: includes/Admin_Edit.php:142
+msgid ""
+"This post type will inherit the same access rights as the standard WordPress "
+"Post when not Managed by Access."
+msgstr ""
+
+#: includes/Admin_Edit.php:182
+#, php-format
+msgid ""
+"Some %s may have different read access settings because they belong to these "
+"access groups: %s"
+msgstr ""
+
+#: includes/Admin_Edit.php:188
+msgid ""
+"This section controls access to media-element pages and not to media that is "
+"included in posts and pages."
+msgstr ""
+
+#: includes/Admin_Edit.php:191 includes/Admin_Edit.php:375
+#: includes/Admin_Edit.php:450 includes/Admin_Edit.php:526
+msgid "Back to Top"
+msgstr ""
+
+#: includes/Admin_Edit.php:212 includes/Admin_Edit.php:221
+#: includes/Ajax_Helper.php:243 includes/Ajax_Helper.php:251
+#: includes/Ajax_Helper.php:575 includes/Ajax_Helper.php:583
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/Admin_Edit.php:275 includes/Admin_Edit.php:319
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/Admin_Edit.php:334
+#, php-format
+msgid ""
+"You need to manually set the access rules for taxonomy %s. That taxonomy is "
+"shared between several post types that have different access rules."
+msgstr ""
+
+#: includes/Admin_Edit.php:362
+msgid "Same as Parent"
+msgstr ""
+
+#: includes/Admin_Edit.php:466
+msgid "Custom groups"
+msgstr ""
+
+#: includes/Admin_Edit.php:500 includes/Ajax_Helper.php:1319
+#: includes/Ajax_Helper.php:1414
+msgid "Modify Group"
+msgstr ""
+
+#: includes/Admin_Edit.php:501 includes/Ajax_Helper.php:1415
+#: includes/Ajax_Helper.php:1508
+msgid "Remove Group"
+msgstr ""
+
+#: includes/Admin_Edit.php:511 includes/Ajax_Helper.php:1323
+msgid "Add Group"
+msgstr ""
+
+#: includes/Admin_Edit.php:511
+msgid "Add custom group"
+msgstr ""
+
+#: includes/Admin_Edit.php:517 includes/Admin_Edit.php:529
+msgid "Custom Roles"
+msgstr ""
+
+#: includes/Admin_Edit.php:536
+msgid "On this page"
+msgstr ""
+
+#: includes/Admin_Edit.php:557 includes/Admin_Edit.php:560
+msgid "Access Manuals &raquo;"
+msgstr ""
+
+#: includes/Admin_Edit.php:616 includes/Admin_Edit.php:1093
+#: includes/Helper.php:346
+msgid "Guest"
+msgstr ""
+
+#: includes/Admin_Edit.php:698
+msgid "Set all capabilities to users of type:"
+msgstr ""
+
+#: includes/Admin_Edit.php:701
+msgid "Choose user type"
+msgstr ""
+
+#: includes/Admin_Edit.php:790
+msgid ""
+"Are you sure? All permission settings for this type will change to their "
+"default values."
+msgstr ""
+
+#: includes/Admin_Edit.php:793
+msgid "Reset to defaults"
+msgstr ""
+
+#: includes/Admin_Edit.php:824
+msgid "Save "
+msgstr ""
+
+#: includes/Admin_Edit.php:879
+msgid "No custom roles defined"
+msgstr ""
+
+#: includes/Admin_Edit.php:885
+msgid ""
+"The user level determines which actions can be performed by each user in the "
+"WordPress admin."
+msgstr ""
+
+#: includes/Admin_Edit.php:894 includes/Admin_Edit.php:922
+#: includes/Admin_Edit.php:983
+#, php-format
+msgid "Level %d"
+msgstr ""
+
+#: includes/Admin_Edit.php:903 includes/Admin_Edit.php:955
+msgid "View permissions"
+msgstr ""
+
+#: includes/Admin_Edit.php:927 includes/Admin_Edit.php:988
+#: includes/Admin_Edit.php:1457 includes/Admin_Edit.php:1485
+#: includes/Admin_Edit.php:1538 includes/Ajax_Helper.php:1166
+#: includes/Ajax_Helper.php:1315 includes/Ajax_Helper.php:1507
+#: includes/Ajax_Helper.php:1663 includes/Ajax_Helper.php:1878
+#: includes/Ajax_Helper.php:1903 includes/Ajax_Helper.php:2172
+#: includes/Helper.php:364
+msgid "Cancel"
+msgstr ""
+
+#: includes/Admin_Edit.php:928 includes/Admin_Edit.php:987
+msgid "Apply"
+msgstr ""
+
+#: includes/Admin_Edit.php:928
+msgid ""
+"By changing the level, you will reset the capabilities. Are you sure you "
+"want to do this?"
+msgstr ""
+
+#: includes/Admin_Edit.php:934 includes/Admin_Edit.php:996
+msgid "Change level"
+msgstr ""
+
+#: includes/Admin_Edit.php:938 includes/Ajax_Helper.php:1895
+#: includes/Ajax_Helper.php:1904
+msgid "Change permissions"
+msgstr ""
+
+#: includes/Admin_Edit.php:947 includes/Admin_Edit.php:1008
+#: includes/Admin_Edit.php:1508
+msgid "Delete role"
+msgstr ""
+
+#: includes/Admin_Edit.php:969
+msgid "Undefined"
+msgstr ""
+
+#: includes/Admin_Edit.php:1076
+msgid "Action"
+msgstr ""
+
+#: includes/Admin_Edit.php:1094
+msgid "Specific user"
+msgstr ""
+
+#: includes/Admin_Edit.php:1097
+msgid "When disabled"
+msgstr ""
+
+#: includes/Admin_Edit.php:1147 includes/Admin_Edit.php:1158
+#: includes/Admin_Edit.php:1252 includes/Admin_Edit.php:1264
+#: includes/Admin_Edit.php:1364 includes/Ajax_Helper.php:977
+#: includes/Ajax_Helper.php:1167
+msgid "Show 404 - page not found"
+msgstr ""
+
+#: includes/Admin_Edit.php:1149 includes/Admin_Edit.php:1254
+#: includes/Admin_Edit.php:1366 includes/Ajax_Helper.php:1170
+msgid "Template"
+msgstr ""
+
+#: includes/Admin_Edit.php:1150 includes/Admin_Edit.php:1160
+#: includes/Admin_Edit.php:1255 includes/Admin_Edit.php:1266
+#: includes/Admin_Edit.php:1367 includes/Ajax_Helper.php:985
+#: includes/Ajax_Helper.php:1168
+msgid "Show Content Template"
+msgstr ""
+
+#: includes/Admin_Edit.php:1152 includes/Admin_Edit.php:1257
+#: includes/Admin_Edit.php:1369 includes/Ajax_Helper.php:1171
+msgid "PHP Template"
+msgstr ""
+
+#: includes/Admin_Edit.php:1153 includes/Admin_Edit.php:1162
+#: includes/Admin_Edit.php:1258 includes/Admin_Edit.php:1268
+#: includes/Admin_Edit.php:1370 includes/Ajax_Helper.php:1006
+#: includes/Ajax_Helper.php:1169
+msgid "Show Page template"
+msgstr ""
+
+#: includes/Admin_Edit.php:1171 includes/Admin_Edit.php:1276
+#: includes/Admin_Edit.php:1379 includes/Ajax_Helper.php:1174
+msgid "Display: 'No posts found'"
+msgstr ""
+
+#: includes/Admin_Edit.php:1173 includes/Admin_Edit.php:1278
+#: includes/Admin_Edit.php:1381 includes/Ajax_Helper.php:1173
+msgid "View Archive"
+msgstr ""
+
+#: includes/Admin_Edit.php:1175 includes/Admin_Edit.php:1280
+#: includes/Admin_Edit.php:1383 includes/Ajax_Helper.php:1172
+msgid "PHP Archive"
+msgstr ""
+
+#: includes/Admin_Edit.php:1187 includes/Admin_Edit.php:1292
+#: includes/Admin_Edit.php:1395 includes/Ajax_Helper.php:1175
+msgid "Set errors"
+msgstr ""
+
+#: includes/Admin_Edit.php:1190 includes/Admin_Edit.php:1192
+#: includes/Admin_Edit.php:1295 includes/Admin_Edit.php:1297
+#: includes/Admin_Edit.php:1398 includes/Admin_Edit.php:1400
+msgid "Set single page error"
+msgstr ""
+
+#: includes/Admin_Edit.php:1458 includes/Admin_Edit.php:1486
+msgid "OK"
+msgstr ""
+
+#: includes/Admin_Edit.php:1481
+msgid "New role"
+msgstr ""
+
+#: includes/Admin_Edit.php:1520
+#, php-format
+msgid "Assign current %s users to another role: "
+msgstr ""
+
+#: includes/Admin_Edit.php:1524
+msgid "--- select role ---"
+msgstr ""
+
+#: includes/Admin_Edit.php:1527
+msgid "Do you really want to remove this role?"
+msgstr ""
+
+#: includes/Admin_Edit.php:1541
+msgid "Save"
+msgstr ""
+
+#: includes/Admin_Edit.php:1543
+msgid "Delete"
+msgstr ""
+
+#: includes/Ajax_Helper.php:40 includes/Ajax_Helper.php:372
+#: includes/Ajax_Helper.php:687 includes/Ajax_Helper.php:720
+#: includes/Ajax_Helper.php:815 includes/Ajax_Helper.php:842
+#: includes/Ajax_Helper.php:888 includes/Ajax_Helper.php:941
+#: includes/Ajax_Helper.php:1192 includes/Ajax_Helper.php:1217
+#: includes/Ajax_Helper.php:1341 includes/Ajax_Helper.php:1433
+#: includes/Ajax_Helper.php:1484 includes/Ajax_Helper.php:1525
+#: includes/Ajax_Helper.php:1549 includes/Ajax_Helper.php:1590
+#: includes/Ajax_Helper.php:1607 includes/Ajax_Helper.php:1684
+#: includes/Ajax_Helper.php:1708 includes/Ajax_Helper.php:1752
+#: includes/Ajax_Helper.php:1921 includes/Ajax_Helper.php:2019
+#: includes/Ajax_Helper.php:2092 includes/Ajax_Helper.php:2141
+msgid "There are security problems. You do not have permissions."
+msgstr ""
+
+#: includes/Ajax_Helper.php:358 includes/Ajax_Helper.php:674
+msgid "Access rules saved"
+msgstr ""
+
+#: includes/Ajax_Helper.php:876
+msgid "Role already exists"
+msgstr ""
+
+#: includes/Ajax_Helper.php:902
+msgid "Role can not be deleted"
+msgstr ""
+
+#: includes/Ajax_Helper.php:959
+msgid "Single post error"
+msgstr ""
+
+#: includes/Ajax_Helper.php:965 includes/Ajax_Helper.php:1136
+msgid "Default error"
+msgstr ""
+
+#: includes/Ajax_Helper.php:988 includes/Ajax_Helper.php:1009
+#: includes/Ajax_Helper.php:1064 includes/Ajax_Helper.php:1123
+#: includes/Ajax_Helper.php:1626
+msgid "None"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1025
+msgid "Archive error"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1042
+msgid "Choose a different WordPress archive for people without read permission"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1049
+#, php-format
+msgid "This custom post archive displays with the WordPress Archive \"%s\"."
+msgstr ""
+
+#: includes/Ajax_Helper.php:1084
+msgid ""
+"Sorry, no alternative WordPress Archives. First, create a new WordPress "
+"Archive, then return here to choose it."
+msgstr ""
+
+#: includes/Ajax_Helper.php:1112
+#, php-format
+msgid "This custom post archive displays with the PHP template \"%s\"."
+msgstr ""
+
+#: includes/Ajax_Helper.php:1118
+msgid "Choose a different PHP template for people without read permission"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1145
+msgid "Display: \"No posts found\""
+msgstr ""
+
+#: includes/Ajax_Helper.php:1160
+msgid "Set error"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1238
+msgid "Group title"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1246
+msgid "Search posts"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1248
+msgid "Search"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1249
+msgid "Clear"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1253
+msgid "Search result"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1254
+msgid "Search for posts to add more"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1269 includes/Ajax_Helper.php:1575
+#: includes/Ajax_Helper.php:1879
+msgid "Add"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1277
+msgid "Assigned posts"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1279
+msgid "No posts assigned"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1297
+msgid "Remove"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1309 includes/Ajax_Helper.php:1499
+msgid "Custom Access Group"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1318 includes/Ajax_Helper.php:1323
+msgid "Group title aready exists"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1401 includes/Helper.php:3859
+msgid "Read"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1492
+msgid "Are you sure want to delete this group?"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1624
+msgid "Select existing group"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1644
+msgid "Create new group"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1655
+msgid "Assign group to Post"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1665
+msgid "Group already exists"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1666
+msgid "Assign group"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1700 includes/Ajax_Helper.php:1736
+#: includes/Helper.php:556
+#, php-format
+msgid "<p><strong>%s</strong> permissions will be applied to this post."
+msgstr ""
+
+#: includes/Ajax_Helper.php:1702 includes/Ajax_Helper.php:1738
+#: includes/Helper.php:560
+#, php-format
+msgid "Edit %s group privileges"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1704
+msgid "No group selected."
+msgstr ""
+
+#: includes/Ajax_Helper.php:1777
+msgid "General capabilities"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1792 includes/Ajax_Helper.php:1985
+msgid "Create new access groups"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1792 includes/Ajax_Helper.php:1985
+msgid "Select access group for content"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1793
+msgid "Access capabilities"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1803
+msgid "WPML capabilities"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1824
+msgid "Woocommerce capabilities"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1835
+msgid "Layouts capabilities"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1843
+msgid "Custom capabilities"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1860
+msgid "No custom capabilities"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1866
+msgid "New custom capability"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1870
+msgid "Capability name"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1874
+msgid "Capability description"
+msgstr ""
+
+#: includes/Ajax_Helper.php:1879
+msgid "Only lowercase letters, numbers and _ allowed in capability name"
+msgstr ""
+
+#: includes/Ajax_Helper.php:2069
+msgid "Role permissions"
+msgstr ""
+
+#: includes/Ajax_Helper.php:2075 includes/Helper.php:446
+msgid "Close"
+msgstr ""
+
+#: includes/Ajax_Helper.php:2116
+msgid "This capability already exists in your site"
+msgstr ""
+
+#: includes/Ajax_Helper.php:2171
+msgid "The following role(s) have this capability:"
+msgstr ""
+
+#: includes/Ajax_Helper.php:2173
+msgid "Delete anyway"
+msgstr ""
+
+#: includes/Helper.php:142
+msgid "You have no access to upload files"
+msgstr ""
+
+#: includes/Helper.php:330 includes/Helper.php:3585 includes/Helper.php:3586
+#: includes/Helper.php:3682 includes/Helper.php:3734
+msgid "Access"
+msgstr ""
+
+#: includes/Helper.php:333
+msgid "Insert conditionaly-displayed text"
+msgstr ""
+
+#: includes/Helper.php:338
+msgid "Select roles: "
+msgstr ""
+
+#: includes/Helper.php:349
+msgid "Enter the text for conditional display: "
+msgstr ""
+
+#: includes/Helper.php:352
+msgid ""
+"You will be able to add other fields and apply formatting after inserting "
+"this text"
+msgstr ""
+
+#: includes/Helper.php:354
+msgid "Will these roles see the text? "
+msgstr ""
+
+#: includes/Helper.php:357
+msgid "Only users belonging to these roles will see the text"
+msgstr ""
+
+#: includes/Helper.php:359
+msgid "Everyone except these roles will see the text"
+msgstr ""
+
+#: includes/Helper.php:365
+msgid "Insert conditional text"
+msgstr ""
+
+#: includes/Helper.php:445
+msgid "Got it! Don't show this message again"
+msgstr ""
+
+#: includes/Helper.php:521
+msgid "Access group"
+msgstr ""
+
+#: includes/Helper.php:549
+msgid "No Access group selected."
+msgstr ""
+
+#: includes/Helper.php:568
+msgid "Change Access group"
+msgstr ""
+
+#: includes/Helper.php:1937
+#, php-format
+msgid "Since you enabled '%cap', '%dcaps' has also been enabled."
+msgstr ""
+
+#: includes/Helper.php:1941
+#, php-format
+msgid "Since you enabled '%cap', '%dcaps' have also been enabled."
+msgstr ""
+
+#: includes/Helper.php:1945
+#, php-format
+msgid "Since you disabled '%cap', '%dcaps' has also been disabled."
+msgstr ""
+
+#: includes/Helper.php:1949
+#, php-format
+msgid "Since you disabled '%cap', '%dcaps' have also been disabled."
+msgstr ""
+
+#: includes/Helper.php:3127
+msgid "Can't find php template"
+msgstr ""
+
+#: includes/Helper.php:3591 includes/Helper.php:3592
+msgid "Import/Export"
+msgstr ""
+
+#: includes/Helper.php:3597 includes/Helper.php:3598
+msgid "Help"
+msgstr ""
+
+#: includes/Helper.php:3602 includes/Helper.php:3603 templates/help.tpl.php:16
+msgid "Debug information"
+msgstr ""
+
+#: includes/Helper.php:3864
+msgid "Preview any"
+msgstr ""
+
+#: includes/Helper.php:3869
+msgid "Edit own"
+msgstr ""
+
+#: includes/Helper.php:3874
+msgid "Delete own"
+msgstr ""
+
+#: includes/Helper.php:3879
+msgid "Edit any"
+msgstr ""
+
+#: includes/Helper.php:3884
+msgid "Delete any"
+msgstr ""
+
+#: includes/Helper.php:3889
+msgid "Publish"
+msgstr ""
+
+#: includes/Helper.php:4005
+msgid "Read post"
+msgstr ""
+
+#: includes/Helper.php:4010
+msgid "Read private posts"
+msgstr ""
+
+#: includes/Helper.php:4018
+msgid "Create post"
+msgstr ""
+
+#: includes/Helper.php:4023
+msgid "Create posts"
+msgstr ""
+
+#: includes/Helper.php:4038
+msgid "Edit post"
+msgstr ""
+
+#: includes/Helper.php:4043
+msgid "Edit posts"
+msgstr ""
+
+#: includes/Helper.php:4058 includes/Helper.php:4101
+msgid "Moderate comments"
+msgstr ""
+
+#: includes/Helper.php:4067
+msgid "Delete post"
+msgstr ""
+
+#: includes/Helper.php:4072
+msgid "Delete posts"
+msgstr ""
+
+#: includes/Helper.php:4077
+msgid "Delete private posts"
+msgstr ""
+
+#: includes/Helper.php:4085
+msgid "Edit others posts"
+msgstr ""
+
+#: includes/Helper.php:4091
+msgid "Edit published posts"
+msgstr ""
+
+#: includes/Helper.php:4096
+msgid "Edit private posts"
+msgstr ""
+
+#: includes/Helper.php:4110
+msgid "Delete others posts"
+msgstr ""
+
+#: includes/Helper.php:4116
+msgid "Delete published posts"
+msgstr ""
+
+#: includes/Helper.php:4124
+msgid "Publish post"
+msgstr ""
+
+#: includes/Helper.php:4189
+msgid "Manage terms"
+msgstr ""
+
+#: includes/Helper.php:4202
+msgid "Edit terms"
+msgstr ""
+
+#: includes/Helper.php:4215
+msgid "Delete terms"
+msgstr ""
+
+#: includes/Helper.php:4228
+msgid "Assign terms"
+msgstr ""
+
+#: includes/Post_Helper.php:150
+msgid ""
+"Preview might not work. Try right clicking on button and select 'Open in new "
+"tab'."
+msgstr ""
+
+#: includes/XML_Processor.php:810
+msgid "No zip entry"
+msgstr ""
+
+#: includes/XML_Processor.php:814
+msgid "Unable to open zip file"
+msgstr ""
+
+#: includes/XML_Processor.php:832 includes/XML_Processor.php:1111
+msgid "The Simple XML library is missing."
+msgstr ""
+
+#: includes/XML_Processor.php:843
+#, php-format
+msgid "The XML file (%s) could not be read."
+msgstr ""
+
+#: includes/XML_Processor.php:864
+msgid "Could not read the import file."
+msgstr ""
+
+#: includes/XML_Processor.php:866
+msgid "Unknown error during import"
+msgstr ""
+
+#: templates/help.tpl.php:9
+msgid "Access Help"
+msgstr ""
+
+#: templates/help.tpl.php:10
+msgid "Documentation and Support"
+msgstr ""
+
+#: templates/help.tpl.php:12
+msgid " - everything you need to know about using Access"
+msgstr ""
+
+#: templates/help.tpl.php:12
+msgid "User Guides"
+msgstr ""
+
+#: templates/help.tpl.php:13
+msgid ""
+" - learn to use Access by experimenting with fully-functional learning sites"
+msgstr ""
+
+#: templates/help.tpl.php:13
+msgid "Discover WP"
+msgstr ""
+
+#: templates/help.tpl.php:14
+msgid " - online help by support staff"
+msgstr ""
+
+#: templates/help.tpl.php:14
+msgid "Support forum"
+msgstr ""
+
+#: templates/help.tpl.php:19
+#, php-format
+msgid ""
+"For retrieving debug information if asked by a support person, use the <a "
+"href=\"%s\">debug information</a> page."
+msgstr ""
+
+#: templates/import-export.tpl.php:11
+msgid "Access Settings"
+msgstr ""
+
+#: templates/import-export.tpl.php:19
+msgid "Export Access Settings"
+msgstr ""
+
+#: templates/import-export.tpl.php:25
+msgid "Export"
+msgstr ""
+
+#: templates/import-export.tpl.php:39
+msgid "Import Access Settings"
+msgstr ""
+
+#: templates/import-export.tpl.php:56
+msgid "Settings Imported"
+msgstr ""
+
+#: templates/import-export.tpl.php:57
+msgid "Settings Overwritten"
+msgstr ""
+
+#: templates/import-export.tpl.php:58
+msgid "Settings Deleted"
+msgstr ""
+
+#: templates/import-export.tpl.php:64 templates/import-export.tpl.php:91
+msgid "Overwrite existing settings"
+msgstr ""
+
+#: templates/import-export.tpl.php:71
+msgid "Delete Access settings not included in the imported file"
+msgstr ""
+
+#: templates/import-export.tpl.php:77
+msgid "Select the xml file to upload:&nbsp;"
+msgstr ""
+
+#: templates/import-export.tpl.php:81
+msgid "Import"
+msgstr ""
+
+#: templates/import-export.tpl.php:81
+msgid "Please add file."
+msgstr ""
+
+#: templates/import-export.tpl.php:92
+msgid ""
+"When you import from a site that has different settings, selecting this "
+"option would update and overwrite the existing settings."
+msgstr ""
+
+#: templates/import-export.tpl.php:95
+msgid "Delete Access settings not included"
+msgstr ""
+
+#: templates/import-export.tpl.php:96
+msgid ""
+"When this option is enabled, any settings that are made in your site and not "
+"included in the site you are importing from will be deleted. This allows "
+"replacing entire site settings with new settings."
+msgstr ""
+
+#: types-access.php:182
+msgid "Allows access to Administration Panel: Plugins"
+msgstr ""
+
+#: types-access.php:183
+msgid "Edit Dashboard"
+msgstr ""
+
+#: types-access.php:184
+msgid ""
+"Allows access to Administration Panel: Appearance (Widgets, Menus, "
+"Customize, Background, Header)"
+msgstr ""
+
+#: types-access.php:185
+msgid "Allows access to Administration Panel: Export"
+msgstr ""
+
+#: types-access.php:186
+msgid "Allows access to Administration Panel: Import"
+msgstr ""
+
+#: types-access.php:187
+msgid "List users"
+msgstr ""
+
+#: types-access.php:188
+msgid "Allows access to Administration Panel: Links, Add new link"
+msgstr ""
+
+#: types-access.php:189
+msgid ""
+"Allows access to Administration Panel: Settings (General , Writing , "
+"Reading, Discussion, Permalinks, Miscellaneous)"
+msgstr ""
+
+#: types-access.php:190
+msgid "No info"
+msgstr ""
+
+#: types-access.php:191
+msgid "Remove users"
+msgstr ""
+
+#: types-access.php:192
+msgid "Allows access to Administration Panel: Appearance (Themes)"
+msgstr ""
+
+#: types-access.php:193
+msgid "Allows access to Administration Panel: Media (Add New)"
+msgstr ""
+
+#: types-access.php:194
+msgid "Update Wordpress Core Files"
+msgstr ""
+
+#: types-access.php:195
+msgid "Update Plugins"
+msgstr ""
+
+#: types-access.php:196
+msgid "Update Themes"
+msgstr ""
+
+#: types-access.php:197
+msgid "Install New Plugins"
+msgstr ""
+
+#: types-access.php:198
+msgid "Install New Themes"
+msgstr ""
+
+#: types-access.php:199
+msgid "Delete Themes"
+msgstr ""
+
+#: types-access.php:200
+msgid "Edit Plugin Files"
+msgstr ""
+
+#: types-access.php:201
+msgid "Edit Theme Files"
+msgstr ""
+
+#: types-access.php:202
+msgid "Edit User Options"
+msgstr ""
+
+#: types-access.php:203
+msgid "Add New Users"
+msgstr ""
+
+#: types-access.php:204
+msgid "Delete Users"
+msgstr ""
+
+#: types-access.php:205
+msgid ""
+"Allows user to post HTML markup or even JavaScript code in pages, posts, and "
+"comments"
+msgstr ""
+
+#: types-access.php:206
+msgid "Delete Plugins"
+msgstr ""
+
+#: types-access.php:252
+msgid "Manage WooCommerce Settings"
+msgstr ""
+
+#: types-access.php:253
+msgid "Manage WooCommerce Orders"
+msgstr ""
+
+#: types-access.php:254
+msgid "Manage WooCommerce Coupons"
+msgstr ""
+
+#: types-access.php:255
+msgid "Manage WooCommerce Products"
+msgstr ""
+
+#: types-access.php:256
+msgid "Manage WooCommerce Reports"
+msgstr ""
+
+#: types-access.php:263
+msgid "Manage Translation Management"
+msgstr ""
+
+#: types-access.php:264
+msgid "Manage Languages"
+msgstr ""
+
+#: types-access.php:265
+msgid "Manage Theme and Plugin localization"
+msgstr ""
+
+#: types-access.php:266
+msgid "Manage Support"
+msgstr ""
+
+#: types-access.php:267
+msgid "Manage WooCommerce Multilingual"
+msgstr ""
+
+#: types-access.php:268
+msgid ""
+"Operate WooCommerce Multilingual. Everything on WCML except the settings tab."
+msgstr ""
+
+#: types-access.php:269
+msgid "Manage Media translation"
+msgstr ""
+
+#: types-access.php:270
+msgid "Manage Navigation"
+msgstr ""
+
+#: types-access.php:271
+msgid "Manage Sticky Links"
+msgstr ""
+
+#: types-access.php:272
+msgid "Manage String Translation"
+msgstr ""
+
+#: types-access.php:273
+msgid "Manage Translation Analytics"
+msgstr ""
+
+#: types-access.php:274
+msgid "Manage WPML Menus Sync"
+msgstr ""
+
+#: types-access.php:275
+msgid "Manage Taxonomy Translation"
+msgstr ""
+
+#: types-access.php:276
+msgid "Manage Troubleshooting"
+msgstr ""
+
+#: types-access.php:277
+msgid "Translation options"
+msgstr ""
+
+#: types-access.php:284
+msgid "Manage Views"
+msgstr ""
+
+#: types-access.php:285
+msgid "Manage Types"
+msgstr ""
+
+#: types-access.php:286
+msgid "Manage CRED"
+msgstr ""
+
+#: types-access.php:287
+msgid "Manage Access"
+msgstr ""

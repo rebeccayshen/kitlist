@@ -1,0 +1,65 @@
+.types-suggest .dropdown_bottom{	
+	bottom:auto !important;
+	top:0px;
+    right:170px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.types-suggest .dropdown {
+    position: absolute;
+	z-index: 9;
+    visibility: hidden;
+    height: auto !important;
+}
+
+.types-suggest .dropdown option {
+    padding: 5px !important;
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.types-suggest .img-waiting {
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin: 4px 0 0 -20px;
+}
+
+.types-suggest .button-group {
+	display: block;
+}
+
+.types-suggest .button-group button {
+	margin: 5px 0;
+}
+
+.types-suggest .button-group button.toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 1680px) {
+
+	.wpcf-access-mode-custom .types-suggest .input,
+	.wpcf-access-mode-custom .wpcf-access-user-list {
+		width: 180px;
+	}
+
+	.types-suggest .input,
+	.wpcf-access-user-list {
+		width: 140px;
+	}
+
+	.types-suggest .dropdown {
+		font-size: .9em;
+	}
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+		.wpcf-access-mode-custom .types-suggest .input,
+		.wpcf-access-mode-custom .wpcf-access-user-list {
+			width: 140px;
+		}
+}

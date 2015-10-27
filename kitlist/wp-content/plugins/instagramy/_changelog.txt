@@ -1,0 +1,51 @@
+*** Instagramy Changelog ***
+-------------------------------------------------------------------------
+
+Version 1.1.2 - 15-09-2015
+- Fixed: Showing wrong account info and media bug.
+
+Files updated
+- instagramy.php
+- assets/style.css
+
+
+-------------------------------------------------------------------------
+
+Version 1.1.1 - 23-08-2015
+- Updated: The plugin is now WordPress 4.3 ready.
+
+Files updated
+- instagramy.php
+- instagramy-admin.php
+- assets/style.css
+
+
+-------------------------------------------------------------------------
+
+Version 1.1.0 - 09-07-2015
+- NEW FEATURE: Hashtag support.
+- NEW FEATURE: Activate links of accounts and hashtags in the user bio section.
+- NEW FEATURE: Activate links of accounts and hashtags in the post caption.
+- Improved: Plugin Speed and performance by reducing the amount of data stored and fetched from the database by 90%.
+- Updated : The Plugin’s documentations .
+- Fixed: Set custom cache time bug.
+
+
+-------------------------------------------------------------------------
+
+Version 1.0.2 - 27-01-2015
+- Improved: Plugin Speed by removing @import from the main style.css file .
+
+
+-------------------------------------------------------------------------
+
+Version 1.0.1 - 09-12-2014
+- Improved: Plugin Speed by combining all Js files in one file .
+- Fixed: Documentation URL in the backend .
+
+
+-------------------------------------------------------------------------
+
+
+Version 1.0.0
+- First release
